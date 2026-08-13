@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LCS Boombox Generator</title>
+    <style>
+      :root {
+        --bg: #232326;
+        --panel: #1b1b1e;
+        --slider-bg: #2c2c30;
+        --slider-fill: #4772b3;
+        --text: #d8d8dc;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; overflow: hidden; background: var(--bg); }
+      body { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; color: var(--text); }
+      #app { position: fixed; inset: 0; }
+      #app canvas { display: block; width: 100%; height: 100%; }
+      #hud {
+        position: fixed; top: 10px; left: 12px; pointer-events: none;
+        font-size: 11px; line-height: 1.65; color: #9a9aa0;
+        text-shadow: 0 1px 2px rgba(0,0,0,.8);
+      }
+      #stats {
+        position: fixed; top: 10px; left: 12px; pointer-events: none;
+        font-family: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+        font-size: 11px; line-height: 1.55;
+        font-variant-numeric: tabular-nums;
+        color: #cfcfd6; text-shadow: 0 1px 2px rgba(0,0,0,.9);
+      }
+      #stats b { color: #7fd4a0; font-weight: 600; }
+      #stats .warn { color: #e0b050; }
+      #stats .k { color: #7a7a82; }
+      #hud { top: auto; bottom: 10px; }
+      #panel {
+        position: fixed; top: 10px; right: 10px; width: 248px;
+        max-height: calc(100vh - 20px); overflow-y: auto;
+        background: color-mix(in srgb, var(--panel) 88%, transparent);
+        border: 1px solid #313136; border-radius: 6px;
+        padding: 10px; user-select: none;
+        backdrop-filter: blur(6px);
+        scrollbar-width: thin; scrollbar-color: #45454d transparent;
+      }
+      .lcs-toggle { cursor: pointer; }
+      .lcs-color {
+        display: flex; align-items: center; justify-content: space-between;
+        height: 21px; margin-bottom: 3px; padding: 0 4px 0 8px;
+        background: var(--slider-bg); border-radius: 3px;
+        font-size: 12px; color: #fff; cursor: pointer;
+        text-shadow: 0 1px 1px rgba(0,0,0,.9);
+      }
+      .lcs-color input {
+        width: 34px; height: 15px; padding: 0; border: 1px solid #4a4a52;
+        border-radius: 2px; background: none; cursor: pointer;
+      }
+      #panel h3 {
+        font-size: 10px; font-weight: 600; letter-spacing: .12em;
+        text-transform: uppercase; color: #808088; margin: 10px 0 6px 2px;
+      }
+      #panel h3:first-child { margin-top: 0; }
+      .lcs-slider {
+        position: relative; height: 21px; border-radius: 3px;
+        background: var(--slider-bg); margin-bottom: 3px;
+        overflow: hidden; cursor: ew-resize; touch-action: none;
+      }
+      .lcs-slider .fill {
+        position: absolute; inset: 0 auto 0 0;
+        background: var(--slider-fill);
+      }
+      .lcs-slider .label, .lcs-slider .value {
+        position: absolute; top: 0; line-height: 21px; pointer-events: none;
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0,0,0,.9), 0 -1px 1px rgba(0,0,0,.65),
+                     1px 0 1px rgba(0,0,0,.65), -1px 0 1px rgba(0,0,0,.65);
+      }
+      .lcs-slider .label { left: 8px; }
+      .lcs-slider .value { right: 8px; }
+      button.lcs-btn {
+        width: 100%; height: 24px; margin-bottom: 3px;
+        background: #3a3a40; color: #e8e8ec; border: 1px solid #48484f;
+        border-radius: 3px; font-size: 12px; cursor: pointer;
+      }
+      button.lcs-btn:hover { background: #44444b; }
+      button.lcs-btn:active { background: #2e2e33; }
+      #err {
+        position: fixed; left: 12px; bottom: 12px; max-width: 60ch;
+        color: #ff8080; font-size: 12px; white-space: pre-wrap;
+        text-shadow: 0 1px 2px rgba(0,0,0,.9);
+      }
+    </style>
+    <script type="module" crossorigin src="/lcs-boombox-live/assets/index-BCiAD2bW.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="stats"></div>
+    <div id="hud"></div>
+    <div id="panel"></div>
+    <div id="err"></div>
+  </body>
+</html>
