@@ -1,0 +1,191 @@
+{
+ "version": 1,
+ "slots": {
+  "plastic-dark": {
+   "color": "#2f2d2b",
+   "roughness": 0.55,
+   "metalness": 0
+  },
+  "plastic-light": {
+   "color": "#b0a894",
+   "roughness": 0.6,
+   "metalness": 0
+  },
+  "metal": {
+   "color": "#6a6c6b",
+   "roughness": 0.5,
+   "metalness": 0.35
+  },
+  "brushed": {
+   "color": "#a3a19b",
+   "roughness": 0.36,
+   "metalness": 0.5
+  },
+  "wood": {
+   "color": "#6e5442",
+   "roughness": 0.78,
+   "metalness": 0
+  },
+  "fabric": {
+   "color": "#5b534a",
+   "roughness": 1,
+   "metalness": 0
+  },
+  "rubber": {
+   "color": "#1e1d1c",
+   "roughness": 0.92,
+   "metalness": 0
+  },
+  "glass": {
+   "color": "#3d4648",
+   "roughness": 0.12,
+   "metalness": 0.1
+  },
+  "screen": {
+   "color": "#2c332f",
+   "roughness": 0.2,
+   "metalness": 0,
+   "emissive": "#1c2a22",
+   "emissiveIntensity": 0.35
+  },
+  "paper": {
+   "color": "#cdc2aa",
+   "roughness": 0.95,
+   "metalness": 0
+  },
+  "accent-warm": {
+   "color": "#9b3c31",
+   "roughness": 0.7,
+   "metalness": 0
+  },
+  "accent-magenta": {
+   "color": "#a33a72",
+   "roughness": 0.8,
+   "metalness": 0
+  },
+  "accent-crimson": {
+   "color": "#7a1f2b",
+   "roughness": 0.62,
+   "metalness": 0
+  },
+  "accent-purple": {
+   "color": "#43304f",
+   "roughness": 0.92,
+   "metalness": 0
+  },
+  "dial": {
+   "color": "#e2d6b2",
+   "roughness": 0.75,
+   "metalness": 0,
+   "emissive": "#ffcf8f",
+   "emissiveIntensity": 0.28
+  },
+  "shade": {
+   "color": "#8a6a4c",
+   "roughness": 1,
+   "metalness": 0,
+   "emissive": "#ffb468",
+   "emissiveIntensity": 0.55
+  },
+  "emissive-warm": {
+   "color": "#ffc27a",
+   "roughness": 0.5,
+   "metalness": 0,
+   "emissive": "#ffa24a",
+   "emissiveIntensity": 2.2
+  },
+  "enamel": {
+   "color": "#cfcabb",
+   "roughness": 0.32,
+   "metalness": 0
+  },
+  "mirror": {
+   "color": "#c3cccd",
+   "roughness": 0.07,
+   "metalness": 0.85
+  },
+  "tile": {
+   "color": "#d3c7ad",
+   "roughness": 0.16,
+   "metalness": 0
+  },
+  "accent-lilac": {
+   "color": "#9886ad",
+   "roughness": 0.85,
+   "metalness": 0
+  },
+  "chrome": {
+   "color": "#c4c3bd",
+   "roughness": 0.16,
+   "metalness": 1
+  },
+  "enamel-black": {
+   "color": "#1f1e1d",
+   "roughness": 0.38,
+   "metalness": 0
+  },
+  "enamel-beige": {
+   "color": "#b6aa8f",
+   "roughness": 0.42,
+   "metalness": 0
+  },
+  "enamel-red": {
+   "color": "#8a2e27",
+   "roughness": 0.42,
+   "metalness": 0
+  },
+  "grille-mesh": {
+   "color": "#2c2c2b",
+   "roughness": 0.55,
+   "metalness": 0.45
+  },
+  "cone-paper": {
+   "color": "#2b2825",
+   "roughness": 0.92,
+   "metalness": 0
+  },
+  "dial-cream": {
+   "color": "#d9ceac",
+   "roughness": 0.7,
+   "metalness": 0
+  },
+  "display-glass": {
+   "color": "#141718",
+   "roughness": 0.06,
+   "metalness": 0
+  },
+  "speaker-cloth": {
+   "color": "#2e2b28",
+   "roughness": 1,
+   "metalness": 0
+  },
+  "rubber-foot": {
+   "color": "#1a1918",
+   "roughness": 0.95,
+   "metalness": 0
+  },
+  "decal-ink": {
+   "color": "#d6d0c0",
+   "roughness": 0.5,
+   "metalness": 0
+  },
+  "decal-print": {
+   "color": "#bcb5a5",
+   "roughness": 0.45,
+   "metalness": 0
+  }
+ },
+ "extra": {
+  "EMISSIVE_OFF_LOOK": {
+   "color": "#5a4630",
+   "roughness": 0.35,
+   "metalness": 0
+  },
+  "GLASS_CLEAR_LOOK": {
+   "color": "#9aa3a2",
+   "roughness": 0.08,
+   "metalness": 0,
+   "opacity": 0.28
+  }
+ }
+}
