@@ -151,7 +151,7 @@
   },
   "display-glass": {
    "color": "#141718",
-   "roughness": 0.06,
+   "roughness": 0.35,
    "metalness": 0
   },
   "speaker-cloth": {
@@ -185,11 +185,11 @@
    "metalness": 0.5
   },
   "cover-glow": {
-   "color": "#0b0c0b",
+   "color": "#050505",
    "roughness": 0.22,
    "metalness": 0,
    "emissive": "#ffffff",
-   "emissiveIntensity": 1.6
+   "emissiveIntensity": 1
   }
  },
  "extra": {
@@ -200,7 +200,7 @@
   },
   "GLASS_CLEAR_LOOK": {
    "color": "#9aa3a2",
-   "roughness": 0.08,
+   "roughness": 0.3,
    "metalness": 0,
    "opacity": 0.28
   }
