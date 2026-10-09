@@ -5,8 +5,8 @@
  "uvOrigin": "top-left",
  "width": 2048,
  "height": 2048,
- "ktx2": "decals-d79aafc8c687.ktx2",
- "png": "decals-766abd6b6f99.png",
+ "ktx2": "decals-6ee157a99271.ktx2",
+ "png": "decals-e9144516d9d2.png",
  "items": {
   "play": {
    "u0": 0.0009765625,
@@ -1808,6 +1808,56 @@
    "kind": "word",
    "text": "PACK"
   },
+  "coffee": {
+   "u0": 0.55615234375,
+   "v0": 0.60791015625,
+   "u1": 0.6875,
+   "v1": 0.63134765625,
+   "wMm": 16.8125,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "COFFEE"
+  },
+  "steam": {
+   "u0": 0.552734375,
+   "v0": 0.58251953125,
+   "u1": 0.66455078125,
+   "v1": 0.60595703125,
+   "wMm": 14.3125,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "STEAM"
+  },
+  "cereal": {
+   "u0": 0.421875,
+   "v0": 0.60791015625,
+   "u1": 0.55419921875,
+   "v1": 0.63134765625,
+   "wMm": 16.9375,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "CEREAL"
+  },
+  "oats": {
+   "u0": 0.689453125,
+   "v0": 0.60791015625,
+   "u1": 0.77587890625,
+   "v1": 0.63134765625,
+   "wMm": 11.0625,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "OATS"
+  },
+  "beans": {
+   "u0": 0.6728515625,
+   "v0": 0.63330078125,
+   "u1": 0.7841796875,
+   "v1": 0.65673828125,
+   "wMm": 14.25,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "BEANS"
+  },
   "icon-play": {
    "u0": 0.09423828125,
    "v0": 0.89208984375,
@@ -2102,6 +2152,16 @@
    "hMm": 24.5,
    "kind": "word",
    "note": "Microwave TIMER: 0 at top, 5 / 10 / 15 / 20 / 25 / 30 clockwise in 45 deg steps, one tick per minute over 270 deg; upright centred quarter-size template, tick r 8.5 mm, label r 10.25 mm, cap 0.625 mm; hMm 10 makes r 34 / 41 mm and cap 2.5 mm"
+  },
+  "espresso-pressure-dial": {
+   "u0": 0.7900390625,
+   "v0": 0.80126953125,
+   "u1": 0.9658203125,
+   "v1": 0.97705078125,
+   "wMm": 22.5,
+   "hMm": 22.5,
+   "kind": "word",
+   "note": "Espresso pressure:0,4,8,12,16bar clockwise over270degrees; quarter-size100mm instrument tile, printed ticks and upright numerals; hMm10 scales4x"
   },
   "logo-sona": {
    "u0": 0.0009765625,
