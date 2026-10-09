@@ -5,8 +5,8 @@
  "uvOrigin": "top-left",
  "width": 2048,
  "height": 2048,
- "ktx2": "decals-ae3dcab6488f.ktx2",
- "png": "decals-a1a3fd70dbb1.png",
+ "ktx2": "decals-3d63a4a4f132.ktx2",
+ "png": "decals-e89a61a1d4fd.png",
  "items": {
   "play": {
    "u0": 0.0009765625,
@@ -1757,6 +1757,56 @@
    "hMm": 3.0,
    "kind": "word",
    "text": "VIDEO IN"
+  },
+  "brightness": {
+   "u0": 0.47607421875,
+   "v0": 0.953125,
+   "u1": 0.68994140625,
+   "v1": 0.9765625,
+   "wMm": 27.375,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "BRIGHTNESS"
+  },
+  "contrast": {
+   "u0": 0.607421875,
+   "v0": 0.927734375,
+   "u1": 0.7880859375,
+   "v1": 0.951171875,
+   "wMm": 23.125,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "CONTRAST"
+  },
+  "audio-cassettes": {
+   "u0": 0.6728515625,
+   "v0": 0.58251953125,
+   "u1": 0.98388671875,
+   "v1": 0.60595703125,
+   "wMm": 39.8125,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "AUDIO CASSETTES"
+  },
+  "type-i": {
+   "u0": 0.65234375,
+   "v0": 0.90234375,
+   "u1": 0.75634765625,
+   "v1": 0.92578125,
+   "wMm": 13.3125,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "TYPE I"
+  },
+  "pack": {
+   "u0": 0.69189453125,
+   "v0": 0.953125,
+   "u1": 0.77978515625,
+   "v1": 0.9765625,
+   "wMm": 11.25,
+   "hMm": 3.0,
+   "kind": "word",
+   "text": "PACK"
   },
   "icon-play": {
    "u0": 0.09423828125,

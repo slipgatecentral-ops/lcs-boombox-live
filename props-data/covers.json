@@ -1,0 +1,820 @@
+{
+ "pxPerMm": 1.6,
+ "uvOrigin": "top-left",
+ "width": 2048,
+ "height": 2048,
+ "ktx2": "covers-98dd0db4a6ce.ktx2",
+ "png": "covers-d3f64d3aa4ff.png",
+ "gutterPx": 4,
+ "note": "the cover atlas (PROPS-PIPELINE.md P27): RGB, the slot cover-print shows its own colour; a tile is round(mm x pxPerMm) texels a side, wMm x hMm is the print's real size (the quad's); written by tools/props/covers/build.py, APPEND-ONLY (P15)",
+ "items": {
+  "sleeve-polite-refusal": {
+   "u0": 0.248046875,
+   "v0": 0.494140625,
+   "u1": 0.490234375,
+   "v1": 0.736328125,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "POLITE REFUSAL / NO, THANK YOU",
+   "lines": [
+    "POLITE REFUSAL",
+    "NO, THANK YOU"
+   ],
+   "band": "POLITE REFUSAL",
+   "title": "NO, THANK YOU",
+   "cat": "OVC 014",
+   "recordLabel": "OVERCAST RECORDS",
+   "source": "PROPS-COVERS-SLEEVES-A_1.png"
+  },
+  "sleeve-gianni-velour": {
+   "u0": 0.001953125,
+   "v0": 0.740234375,
+   "u1": 0.244140625,
+   "v1": 0.982421875,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "Gianni Velour / VELVET HOURS",
+   "lines": [
+    "Gianni Velour",
+    "VELVET HOURS"
+   ],
+   "band": "GIANNI VELOUR",
+   "title": "VELVET HOURS",
+   "cat": "SPR 2207",
+   "recordLabel": "SPIRE SOUND",
+   "source": "PROPS-COVERS-SLEEVES-A_1.png"
+  },
+  "sleeve-mourning-commute": {
+   "u0": 0.248046875,
+   "v0": 0.248046875,
+   "u1": 0.490234375,
+   "v1": 0.490234375,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "MOURNING COMMUTE / SIGNAL FAILURE",
+   "lines": [
+    "MOURNING COMMUTE",
+    "SIGNAL FAILURE"
+   ],
+   "band": "MOURNING COMMUTE",
+   "title": "SIGNAL FAILURE",
+   "cat": "DMP 003",
+   "recordLabel": "DAMP COURSE",
+   "source": "PROPS-COVERS-SLEEVES-A_1.png"
+  },
+  "sleeve-captain-rhombus": {
+   "u0": 0.001953125,
+   "v0": 0.001953125,
+   "u1": 0.244140625,
+   "v1": 0.244140625,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "CAPTAIN RHOMBUS / THE FOURTH SIDE",
+   "lines": [
+    "CAPTAIN RHOMBUS",
+    "THE FOURTH SIDE"
+   ],
+   "band": "CAPTAIN RHOMBUS",
+   "title": "THE FOURTH SIDE",
+   "cat": "RR 1104",
+   "recordLabel": "RING ROAD RECORDS",
+   "source": "PROPS-COVERS-SLEEVES-A_1.png"
+  },
+  "sleeve-dental-plan": {
+   "u0": 0.248046875,
+   "v0": 0.001953125,
+   "u1": 0.490234375,
+   "v1": 0.244140625,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "DENTAL PLAN / OPEN WIDE",
+   "lines": [
+    "DENTAL PLAN",
+    "OPEN WIDE"
+   ],
+   "band": "DENTAL PLAN",
+   "title": "OPEN WIDE",
+   "cat": "DMP 001",
+   "recordLabel": "DAMP COURSE",
+   "source": "PROPS-COVERS-SLEEVES-A_1.png"
+  },
+  "sleeve-disko-kolkhoz": {
+   "u0": 0.494140625,
+   "v0": 0.001953125,
+   "u1": 0.736328125,
+   "v1": 0.244140625,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "DISKO KOLKHOZ / HARVEST HUSTLE",
+   "lines": [
+    "DISKO KOLKHOZ",
+    "HARVEST HUSTLE"
+   ],
+   "band": "DISKO KOLKHOZ",
+   "title": "HARVEST HUSTLE",
+   "cat": "RR 0045",
+   "recordLabel": "RING ROAD RECORDS",
+   "source": "PROPS-COVERS-SLEEVES-A_1.png"
+  },
+  "sleeve-gerald-quintet": {
+   "u0": 0.001953125,
+   "v0": 0.494140625,
+   "u1": 0.244140625,
+   "v1": 0.736328125,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "gerald quintet / late shift",
+   "lines": [
+    "gerald quintet",
+    "late shift"
+   ],
+   "band": "GERALD QUINTET",
+   "title": "LATE SHIFT",
+   "cat": "SPR 1104",
+   "recordLabel": "SPIRE SOUND",
+   "source": "PROPS-COVERS-SLEEVES-B_1.png"
+  },
+  "sleeve-noise-complaint": {
+   "u0": 0.494140625,
+   "v0": 0.248046875,
+   "u1": 0.736328125,
+   "v1": 0.490234375,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "NOISE COMPLAINT / TURN IT DOWN",
+   "lines": [
+    "NOISE COMPLAINT",
+    "TURN IT DOWN"
+   ],
+   "band": "NOISE COMPLAINT",
+   "title": "TURN IT DOWN",
+   "cat": "OVC 666",
+   "recordLabel": "OVERCAST RECORDS",
+   "source": "PROPS-COVERS-SLEEVES-B_1.png"
+  },
+  "sleeve-reinhold-plank": {
+   "u0": 0.248046875,
+   "v0": 0.740234375,
+   "u1": 0.490234375,
+   "v1": 0.982421875,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "REINHOLD PLANK / MUSIC FOR WAITING ROOMS",
+   "lines": [
+    "REINHOLD PLANK",
+    "MUSIC FOR WAITING ROOMS"
+   ],
+   "band": "REINHOLD PLANK",
+   "title": "MUSIC FOR WAITING ROOMS",
+   "cat": "SPR 3310",
+   "recordLabel": "SPIRE SOUND",
+   "source": "PROPS-COVERS-SLEEVES-B_1.png"
+  },
+  "sleeve-ombudsman": {
+   "u0": 0.740234375,
+   "v0": 0.248046875,
+   "u1": 0.982421875,
+   "v1": 0.490234375,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "OMBUDSMAN / THE COMPLAINTS PROCEDURE",
+   "lines": [
+    "OMBUDSMAN",
+    "THE COMPLAINTS PROCEDURE"
+   ],
+   "band": "OMBUDSMAN",
+   "title": "THE COMPLAINTS PROCEDURE",
+   "cat": "RR 0211",
+   "recordLabel": "RING ROAD RECORDS",
+   "source": "PROPS-COVERS-SLEEVES-B_1.png"
+  },
+  "sleeve-forklift-bobby": {
+   "u0": 0.740234375,
+   "v0": 0.001953125,
+   "u1": 0.982421875,
+   "v1": 0.244140625,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "FORKLIFT BOBBY / HEAVY LOADS",
+   "lines": [
+    "FORKLIFT BOBBY",
+    "HEAVY LOADS"
+   ],
+   "band": "FORKLIFT BOBBY",
+   "title": "HEAVY LOADS",
+   "cat": "DMP 018",
+   "recordLabel": "DAMP COURSE",
+   "source": "PROPS-COVERS-SLEEVES-B_1.png"
+  },
+  "sleeve-gentle-bypass": {
+   "u0": 0.001953125,
+   "v0": 0.248046875,
+   "u1": 0.244140625,
+   "v1": 0.490234375,
+   "wMm": 310,
+   "hMm": 310,
+   "kind": "sleeve",
+   "text": "THE GENTLE BYPASS / SLOW LANE",
+   "lines": [
+    "THE GENTLE BYPASS",
+    "SLOW LANE"
+   ],
+   "band": "THE GENTLE BYPASS",
+   "title": "SLOW LANE",
+   "cat": "OVC 007",
+   "recordLabel": "OVERCAST RECORDS",
+   "source": "PROPS-COVERS-SLEEVES-B_1.png"
+  },
+  "spine-polite-refusal": {
+   "u0": 0.494140625,
+   "v0": 0.529296875,
+   "u1": 0.736328125,
+   "v1": 0.5341796875,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "POLITE REFUSAL  ·  NO, THANK YOU / OVERCAST  OVC 014",
+   "lines": [
+    "POLITE REFUSAL  ·  NO, THANK YOU",
+    "OVERCAST  OVC 014"
+   ],
+   "front": "sleeve-polite-refusal",
+   "source": "rendered"
+  },
+  "spine-gianni-velour": {
+   "u0": 0.494140625,
+   "v0": 0.51171875,
+   "u1": 0.736328125,
+   "v1": 0.5166015625,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "GIANNI VELOUR  ·  VELVET HOURS / SPIRE SOUND  SPR 2207",
+   "lines": [
+    "GIANNI VELOUR  ·  VELVET HOURS",
+    "SPIRE SOUND  SPR 2207"
+   ],
+   "front": "sleeve-gianni-velour",
+   "source": "rendered"
+  },
+  "spine-mourning-commute": {
+   "u0": 0.740234375,
+   "v0": 0.51171875,
+   "u1": 0.982421875,
+   "v1": 0.5166015625,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "MOURNING COMMUTE  ·  SIGNAL FAILURE / DAMP COURSE  DMP 003",
+   "lines": [
+    "MOURNING COMMUTE  ·  SIGNAL FAILURE",
+    "DAMP COURSE  DMP 003"
+   ],
+   "front": "sleeve-mourning-commute",
+   "source": "rendered"
+  },
+  "spine-captain-rhombus": {
+   "u0": 0.001953125,
+   "v0": 0.986328125,
+   "u1": 0.244140625,
+   "v1": 0.9912109375,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "CAPTAIN RHOMBUS  ·  THE FOURTH SIDE / RING ROAD  RR 1104",
+   "lines": [
+    "CAPTAIN RHOMBUS  ·  THE FOURTH SIDE",
+    "RING ROAD  RR 1104"
+   ],
+   "front": "sleeve-captain-rhombus",
+   "source": "rendered"
+  },
+  "spine-dental-plan": {
+   "u0": 0.248046875,
+   "v0": 0.986328125,
+   "u1": 0.490234375,
+   "v1": 0.9912109375,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "DENTAL PLAN  ·  OPEN WIDE / DAMP COURSE  DMP 001",
+   "lines": [
+    "DENTAL PLAN  ·  OPEN WIDE",
+    "DAMP COURSE  DMP 001"
+   ],
+   "front": "sleeve-dental-plan",
+   "source": "rendered"
+  },
+  "spine-disko-kolkhoz": {
+   "u0": 0.494140625,
+   "v0": 0.494140625,
+   "u1": 0.736328125,
+   "v1": 0.4990234375,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "DISKO KOLKHOZ  ·  HARVEST HUSTLE / RING ROAD  RR 0045",
+   "lines": [
+    "DISKO KOLKHOZ  ·  HARVEST HUSTLE",
+    "RING ROAD  RR 0045"
+   ],
+   "front": "sleeve-disko-kolkhoz",
+   "source": "rendered"
+  },
+  "spine-gerald-quintet": {
+   "u0": 0.740234375,
+   "v0": 0.5029296875,
+   "u1": 0.982421875,
+   "v1": 0.5078125,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "GERALD QUINTET  ·  LATE SHIFT / SPIRE SOUND  SPR 1104",
+   "lines": [
+    "GERALD QUINTET  ·  LATE SHIFT",
+    "SPIRE SOUND  SPR 1104"
+   ],
+   "front": "sleeve-gerald-quintet",
+   "source": "rendered"
+  },
+  "spine-noise-complaint": {
+   "u0": 0.494140625,
+   "v0": 0.5205078125,
+   "u1": 0.736328125,
+   "v1": 0.525390625,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "NOISE COMPLAINT  ·  TURN IT DOWN / OVERCAST  OVC 666",
+   "lines": [
+    "NOISE COMPLAINT  ·  TURN IT DOWN",
+    "OVERCAST  OVC 666"
+   ],
+   "front": "sleeve-noise-complaint",
+   "source": "rendered"
+  },
+  "spine-reinhold-plank": {
+   "u0": 0.740234375,
+   "v0": 0.529296875,
+   "u1": 0.982421875,
+   "v1": 0.5341796875,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "REINHOLD PLANK  ·  MUSIC FOR WAITING ROOMS / SPIRE SOUND  SPR 3310",
+   "lines": [
+    "REINHOLD PLANK  ·  MUSIC FOR WAITING ROOMS",
+    "SPIRE SOUND  SPR 3310"
+   ],
+   "front": "sleeve-reinhold-plank",
+   "source": "rendered"
+  },
+  "spine-ombudsman": {
+   "u0": 0.740234375,
+   "v0": 0.5205078125,
+   "u1": 0.982421875,
+   "v1": 0.525390625,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "OMBUDSMAN  ·  THE COMPLAINTS PROCEDURE / RING ROAD  RR 0211",
+   "lines": [
+    "OMBUDSMAN  ·  THE COMPLAINTS PROCEDURE",
+    "RING ROAD  RR 0211"
+   ],
+   "front": "sleeve-ombudsman",
+   "source": "rendered"
+  },
+  "spine-forklift-bobby": {
+   "u0": 0.740234375,
+   "v0": 0.494140625,
+   "u1": 0.982421875,
+   "v1": 0.4990234375,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "FORKLIFT BOBBY  ·  HEAVY LOADS / DAMP COURSE  DMP 018",
+   "lines": [
+    "FORKLIFT BOBBY  ·  HEAVY LOADS",
+    "DAMP COURSE  DMP 018"
+   ],
+   "front": "sleeve-forklift-bobby",
+   "source": "rendered"
+  },
+  "spine-gentle-bypass": {
+   "u0": 0.494140625,
+   "v0": 0.5029296875,
+   "u1": 0.736328125,
+   "v1": 0.5078125,
+   "wMm": 310,
+   "hMm": 6,
+   "kind": "spine",
+   "text": "THE GENTLE BYPASS  ·  SLOW LANE / OVERCAST  OVC 007",
+   "lines": [
+    "THE GENTLE BYPASS  ·  SLOW LANE",
+    "OVERCAST  OVC 007"
+   ],
+   "front": "sleeve-gentle-bypass",
+   "source": "rendered"
+  },
+  "jcard-cipher-c60": {
+   "u0": 0.494140625,
+   "v0": 0.5380859375,
+   "u1": 0.572265625,
+   "v1": 0.5888671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C60 / NORMAL POSITION",
+   "lines": [
+    "CIPHER",
+    "C60",
+    "NORMAL POSITION"
+   ],
+   "spine": "jcard-spine-cipher-c60",
+   "brand": "CIPHER",
+   "source": "PROPS-COVERS-JCARDS_1.png"
+  },
+  "jcard-cipher-c90": {
+   "u0": 0.576171875,
+   "v0": 0.5380859375,
+   "u1": 0.654296875,
+   "v1": 0.5888671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C90 / NORMAL POSITION",
+   "lines": [
+    "CIPHER",
+    "C90",
+    "NORMAL POSITION"
+   ],
+   "spine": "jcard-spine-cipher-c90",
+   "brand": "CIPHER",
+   "source": "PROPS-COVERS-JCARDS_1.png"
+  },
+  "jcard-cipher-chrome": {
+   "u0": 0.658203125,
+   "v0": 0.5380859375,
+   "u1": 0.736328125,
+   "v1": 0.5888671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / CHROME / C90 / HIGH POSITION",
+   "lines": [
+    "CIPHER",
+    "CHROME",
+    "C90",
+    "HIGH POSITION"
+   ],
+   "spine": "jcard-spine-cipher-chrome",
+   "brand": "CIPHER",
+   "source": "PROPS-COVERS-JCARDS_1.png"
+  },
+  "jcard-sona-c90": {
+   "u0": 0.494140625,
+   "v0": 0.6474609375,
+   "u1": 0.572265625,
+   "v1": 0.6982421875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / C90",
+   "lines": [
+    "SONA",
+    "C90"
+   ],
+   "spine": "jcard-spine-sona-c90",
+   "brand": "SONA",
+   "source": "PROPS-COVERS-JCARDS_1.png"
+  },
+  "jcard-sona-metal": {
+   "u0": 0.494140625,
+   "v0": 0.7021484375,
+   "u1": 0.572265625,
+   "v1": 0.7529296875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / METAL / C60",
+   "lines": [
+    "SONA",
+    "METAL",
+    "C60"
+   ],
+   "spine": "jcard-spine-sona-metal",
+   "brand": "SONA",
+   "source": "PROPS-COVERS-JCARDS_1.png"
+  },
+  "jcard-mix-fog": {
+   "u0": 0.740234375,
+   "v0": 0.5380859375,
+   "u1": 0.818359375,
+   "v1": 0.5888671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / FOG MIX / SIDE A / SIDE B",
+   "lines": [
+    "CIPHER",
+    "FOG MIX",
+    "SIDE A",
+    "SIDE B"
+   ],
+   "spine": "jcard-spine-mix-fog",
+   "brand": "CIPHER",
+   "source": "PROPS-COVERS-JCARDS_1.png"
+  },
+  "jcard-mix-lcs-set": {
+   "u0": 0.904296875,
+   "v0": 0.5380859375,
+   "u1": 0.982421875,
+   "v1": 0.5888671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / LCS NIGHT SET 7",
+   "lines": [
+    "SONA",
+    "LCS NIGHT SET 7"
+   ],
+   "spine": "jcard-spine-mix-lcs-set",
+   "brand": "SONA",
+   "source": "PROPS-COVERS-JCARDS_1.png"
+  },
+  "jcard-mix-for-mint": {
+   "u0": 0.822265625,
+   "v0": 0.5380859375,
+   "u1": 0.900390625,
+   "v1": 0.5888671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / FOR MINT",
+   "lines": [
+    "CIPHER",
+    "FOR MINT"
+   ],
+   "spine": "jcard-spine-mix-for-mint",
+   "brand": "CIPHER",
+   "source": "PROPS-COVERS-JCARDS_1.png"
+  },
+  "jcard-mix-radio-rips": {
+   "u0": 0.494140625,
+   "v0": 0.5927734375,
+   "u1": 0.572265625,
+   "v1": 0.6435546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / RADIO RIPS 3AM",
+   "lines": [
+    "CIPHER",
+    "RADIO RIPS 3AM"
+   ],
+   "spine": "jcard-spine-mix-radio-rips",
+   "brand": "CIPHER",
+   "source": "PROPS-COVERS-JCARDS_1.png"
+  },
+  "jcard-spine-cipher-c60": {
+   "u0": 0.494140625,
+   "v0": 0.7568359375,
+   "u1": 0.572265625,
+   "v1": 0.76708984375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C60 · NORMAL",
+   "lines": [
+    "CIPHER",
+    "C60 · NORMAL"
+   ],
+   "front": "jcard-cipher-c60",
+   "source": "rendered"
+  },
+  "jcard-spine-cipher-c90": {
+   "u0": 0.494140625,
+   "v0": 0.77099609375,
+   "u1": 0.572265625,
+   "v1": 0.78125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C90 · NORMAL",
+   "lines": [
+    "CIPHER",
+    "C90 · NORMAL"
+   ],
+   "front": "jcard-cipher-c90",
+   "source": "rendered"
+  },
+  "jcard-spine-cipher-chrome": {
+   "u0": 0.494140625,
+   "v0": 0.78515625,
+   "u1": 0.572265625,
+   "v1": 0.79541015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / CHROME C90",
+   "lines": [
+    "CIPHER",
+    "CHROME C90"
+   ],
+   "front": "jcard-cipher-chrome",
+   "source": "rendered"
+  },
+  "jcard-spine-sona-c90": {
+   "u0": 0.494140625,
+   "v0": 0.85595703125,
+   "u1": 0.572265625,
+   "v1": 0.8662109375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / C90",
+   "lines": [
+    "SONA",
+    "C90"
+   ],
+   "front": "jcard-sona-c90",
+   "source": "rendered"
+  },
+  "jcard-spine-sona-metal": {
+   "u0": 0.494140625,
+   "v0": 0.8701171875,
+   "u1": 0.572265625,
+   "v1": 0.88037109375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / METAL C60",
+   "lines": [
+    "SONA",
+    "METAL C60"
+   ],
+   "front": "jcard-sona-metal",
+   "source": "rendered"
+  },
+  "jcard-spine-mix-fog": {
+   "u0": 0.494140625,
+   "v0": 0.79931640625,
+   "u1": 0.572265625,
+   "v1": 0.8095703125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "FOG MIX",
+   "lines": [
+    "FOG MIX"
+   ],
+   "front": "jcard-mix-fog",
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "jcard-spine-mix-lcs-set": {
+   "u0": 0.494140625,
+   "v0": 0.82763671875,
+   "u1": 0.572265625,
+   "v1": 0.837890625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 7",
+   "lines": [
+    "LCS NIGHT SET 7"
+   ],
+   "front": "jcard-mix-lcs-set",
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "jcard-spine-mix-for-mint": {
+   "u0": 0.494140625,
+   "v0": 0.8134765625,
+   "u1": 0.572265625,
+   "v1": 0.82373046875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "FOR MINT",
+   "lines": [
+    "FOR MINT"
+   ],
+   "front": "jcard-mix-for-mint",
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "jcard-spine-mix-radio-rips": {
+   "u0": 0.494140625,
+   "v0": 0.841796875,
+   "u1": 0.572265625,
+   "v1": 0.85205078125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "RADIO RIPS 3AM",
+   "lines": [
+    "RADIO RIPS 3AM"
+   ],
+   "front": "jcard-mix-radio-rips",
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "label-fog-mix": {
+   "u0": 0.494140625,
+   "v0": 0.88427734375,
+   "u1": 0.560546875,
+   "v1": 0.89599609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "FOG MIX / A",
+   "lines": [
+    "FOG MIX",
+    "A"
+   ],
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "label-lcs-set": {
+   "u0": 0.494140625,
+   "v0": 0.91552734375,
+   "u1": 0.560546875,
+   "v1": 0.92724609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "LCS NIGHT SET 7",
+   "lines": [
+    "LCS NIGHT SET 7"
+   ],
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "label-for-mint": {
+   "u0": 0.494140625,
+   "v0": 0.89990234375,
+   "u1": 0.560546875,
+   "v1": 0.91162109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "FOR MINT / B",
+   "lines": [
+    "FOR MINT",
+    "B"
+   ],
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "label-radio-rips": {
+   "u0": 0.494140625,
+   "v0": 0.93115234375,
+   "u1": 0.560546875,
+   "v1": 0.94287109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "RADIO RIPS 3AM",
+   "lines": [
+    "RADIO RIPS 3AM"
+   ],
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "label-written-over": {
+   "u0": 0.494140625,
+   "v0": 0.96240234375,
+   "u1": 0.560546875,
+   "v1": 0.97412109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "MIX 2 / B-SIDES / KEEP",
+   "lines": [
+    "MIX 2",
+    "B-SIDES",
+    "KEEP"
+   ],
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "label-rooftop-dub": {
+   "u0": 0.494140625,
+   "v0": 0.94677734375,
+   "u1": 0.560546875,
+   "v1": 0.95849609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "ROOFTOP DUB",
+   "lines": [
+    "ROOFTOP DUB"
+   ],
+   "source": "PROPS-COVERS-STRIPS_1.png"
+  }
+ }
+}
