@@ -4,8 +4,8 @@
  "width": 2048,
  "height": 4096,
  "vScale": 0.5,
- "ktx2": "covers-c2b1dbad635d.ktx2",
- "png": "covers-d591041233cb.png",
+ "ktx2": "covers-3ed7af32465f.ktx2",
+ "png": "covers-48f5c441c4b0.png",
  "gutterPx": 4,
  "uvUnits": "u and v are in units of the atlas's WIDTH (v runs 0 … height / width): sample at (u, v x vScale). The atlas grew from 2048² to 2048 x 4096 on 8 Oct; every older uv names the same texels",
  "pools": "a tape item's `pool` (tape-jcard-blank / -mix, tape-spine-blank / -mix, tape-label): the room re-draws the tapes' prints per placement from their pool (apps/room/src/catalog/coverPools.ts)",
@@ -4709,6 +4709,111 @@
    "prop": "crt-monitor-mono",
    "pxPerMm": 4,
    "source": "rendered"
+  },
+  "kitchen-oats-label": {
+   "u0": 0.212890625,
+   "v0": 1.2978515625,
+   "u1": 0.310546875,
+   "v1": 1.4658203125,
+   "wMm": 125,
+   "hMm": 215,
+   "kind": "label",
+   "text": "OATS / ROLLED OATS",
+   "lines": [
+    "OATS",
+    "ROLLED OATS"
+   ],
+   "prop": "kitchen",
+   "pool": "tape-label",
+   "source": "PROPS-KITCHEN-PANTRY_1.png"
+  },
+  "kitchen-coffee-label": {
+   "u0": 0.91796875,
+   "v0": 1.25927734375,
+   "u1": 0.9912109375,
+   "v1": 1.3623046875,
+   "wMm": 94,
+   "hMm": 132,
+   "kind": "label",
+   "text": "COFFEE / WHOLE BEANS",
+   "lines": [
+    "COFFEE",
+    "WHOLE BEANS"
+   ],
+   "prop": "kitchen",
+   "pool": "tape-label",
+   "source": "PROPS-KITCHEN-PANTRY_1.png"
+  },
+  "kitchen-creamer-label": {
+   "u0": 0.001953125,
+   "v0": 1.33984375,
+   "u1": 0.0517578125,
+   "v1": 1.42724609375,
+   "wMm": 64,
+   "hMm": 112,
+   "kind": "label",
+   "text": "NON-DAIRY CREAMER / POWDERED",
+   "lines": [
+    "NON-DAIRY CREAMER",
+    "POWDERED"
+   ],
+   "prop": "kitchen",
+   "pool": "tape-label",
+   "source": "PROPS-KITCHEN-PANTRY_1.png"
+  },
+  "kitchen-snack-label": {
+   "u0": 0.072265625,
+   "v0": 1.32568359375,
+   "u1": 0.166015625,
+   "v1": 1.37255859375,
+   "wMm": 120,
+   "hMm": 60,
+   "kind": "label",
+   "text": "SNACK CAKES / LONG LIFE",
+   "lines": [
+    "SNACK CAKES",
+    "LONG LIFE"
+   ],
+   "prop": "kitchen",
+   "pool": "tape-label",
+   "source": "PROPS-KITCHEN-SNACK_1.png"
+  },
+  "kitchen-sugar-label": {
+   "u0": 0.169921875,
+   "v0": 1.31201171875,
+   "u1": 0.1982421875,
+   "v1": 1.35107421875,
+   "wMm": 36,
+   "hMm": 50,
+   "kind": "label",
+   "text": "SUGAR / PAPER PACKETS",
+   "lines": [
+    "SUGAR",
+    "PAPER PACKETS"
+   ],
+   "prop": "kitchen",
+   "pool": "tape-label",
+   "source": "PROPS-KITCHEN-PANTRY_1.png"
+  },
+  "kitchen-notebook-page": {
+   "u0": 0.91796875,
+   "v0": 1.3662109375,
+   "u1": 0.98828125,
+   "v1": 1.4677734375,
+   "wMm": 90,
+   "hMm": 130,
+   "kind": "label",
+   "text": "coffee / oats / creamer / sugar / filters",
+   "lines": [
+    "coffee",
+    "oats",
+    "creamer",
+    "sugar",
+    "filters"
+   ],
+   "prop": "kitchen",
+   "pool": "tape-label",
+   "source": "PROPS-KITCHEN-PANTRY_1.png"
   }
  }
 }

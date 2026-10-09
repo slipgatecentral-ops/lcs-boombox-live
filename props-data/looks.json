@@ -139,6 +139,11 @@
    "roughness": 0.72,
    "metalness": 0.08
   },
+  "food-cake": {
+   "color": "#b3834d",
+   "roughness": 0.92,
+   "metalness": 0
+  },
   "grille-mesh": {
    "color": "#2c2c2b",
    "roughness": 0.55,
