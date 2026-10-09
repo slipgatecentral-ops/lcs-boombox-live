@@ -3,10 +3,10 @@
  "uvOrigin": "top-left",
  "width": 2048,
  "height": 2048,
- "ktx2": "covers-98dd0db4a6ce.ktx2",
- "png": "covers-d3f64d3aa4ff.png",
+ "ktx2": "covers-96be8bb274b9.ktx2",
+ "png": "covers-60b320f1bbe2.png",
  "gutterPx": 4,
- "note": "the cover atlas (PROPS-PIPELINE.md P27): RGB, the slot cover-print shows its own colour; a tile is round(mm x pxPerMm) texels a side, wMm x hMm is the print's real size (the quad's); written by tools/props/covers/build.py, APPEND-ONLY (P15)",
+ "note": "the cover atlas (PROPS-PIPELINE.md P27): RGB, the slot cover-print shows its own colour; a tile is round(mm x pxPerMm) texels a side (an item's own pxPerMm where it carries one: the screens), wMm x hMm is the print's real size (the quad's); written by tools/props/covers/build.py, APPEND-ONLY (P15)",
  "items": {
   "sleeve-polite-refusal": {
    "u0": 0.248046875,
@@ -815,6 +815,35 @@
     "ROOFTOP DUB"
    ],
    "source": "PROPS-COVERS-STRIPS_1.png"
+  },
+  "screen-crt-log": {
+   "u0": 0.576171875,
+   "v0": 0.5927734375,
+   "u1": 0.99609375,
+   "v1": 0.9150390625,
+   "wMm": 215,
+   "hMm": 165,
+   "kind": "screen",
+   "font": "Consolas Regular",
+   "text": "STATION LOG / UTC 14:27 / 14:12 LCS3TX 599 TB / 14:15 VNA1EN 599 SP / 14:18 MNT0DJ 579 RR / 14:21 SPR2RE 599 SP / 14:24 DMP5CS 579 TB / 14:26 OVC9RR 599 DX / CHART FEED / 14.100 |...............:....| / 14.200 |......:.....|.......| / 14.300 |......:.|.:.........| / 14.400 |....................|",
+   "lines": [
+    "STATION LOG",
+    "UTC 14:27",
+    "14:12 LCS3TX 599 TB",
+    "14:15 VNA1EN 599 SP",
+    "14:18 MNT0DJ 579 RR",
+    "14:21 SPR2RE 599 SP",
+    "14:24 DMP5CS 579 TB",
+    "14:26 OVC9RR 599 DX",
+    "CHART FEED",
+    "14.100 |...............:....|",
+    "14.200 |......:.....|.......|",
+    "14.300 |......:.|.:.........|",
+    "14.400 |....................|"
+   ],
+   "prop": "crt-monitor-mono",
+   "pxPerMm": 4,
+   "source": "rendered"
   }
  }
 }

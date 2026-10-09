@@ -179,10 +179,12 @@
    "roughness": 0.62,
    "metalness": 0
   },
-  "grille-brushed": {
-   "color": "#a3a19b",
-   "roughness": 0.36,
-   "metalness": 0.5
+  "cover-glow": {
+   "color": "#0b0c0b",
+   "roughness": 0.22,
+   "metalness": 0,
+   "emissive": "#ffffff",
+   "emissiveIntensity": 1.6
   }
  },
  "extra": {
