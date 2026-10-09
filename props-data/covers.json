@@ -4724,7 +4724,6 @@
     "ROLLED OATS"
    ],
    "prop": "kitchen",
-   "pool": "tape-label",
    "source": "PROPS-KITCHEN-PANTRY_1.png"
   },
   "kitchen-coffee-label": {
@@ -4741,7 +4740,6 @@
     "WHOLE BEANS"
    ],
    "prop": "kitchen",
-   "pool": "tape-label",
    "source": "PROPS-KITCHEN-PANTRY_1.png"
   },
   "kitchen-creamer-label": {
@@ -4758,7 +4756,6 @@
     "POWDERED"
    ],
    "prop": "kitchen",
-   "pool": "tape-label",
    "source": "PROPS-KITCHEN-PANTRY_1.png"
   },
   "kitchen-snack-label": {
@@ -4775,7 +4772,6 @@
     "LONG LIFE"
    ],
    "prop": "kitchen",
-   "pool": "tape-label",
    "source": "PROPS-KITCHEN-SNACK_1.png"
   },
   "kitchen-sugar-label": {
@@ -4792,7 +4788,6 @@
     "PAPER PACKETS"
    ],
    "prop": "kitchen",
-   "pool": "tape-label",
    "source": "PROPS-KITCHEN-PANTRY_1.png"
   },
   "kitchen-notebook-page": {
@@ -4812,7 +4807,6 @@
     "filters"
    ],
    "prop": "kitchen",
-   "pool": "tape-label",
    "source": "PROPS-KITCHEN-PANTRY_1.png"
   }
  }
