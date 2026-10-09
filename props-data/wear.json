@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "ktx2": "wear-9daacb03a6a1.ktx2",
+  "r8": "wear-9daacb03a6a1-r8.ktx2",
+  "png": "wear-9daacb03a6a1.png",
+  "width": 512,
+  "height": 256,
+  "levels": 10,
+  "uvOrigin": "top-left",
+  "range": 0.3,
+  "bytes": {
+    "ktx2": 87808,
+    "r8": 175172,
+    "png": 36602
+  },
+  "gpu": {
+    "bc4": 87400,
+    "r8": 174763
+  },
+  "items": {
+    "dj-turntable-direct": {
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 256,
+      "u0": 0,
+      "v0": 0,
+      "u1": 1,
+      "v1": 1,
+      "texelMm": 3
+    }
+  }
+}

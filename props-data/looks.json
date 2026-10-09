@@ -220,6 +220,100 @@
    "metalness": 0,
    "emissive": "#ffffff",
    "emissiveIntensity": 1
+  },
+  "VINYL_LOOK": {
+   "color": "#0b0b0c",
+   "roughness": 0.34,
+   "metalness": 0,
+   "anisotropy": 0.8,
+   "kinds": {
+    "track": {
+     "roughness": 0.34,
+     "anisotropy": 0.8
+    },
+    "lead": {
+     "roughness": 0.28,
+     "anisotropy": 0.55
+    },
+    "gap": {
+     "roughness": 0.2,
+     "anisotropy": 0.25
+    },
+    "smooth": {
+     "roughness": 0.14,
+     "anisotropy": 0
+    }
+   },
+   "bands": [
+    {
+     "r0": 151,
+     "r1": 149.6,
+     "kind": "smooth"
+    },
+    {
+     "r0": 149.6,
+     "r1": 146.2,
+     "kind": "lead"
+    },
+    {
+     "r0": 146.2,
+     "r1": 129.1,
+     "kind": "track"
+    },
+    {
+     "r0": 129.1,
+     "r1": 127.9,
+     "kind": "gap"
+    },
+    {
+     "r0": 127.9,
+     "r1": 111.6,
+     "kind": "track",
+     "dRough": -0.03
+    },
+    {
+     "r0": 111.6,
+     "r1": 110.6,
+     "kind": "gap"
+    },
+    {
+     "r0": 110.6,
+     "r1": 96.2,
+     "kind": "track",
+     "dRough": 0.02
+    },
+    {
+     "r0": 96.2,
+     "r1": 94.8,
+     "kind": "gap"
+    },
+    {
+     "r0": 94.8,
+     "r1": 79.6,
+     "kind": "track"
+    },
+    {
+     "r0": 79.6,
+     "r1": 78.5,
+     "kind": "gap"
+    },
+    {
+     "r0": 78.5,
+     "r1": 64.2,
+     "kind": "track",
+     "dRough": -0.02
+    },
+    {
+     "r0": 64.2,
+     "r1": 60.4,
+     "kind": "lead"
+    },
+    {
+     "r0": 60.4,
+     "r1": 0,
+     "kind": "smooth"
+    }
+   ]
   }
  }
 }
