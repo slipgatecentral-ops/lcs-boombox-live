@@ -1,0 +1,19 @@
+{
+  "v": 1,
+  "world": "lcs-rooms",
+  "tz": "America/Los_Angeles",
+  "epoch": "2026-09-29T21:40:19-07:00",
+  "chapters": [
+    "2026-09",
+    "2026-10"
+  ],
+  "snapshot": {
+    "at": "2026-10-01T00:00:00-07:00",
+    "state": {
+      "routines": {},
+      "active": [],
+      "voided": [],
+      "loot": []
+    }
+  }
+}

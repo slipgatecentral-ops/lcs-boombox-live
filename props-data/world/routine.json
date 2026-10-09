@@ -1,0 +1,14 @@
+{
+  "mint": [
+    { "at": "02:00", "do": "sleep", "where": "top" },
+    { "at": "09:00", "do": "home" },
+    { "at": "13:30", "do": "away" },
+    { "at": "16:00", "do": "home" }
+  ],
+  "vibe": [
+    { "at": "03:00", "do": "sleep", "where": "base" },
+    { "at": "09:30", "do": "home" },
+    { "at": "13:30", "do": "away" },
+    { "at": "16:30", "do": "home" }
+  ]
+}
