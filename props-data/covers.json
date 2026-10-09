@@ -2,10 +2,13 @@
  "pxPerMm": 1.6,
  "uvOrigin": "top-left",
  "width": 2048,
- "height": 2048,
- "ktx2": "covers-96be8bb274b9.ktx2",
- "png": "covers-60b320f1bbe2.png",
+ "height": 4096,
+ "vScale": 0.5,
+ "ktx2": "covers-3cc632dc1129.ktx2",
+ "png": "covers-b6f1316151a8.png",
  "gutterPx": 4,
+ "uvUnits": "u and v are in units of the atlas's WIDTH (v runs 0 … height / width): sample at (u, v x vScale). The atlas grew from 2048² to 2048 x 4096 on 8 Oct; every older uv names the same texels",
+ "pools": "a tape item's `pool` (tape-jcard-blank / -mix, tape-spine-blank / -mix, tape-label): the room re-draws the tapes' prints per placement from their pool (apps/room/src/catalog/coverPools.ts)",
  "note": "the cover atlas (PROPS-PIPELINE.md P27): RGB, the slot cover-print shows its own colour; a tile is round(mm x pxPerMm) texels a side (an item's own pxPerMm where it carries one: the screens), wMm x hMm is the print's real size (the quad's); written by tools/props/covers/build.py, APPEND-ONLY (P15)",
  "items": {
   "sleeve-polite-refusal": {
@@ -444,6 +447,7 @@
    ],
    "spine": "jcard-spine-cipher-c60",
    "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
    "source": "PROPS-COVERS-JCARDS_1.png"
   },
   "jcard-cipher-c90": {
@@ -462,6 +466,7 @@
    ],
    "spine": "jcard-spine-cipher-c90",
    "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
    "source": "PROPS-COVERS-JCARDS_1.png"
   },
   "jcard-cipher-chrome": {
@@ -481,6 +486,7 @@
    ],
    "spine": "jcard-spine-cipher-chrome",
    "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
    "source": "PROPS-COVERS-JCARDS_1.png"
   },
   "jcard-sona-c90": {
@@ -498,6 +504,7 @@
    ],
    "spine": "jcard-spine-sona-c90",
    "brand": "SONA",
+   "pool": "tape-jcard-blank",
    "source": "PROPS-COVERS-JCARDS_1.png"
   },
   "jcard-sona-metal": {
@@ -516,6 +523,7 @@
    ],
    "spine": "jcard-spine-sona-metal",
    "brand": "SONA",
+   "pool": "tape-jcard-blank",
    "source": "PROPS-COVERS-JCARDS_1.png"
   },
   "jcard-mix-fog": {
@@ -535,6 +543,7 @@
    ],
    "spine": "jcard-spine-mix-fog",
    "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
    "source": "PROPS-COVERS-JCARDS_1.png"
   },
   "jcard-mix-lcs-set": {
@@ -552,6 +561,7 @@
    ],
    "spine": "jcard-spine-mix-lcs-set",
    "brand": "SONA",
+   "pool": "tape-jcard-mix",
    "source": "PROPS-COVERS-JCARDS_1.png"
   },
   "jcard-mix-for-mint": {
@@ -569,6 +579,7 @@
    ],
    "spine": "jcard-spine-mix-for-mint",
    "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
    "source": "PROPS-COVERS-JCARDS_1.png"
   },
   "jcard-mix-radio-rips": {
@@ -586,6 +597,7 @@
    ],
    "spine": "jcard-spine-mix-radio-rips",
    "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
    "source": "PROPS-COVERS-JCARDS_1.png"
   },
   "jcard-spine-cipher-c60": {
@@ -602,6 +614,7 @@
     "C60 · NORMAL"
    ],
    "front": "jcard-cipher-c60",
+   "pool": "tape-spine-blank",
    "source": "rendered"
   },
   "jcard-spine-cipher-c90": {
@@ -618,6 +631,7 @@
     "C90 · NORMAL"
    ],
    "front": "jcard-cipher-c90",
+   "pool": "tape-spine-blank",
    "source": "rendered"
   },
   "jcard-spine-cipher-chrome": {
@@ -634,6 +648,7 @@
     "CHROME C90"
    ],
    "front": "jcard-cipher-chrome",
+   "pool": "tape-spine-blank",
    "source": "rendered"
   },
   "jcard-spine-sona-c90": {
@@ -650,6 +665,7 @@
     "C90"
    ],
    "front": "jcard-sona-c90",
+   "pool": "tape-spine-blank",
    "source": "rendered"
   },
   "jcard-spine-sona-metal": {
@@ -666,6 +682,7 @@
     "METAL C60"
    ],
    "front": "jcard-sona-metal",
+   "pool": "tape-spine-blank",
    "source": "rendered"
   },
   "jcard-spine-mix-fog": {
@@ -681,6 +698,7 @@
     "FOG MIX"
    ],
    "front": "jcard-mix-fog",
+   "pool": "tape-spine-mix",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
   "jcard-spine-mix-lcs-set": {
@@ -696,6 +714,7 @@
     "LCS NIGHT SET 7"
    ],
    "front": "jcard-mix-lcs-set",
+   "pool": "tape-spine-mix",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
   "jcard-spine-mix-for-mint": {
@@ -711,6 +730,7 @@
     "FOR MINT"
    ],
    "front": "jcard-mix-for-mint",
+   "pool": "tape-spine-mix",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
   "jcard-spine-mix-radio-rips": {
@@ -726,6 +746,7 @@
     "RADIO RIPS 3AM"
    ],
    "front": "jcard-mix-radio-rips",
+   "pool": "tape-spine-mix",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
   "label-fog-mix": {
@@ -741,6 +762,7 @@
     "FOG MIX",
     "A"
    ],
+   "pool": "tape-label",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
   "label-lcs-set": {
@@ -755,6 +777,7 @@
    "lines": [
     "LCS NIGHT SET 7"
    ],
+   "pool": "tape-label",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
   "label-for-mint": {
@@ -770,6 +793,7 @@
     "FOR MINT",
     "B"
    ],
+   "pool": "tape-label",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
   "label-radio-rips": {
@@ -784,6 +808,7 @@
    "lines": [
     "RADIO RIPS 3AM"
    ],
+   "pool": "tape-label",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
   "label-written-over": {
@@ -800,6 +825,7 @@
     "B-SIDES",
     "KEEP"
    ],
+   "pool": "tape-label",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
   "label-rooftop-dub": {
@@ -814,13 +840,3852 @@
    "lines": [
     "ROOFTOP DUB"
    ],
+   "pool": "tape-label",
    "source": "PROPS-COVERS-STRIPS_1.png"
   },
-  "screen-crt-log": {
+  "jcard-cipher-c46": {
+   "u0": 0.740234375,
+   "v0": 0.5927734375,
+   "u1": 0.818359375,
+   "v1": 0.6435546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C46 / NORMAL POSITION",
+   "lines": [
+    "CIPHER",
+    "C46",
+    "NORMAL POSITION"
+   ],
+   "spine": "jcard-spine-cipher-c46",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-B_1.png"
+  },
+  "jcard-spine-cipher-c46": {
+   "u0": 0.330078125,
+   "v0": 1.0498046875,
+   "u1": 0.408203125,
+   "v1": 1.06005859375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C46 · NORMAL",
+   "lines": [
+    "CIPHER",
+    "C46 · NORMAL"
+   ],
+   "front": "jcard-cipher-c46",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-c120": {
    "u0": 0.576171875,
    "v0": 0.5927734375,
-   "u1": 0.99609375,
-   "v1": 0.9150390625,
+   "u1": 0.654296875,
+   "v1": 0.6435546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C120 / NORMAL POSITION",
+   "lines": [
+    "CIPHER",
+    "C120",
+    "NORMAL POSITION"
+   ],
+   "spine": "jcard-spine-cipher-c120",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-B_1.png"
+  },
+  "jcard-spine-cipher-c120": {
+   "u0": 0.166015625,
+   "v0": 1.0498046875,
+   "u1": 0.244140625,
+   "v1": 1.06005859375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C120 · NORMAL",
+   "lines": [
+    "CIPHER",
+    "C120 · NORMAL"
+   ],
+   "front": "jcard-cipher-c120",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-chrome-c60": {
+   "u0": 0.822265625,
+   "v0": 0.6474609375,
+   "u1": 0.900390625,
+   "v1": 0.6982421875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / CHROME / C60 / HIGH POSITION",
+   "lines": [
+    "CIPHER",
+    "CHROME",
+    "C60",
+    "HIGH POSITION"
+   ],
+   "spine": "jcard-spine-cipher-chrome-c60",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-B_1.png"
+  },
+  "jcard-spine-cipher-chrome-c60": {
+   "u0": 0.166015625,
+   "v0": 1.078125,
+   "u1": 0.244140625,
+   "v1": 1.08837890625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / CHROME C60",
+   "lines": [
+    "CIPHER",
+    "CHROME C60"
+   ],
+   "front": "jcard-cipher-chrome-c60",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-metal-c90": {
+   "u0": 0.658203125,
+   "v0": 0.7021484375,
+   "u1": 0.736328125,
+   "v1": 0.7529296875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / METAL / C90",
+   "lines": [
+    "CIPHER",
+    "METAL",
+    "C90"
+   ],
+   "spine": "jcard-spine-cipher-metal-c90",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-B_1.png"
+  },
+  "jcard-spine-cipher-metal-c90": {
+   "u0": 0.412109375,
+   "v0": 1.078125,
+   "u1": 0.490234375,
+   "v1": 1.08837890625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / METAL C90",
+   "lines": [
+    "CIPHER",
+    "METAL C90"
+   ],
+   "front": "jcard-cipher-metal-c90",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-type1-c60": {
+   "u0": 0.822265625,
+   "v0": 0.7021484375,
+   "u1": 0.900390625,
+   "v1": 0.7529296875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / TYPE I / C60",
+   "lines": [
+    "CIPHER",
+    "TYPE I",
+    "C60"
+   ],
+   "spine": "jcard-spine-cipher-type1-c60",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-B_1.png"
+  },
+  "jcard-spine-cipher-type1-c60": {
+   "u0": 0.166015625,
+   "v0": 1.09228515625,
+   "u1": 0.244140625,
+   "v1": 1.1025390625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / TYPE I C60",
+   "lines": [
+    "CIPHER",
+    "TYPE I C60"
+   ],
+   "front": "jcard-cipher-type1-c60",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-c90-blue": {
+   "u0": 0.576171875,
+   "v0": 0.6474609375,
+   "u1": 0.654296875,
+   "v1": 0.6982421875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C90 / NORMAL POSITION",
+   "lines": [
+    "CIPHER",
+    "C90",
+    "NORMAL POSITION"
+   ],
+   "spine": "jcard-spine-cipher-c90-blue",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-B_1.png"
+  },
+  "jcard-spine-cipher-c90-blue": {
+   "u0": 0.248046875,
+   "v0": 1.06396484375,
+   "u1": 0.326171875,
+   "v1": 1.07421875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C90 · NORMAL",
+   "lines": [
+    "CIPHER",
+    "C90 · NORMAL"
+   ],
+   "front": "jcard-cipher-c90-blue",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-studio-c60": {
+   "u0": 0.740234375,
+   "v0": 0.7021484375,
+   "u1": 0.818359375,
+   "v1": 0.7529296875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / STUDIO / C60",
+   "lines": [
+    "CIPHER",
+    "STUDIO",
+    "C60"
+   ],
+   "spine": "jcard-spine-cipher-studio-c60",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-B_1.png"
+  },
+  "jcard-spine-cipher-studio-c60": {
+   "u0": 0.494140625,
+   "v0": 1.0849609375,
+   "u1": 0.572265625,
+   "v1": 1.09521484375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / STUDIO C60",
+   "lines": [
+    "CIPHER",
+    "STUDIO C60"
+   ],
+   "front": "jcard-cipher-studio-c60",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-c60-mustard": {
+   "u0": 0.904296875,
+   "v0": 0.5927734375,
+   "u1": 0.982421875,
+   "v1": 0.6435546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C60 / NORMAL POSITION",
+   "lines": [
+    "CIPHER",
+    "C60",
+    "NORMAL POSITION"
+   ],
+   "spine": "jcard-spine-cipher-c60-mustard",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-B_1.png"
+  },
+  "jcard-spine-cipher-c60-mustard": {
+   "u0": 0.166015625,
+   "v0": 1.06396484375,
+   "u1": 0.244140625,
+   "v1": 1.07421875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C60 · NORMAL",
+   "lines": [
+    "CIPHER",
+    "C60 · NORMAL"
+   ],
+   "front": "jcard-cipher-c60-mustard",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-chrome-c90-plum": {
+   "u0": 0.904296875,
+   "v0": 0.6474609375,
+   "u1": 0.982421875,
+   "v1": 0.6982421875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / CHROME / C90",
+   "lines": [
+    "CIPHER",
+    "CHROME",
+    "C90"
+   ],
+   "spine": "jcard-spine-cipher-chrome-c90-plum",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-B_1.png"
+  },
+  "jcard-spine-cipher-chrome-c90-plum": {
+   "u0": 0.248046875,
+   "v0": 1.078125,
+   "u1": 0.326171875,
+   "v1": 1.08837890625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / CHROME C90",
+   "lines": [
+    "CIPHER",
+    "CHROME C90"
+   ],
+   "front": "jcard-cipher-chrome-c90-plum",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-c90-pinstripe": {
+   "u0": 0.740234375,
+   "v0": 0.6474609375,
+   "u1": 0.818359375,
+   "v1": 0.6982421875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C90 / NORMAL POSITION",
+   "lines": [
+    "CIPHER",
+    "C90",
+    "NORMAL POSITION"
+   ],
+   "spine": "jcard-spine-cipher-c90-pinstripe",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-C_1.png"
+  },
+  "jcard-spine-cipher-c90-pinstripe": {
+   "u0": 0.412109375,
+   "v0": 1.06396484375,
+   "u1": 0.490234375,
+   "v1": 1.07421875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C90 · NORMAL",
+   "lines": [
+    "CIPHER",
+    "C90 · NORMAL"
+   ],
+   "front": "jcard-cipher-c90-pinstripe",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-c60-checker": {
+   "u0": 0.822265625,
+   "v0": 0.5927734375,
+   "u1": 0.900390625,
+   "v1": 0.6435546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C60 / NORMAL POSITION",
+   "lines": [
+    "CIPHER",
+    "C60",
+    "NORMAL POSITION"
+   ],
+   "spine": "jcard-spine-cipher-c60-checker",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-C_1.png"
+  },
+  "jcard-spine-cipher-c60-checker": {
+   "u0": 0.412109375,
+   "v0": 1.0498046875,
+   "u1": 0.490234375,
+   "v1": 1.06005859375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C60 · NORMAL",
+   "lines": [
+    "CIPHER",
+    "C60 · NORMAL"
+   ],
+   "front": "jcard-cipher-c60-checker",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-metal-c60": {
+   "u0": 0.576171875,
+   "v0": 0.7021484375,
+   "u1": 0.654296875,
+   "v1": 0.7529296875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / METAL / C60",
+   "lines": [
+    "CIPHER",
+    "METAL",
+    "C60"
+   ],
+   "spine": "jcard-spine-cipher-metal-c60",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-C_1.png"
+  },
+  "jcard-spine-cipher-metal-c60": {
+   "u0": 0.330078125,
+   "v0": 1.078125,
+   "u1": 0.408203125,
+   "v1": 1.08837890625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / METAL C60",
+   "lines": [
+    "CIPHER",
+    "METAL C60"
+   ],
+   "front": "jcard-cipher-metal-c60",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-c120-green": {
+   "u0": 0.658203125,
+   "v0": 0.5927734375,
+   "u1": 0.736328125,
+   "v1": 0.6435546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C120",
+   "lines": [
+    "CIPHER",
+    "C120"
+   ],
+   "spine": "jcard-spine-cipher-c120-green",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-C_1.png"
+  },
+  "jcard-spine-cipher-c120-green": {
+   "u0": 0.248046875,
+   "v0": 1.0498046875,
+   "u1": 0.326171875,
+   "v1": 1.06005859375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C120",
+   "lines": [
+    "CIPHER",
+    "C120"
+   ],
+   "front": "jcard-cipher-c120-green",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-cipher-c90-dusk": {
+   "u0": 0.658203125,
+   "v0": 0.6474609375,
+   "u1": 0.736328125,
+   "v1": 0.6982421875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / C90 / NORMAL POSITION",
+   "lines": [
+    "CIPHER",
+    "C90",
+    "NORMAL POSITION"
+   ],
+   "spine": "jcard-spine-cipher-c90-dusk",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-C_1.png"
+  },
+  "jcard-spine-cipher-c90-dusk": {
+   "u0": 0.330078125,
+   "v0": 1.06396484375,
+   "u1": 0.408203125,
+   "v1": 1.07421875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CIPHER / C90 · NORMAL",
+   "lines": [
+    "CIPHER",
+    "C90 · NORMAL"
+   ],
+   "front": "jcard-cipher-c90-dusk",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-c60": {
+   "u0": 0.330078125,
+   "v0": 0.9951171875,
+   "u1": 0.408203125,
+   "v1": 1.0458984375,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / C60",
+   "lines": [
+    "SONA",
+    "C60"
+   ],
+   "spine": "jcard-spine-sona-c60",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-C_1.png"
+  },
+  "jcard-spine-sona-c60": {
+   "u0": 0.330078125,
+   "v0": 1.20556640625,
+   "u1": 0.408203125,
+   "v1": 1.2158203125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / C60",
+   "lines": [
+    "SONA",
+    "C60"
+   ],
+   "front": "jcard-sona-c60",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-c120": {
+   "u0": 0.083984375,
+   "v0": 0.9951171875,
+   "u1": 0.162109375,
+   "v1": 1.0458984375,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / C120",
+   "lines": [
+    "SONA",
+    "C120"
+   ],
+   "spine": "jcard-spine-sona-c120",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-C_1.png"
+  },
+  "jcard-spine-sona-c120": {
+   "u0": 0.001953125,
+   "v0": 1.2177734375,
+   "u1": 0.080078125,
+   "v1": 1.22802734375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / C120",
+   "lines": [
+    "SONA",
+    "C120"
+   ],
+   "front": "jcard-sona-c120",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-chrome-c90": {
+   "u0": 0.822265625,
+   "v0": 1.0302734375,
+   "u1": 0.900390625,
+   "v1": 1.0810546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / CHROME / C90",
+   "lines": [
+    "SONA",
+    "CHROME",
+    "C90"
+   ],
+   "spine": "jcard-spine-sona-chrome-c90",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-C_1.png"
+  },
+  "jcard-spine-sona-chrome-c90": {
+   "u0": 0.904296875,
+   "v0": 1.1982421875,
+   "u1": 0.982421875,
+   "v1": 1.20849609375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / CHROME C90",
+   "lines": [
+    "SONA",
+    "CHROME C90"
+   ],
+   "front": "jcard-sona-chrome-c90",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-metal-c90": {
+   "u0": 0.001953125,
+   "v0": 1.0498046875,
+   "u1": 0.080078125,
+   "v1": 1.1005859375,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / METAL / C90",
+   "lines": [
+    "SONA",
+    "METAL",
+    "C90"
+   ],
+   "spine": "jcard-spine-sona-metal-c90",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-C_1.png"
+  },
+  "jcard-spine-sona-metal-c90": {
+   "u0": 0.166015625,
+   "v0": 1.2197265625,
+   "u1": 0.244140625,
+   "v1": 1.22998046875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / METAL C90",
+   "lines": [
+    "SONA",
+    "METAL C90"
+   ],
+   "front": "jcard-sona-metal-c90",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-c90-teal": {
+   "u0": 0.658203125,
+   "v0": 1.0302734375,
+   "u1": 0.736328125,
+   "v1": 1.0810546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / C90",
+   "lines": [
+    "SONA",
+    "C90"
+   ],
+   "spine": "jcard-spine-sona-c90-teal",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-D_1.png"
+  },
+  "jcard-spine-sona-c90-teal": {
+   "u0": 0.740234375,
+   "v0": 1.1982421875,
+   "u1": 0.818359375,
+   "v1": 1.20849609375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / C90",
+   "lines": [
+    "SONA",
+    "C90"
+   ],
+   "front": "jcard-sona-c90-teal",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-c46": {
+   "u0": 0.248046875,
+   "v0": 0.9951171875,
+   "u1": 0.326171875,
+   "v1": 1.0458984375,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / C46",
+   "lines": [
+    "SONA",
+    "C46"
+   ],
+   "spine": "jcard-spine-sona-c46",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-D_1.png"
+  },
+  "jcard-spine-sona-c46": {
+   "u0": 0.248046875,
+   "v0": 1.20556640625,
+   "u1": 0.326171875,
+   "v1": 1.2158203125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / C46",
+   "lines": [
+    "SONA",
+    "C46"
+   ],
+   "front": "jcard-sona-c46",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-type2-c60": {
+   "u0": 0.083984375,
+   "v0": 1.0498046875,
+   "u1": 0.162109375,
+   "v1": 1.1005859375,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / TYPE II / C60",
+   "lines": [
+    "SONA",
+    "TYPE II",
+    "C60"
+   ],
+   "spine": "jcard-spine-sona-type2-c60",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-D_1.png"
+  },
+  "jcard-spine-sona-type2-c60": {
+   "u0": 0.001953125,
+   "v0": 1.23193359375,
+   "u1": 0.080078125,
+   "v1": 1.2421875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / TYPE II C60",
+   "lines": [
+    "SONA",
+    "TYPE II C60"
+   ],
+   "front": "jcard-sona-type2-c60",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-c90-tartan": {
+   "u0": 0.576171875,
+   "v0": 1.0302734375,
+   "u1": 0.654296875,
+   "v1": 1.0810546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / C90",
+   "lines": [
+    "SONA",
+    "C90"
+   ],
+   "spine": "jcard-spine-sona-c90-tartan",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-D_1.png"
+  },
+  "jcard-spine-sona-c90-tartan": {
+   "u0": 0.658203125,
+   "v0": 1.1982421875,
+   "u1": 0.736328125,
+   "v1": 1.20849609375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / C90",
+   "lines": [
+    "SONA",
+    "C90"
+   ],
+   "front": "jcard-sona-c90-tartan",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-c60-grid": {
+   "u0": 0.412109375,
+   "v0": 0.9951171875,
+   "u1": 0.490234375,
+   "v1": 1.0458984375,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / C60",
+   "lines": [
+    "SONA",
+    "C60"
+   ],
+   "spine": "jcard-spine-sona-c60-grid",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-D_1.png"
+  },
+  "jcard-spine-sona-c60-grid": {
+   "u0": 0.412109375,
+   "v0": 1.20556640625,
+   "u1": 0.490234375,
+   "v1": 1.2158203125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / C60",
+   "lines": [
+    "SONA",
+    "C60"
+   ],
+   "front": "jcard-sona-c60-grid",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-metal-c46": {
+   "u0": 0.904296875,
+   "v0": 1.0302734375,
+   "u1": 0.982421875,
+   "v1": 1.0810546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / METAL / C46",
+   "lines": [
+    "SONA",
+    "METAL",
+    "C46"
+   ],
+   "spine": "jcard-spine-sona-metal-c46",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-D_1.png"
+  },
+  "jcard-spine-sona-metal-c46": {
+   "u0": 0.494140625,
+   "v0": 1.21240234375,
+   "u1": 0.572265625,
+   "v1": 1.22265625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / METAL C46",
+   "lines": [
+    "SONA",
+    "METAL C46"
+   ],
+   "front": "jcard-sona-metal-c46",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-c90-bands": {
+   "u0": 0.494140625,
+   "v0": 1.0302734375,
+   "u1": 0.572265625,
+   "v1": 1.0810546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / C90",
+   "lines": [
+    "SONA",
+    "C90"
+   ],
+   "spine": "jcard-spine-sona-c90-bands",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-D_1.png"
+  },
+  "jcard-spine-sona-c90-bands": {
+   "u0": 0.576171875,
+   "v0": 1.1982421875,
+   "u1": 0.654296875,
+   "v1": 1.20849609375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / C90",
+   "lines": [
+    "SONA",
+    "C90"
+   ],
+   "front": "jcard-sona-c90-bands",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-chrome-c60": {
+   "u0": 0.740234375,
+   "v0": 1.0302734375,
+   "u1": 0.818359375,
+   "v1": 1.0810546875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / CHROME / C60",
+   "lines": [
+    "SONA",
+    "CHROME",
+    "C60"
+   ],
+   "spine": "jcard-spine-sona-chrome-c60",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-D_1.png"
+  },
+  "jcard-spine-sona-chrome-c60": {
+   "u0": 0.822265625,
+   "v0": 1.1982421875,
+   "u1": 0.900390625,
+   "v1": 1.20849609375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / CHROME C60",
+   "lines": [
+    "SONA",
+    "CHROME C60"
+   ],
+   "front": "jcard-sona-chrome-c60",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-sona-c120-dots": {
+   "u0": 0.166015625,
+   "v0": 0.9951171875,
+   "u1": 0.244140625,
+   "v1": 1.0458984375,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / C120",
+   "lines": [
+    "SONA",
+    "C120"
+   ],
+   "spine": "jcard-spine-sona-c120-dots",
+   "brand": "SONA",
+   "pool": "tape-jcard-blank",
+   "source": "PROPS-COVERS-JCARDS-BLANK-D_1.png"
+  },
+  "jcard-spine-sona-c120-dots": {
+   "u0": 0.083984375,
+   "v0": 1.2177734375,
+   "u1": 0.162109375,
+   "v1": 1.22802734375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SONA / C120",
+   "lines": [
+    "SONA",
+    "C120"
+   ],
+   "front": "jcard-sona-c120-dots",
+   "pool": "tape-spine-blank",
+   "source": "rendered"
+  },
+  "jcard-mix-mix-4": {
+   "u0": 0.740234375,
+   "v0": 0.8662109375,
+   "u1": 0.818359375,
+   "v1": 0.9169921875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / MIX 4 / SIDE A / SIDE B",
+   "lines": [
+    "CIPHER",
+    "MIX 4",
+    "SIDE A",
+    "SIDE B"
+   ],
+   "spine": "jcard-spine-mix-mix-4",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-B_1.png"
+  },
+  "jcard-mix-rain-set": {
+   "u0": 0.810546875,
+   "v0": 0.9208984375,
+   "u1": 0.888671875,
+   "v1": 0.9716796875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / RAIN SET",
+   "lines": [
+    "SONA",
+    "RAIN SET"
+   ],
+   "spine": "jcard-spine-mix-rain-set",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-B_1.png"
+  },
+  "jcard-mix-lcs-night-set-12": {
+   "u0": 0.658203125,
+   "v0": 0.8662109375,
+   "u1": 0.736328125,
+   "v1": 0.9169921875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / LCS NIGHT SET 12",
+   "lines": [
+    "CIPHER",
+    "LCS NIGHT SET 12"
+   ],
+   "spine": "jcard-spine-mix-lcs-night-set-12",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-B_1.png"
+  },
+  "jcard-mix-dub-plates": {
+   "u0": 0.822265625,
+   "v0": 0.7568359375,
+   "u1": 0.900390625,
+   "v1": 0.8076171875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / DUB PLATES",
+   "lines": [
+    "SONA",
+    "DUB PLATES"
+   ],
+   "spine": "jcard-spine-mix-dub-plates",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-B_1.png"
+  },
+  "jcard-mix-slow-ones": {
+   "u0": 0.564453125,
+   "v0": 0.9755859375,
+   "u1": 0.642578125,
+   "v1": 1.0263671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / SLOW ONES",
+   "lines": [
+    "CIPHER",
+    "SLOW ONES"
+   ],
+   "spine": "jcard-spine-mix-slow-ones",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-B_1.png"
+  },
+  "jcard-mix-night-bus": {
+   "u0": 0.822265625,
+   "v0": 0.8662109375,
+   "u1": 0.900390625,
+   "v1": 0.9169921875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / NIGHT BUS / SIDE A",
+   "lines": [
+    "SONA",
+    "NIGHT BUS",
+    "SIDE A"
+   ],
+   "spine": "jcard-spine-mix-night-bus",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-B_1.png"
+  },
+  "jcard-mix-b-sides": {
+   "u0": 0.576171875,
+   "v0": 0.7568359375,
+   "u1": 0.654296875,
+   "v1": 0.8076171875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / B-SIDES",
+   "lines": [
+    "CIPHER",
+    "B-SIDES"
+   ],
+   "spine": "jcard-spine-mix-b-sides",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-B_1.png"
+  },
+  "jcard-mix-fog-mix-ii": {
+   "u0": 0.576171875,
+   "v0": 0.8115234375,
+   "u1": 0.654296875,
+   "v1": 0.8623046875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / FOG MIX II",
+   "lines": [
+    "SONA",
+    "FOG MIX II"
+   ],
+   "spine": "jcard-spine-mix-fog-mix-ii",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-B_1.png"
+  },
+  "jcard-mix-do-not-tape-over": {
+   "u0": 0.740234375,
+   "v0": 0.7568359375,
+   "u1": 0.818359375,
+   "v1": 0.8076171875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / DO NOT TAPE OVER",
+   "lines": [
+    "CIPHER",
+    "DO NOT TAPE OVER"
+   ],
+   "spine": "jcard-spine-mix-do-not-tape-over",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-B_1.png"
+  },
+  "jcard-mix-sunday-tape": {
+   "u0": 0.728515625,
+   "v0": 0.9755859375,
+   "u1": 0.806640625,
+   "v1": 1.0263671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / sunday tape",
+   "lines": [
+    "SONA",
+    "sunday tape"
+   ],
+   "spine": "jcard-spine-mix-sunday-tape",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-C_1.png"
+  },
+  "jcard-mix-for-vibe": {
+   "u0": 0.658203125,
+   "v0": 0.8115234375,
+   "u1": 0.736328125,
+   "v1": 0.8623046875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / for vibe",
+   "lines": [
+    "CIPHER",
+    "for vibe"
+   ],
+   "spine": "jcard-spine-mix-for-vibe",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-C_1.png"
+  },
+  "jcard-mix-kitchen-radio": {
+   "u0": 0.576171875,
+   "v0": 0.8662109375,
+   "u1": 0.654296875,
+   "v1": 0.9169921875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / kitchen radio",
+   "lines": [
+    "SONA",
+    "kitchen radio"
+   ],
+   "spine": "jcard-spine-mix-kitchen-radio",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-C_1.png"
+  },
+  "jcard-mix-old-radio": {
+   "u0": 0.564453125,
+   "v0": 0.9208984375,
+   "u1": 0.642578125,
+   "v1": 0.9716796875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / old radio",
+   "lines": [
+    "CIPHER",
+    "old radio"
+   ],
+   "spine": "jcard-spine-mix-old-radio",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-C_1.png"
+  },
+  "jcard-mix-4am": {
+   "u0": 0.904296875,
+   "v0": 0.7021484375,
+   "u1": 0.982421875,
+   "v1": 0.7529296875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / 4am",
+   "lines": [
+    "SONA",
+    "4am"
+   ],
+   "spine": "jcard-spine-mix-4am",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-C_1.png"
+  },
+  "jcard-mix-winter-98": {
+   "u0": 0.001953125,
+   "v0": 0.9951171875,
+   "u1": 0.080078125,
+   "v1": 1.0458984375,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / winter 98",
+   "lines": [
+    "CIPHER",
+    "winter 98"
+   ],
+   "spine": "jcard-spine-mix-winter-98",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-C_1.png"
+  },
+  "jcard-mix-rooftop-dub-2": {
+   "u0": 0.892578125,
+   "v0": 0.9208984375,
+   "u1": 0.970703125,
+   "v1": 0.9716796875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / rooftop dub 2",
+   "lines": [
+    "SONA",
+    "rooftop dub 2"
+   ],
+   "spine": "jcard-spine-mix-rooftop-dub-2",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-C_1.png"
+  },
+  "jcard-mix-voice-notes": {
+   "u0": 0.892578125,
+   "v0": 0.9755859375,
+   "u1": 0.970703125,
+   "v1": 1.0263671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / voice notes",
+   "lines": [
+    "CIPHER",
+    "voice notes"
+   ],
+   "spine": "jcard-spine-mix-voice-notes",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-C_1.png"
+  },
+  "jcard-mix-good-ones": {
+   "u0": 0.822265625,
+   "v0": 0.8115234375,
+   "u1": 0.900390625,
+   "v1": 0.8623046875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / good ones",
+   "lines": [
+    "SONA",
+    "good ones"
+   ],
+   "spine": "jcard-spine-mix-good-ones",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-C_1.png"
+  },
+  "jcard-mix-tape-9": {
+   "u0": 0.810546875,
+   "v0": 0.9755859375,
+   "u1": 0.888671875,
+   "v1": 1.0263671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / TAPE 9",
+   "lines": [
+    "CIPHER",
+    "TAPE 9"
+   ],
+   "spine": "jcard-spine-mix-tape-9",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-D_1.png"
+  },
+  "jcard-mix-overcast-comp": {
+   "u0": 0.646484375,
+   "v0": 0.9208984375,
+   "u1": 0.724609375,
+   "v1": 0.9716796875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / OVERCAST COMP",
+   "lines": [
+    "SONA",
+    "OVERCAST COMP"
+   ],
+   "spine": "jcard-spine-mix-overcast-comp",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-D_1.png"
+  },
+  "jcard-mix-gianni-velour-b-sides": {
+   "u0": 0.740234375,
+   "v0": 0.8115234375,
+   "u1": 0.818359375,
+   "v1": 0.8623046875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / GIANNI VELOUR B-SIDES",
+   "lines": [
+    "CIPHER",
+    "GIANNI VELOUR B-SIDES"
+   ],
+   "spine": "jcard-spine-mix-gianni-velour-b-sides",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-D_1.png"
+  },
+  "jcard-mix-noise-complaint-demo": {
+   "u0": 0.904296875,
+   "v0": 0.8662109375,
+   "u1": 0.982421875,
+   "v1": 0.9169921875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / NOISE COMPLAINT DEMO",
+   "lines": [
+    "SONA",
+    "NOISE COMPLAINT DEMO"
+   ],
+   "spine": "jcard-spine-mix-noise-complaint-demo",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-D_1.png"
+  },
+  "jcard-mix-radio-rips-vol-2": {
+   "u0": 0.728515625,
+   "v0": 0.9208984375,
+   "u1": 0.806640625,
+   "v1": 0.9716796875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / RADIO RIPS VOL 2",
+   "lines": [
+    "CIPHER",
+    "RADIO RIPS VOL 2"
+   ],
+   "spine": "jcard-spine-mix-radio-rips-vol-2",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-D_1.png"
+  },
+  "jcard-mix-spire-sound-sampler": {
+   "u0": 0.646484375,
+   "v0": 0.9755859375,
+   "u1": 0.724609375,
+   "v1": 1.0263671875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / SPIRE SOUND SAMPLER",
+   "lines": [
+    "SONA",
+    "SPIRE SOUND SAMPLER"
+   ],
+   "spine": "jcard-spine-mix-spire-sound-sampler",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-D_1.png"
+  },
+  "jcard-mix-hiss": {
+   "u0": 0.904296875,
+   "v0": 0.8115234375,
+   "u1": 0.982421875,
+   "v1": 0.8623046875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / HISS",
+   "lines": [
+    "CIPHER",
+    "HISS"
+   ],
+   "spine": "jcard-spine-mix-hiss",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-D_1.png"
+  },
+  "jcard-mix-copy-of-copy": {
+   "u0": 0.658203125,
+   "v0": 0.7568359375,
+   "u1": 0.736328125,
+   "v1": 0.8076171875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "SONA / COPY OF COPY",
+   "lines": [
+    "SONA",
+    "COPY OF COPY"
+   ],
+   "spine": "jcard-spine-mix-copy-of-copy",
+   "brand": "SONA",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-D_1.png"
+  },
+  "jcard-mix-field-recs": {
+   "u0": 0.904296875,
+   "v0": 0.7568359375,
+   "u1": 0.982421875,
+   "v1": 0.8076171875,
+   "wMm": 100,
+   "hMm": 65,
+   "kind": "jcard",
+   "text": "CIPHER / FIELD RECS",
+   "lines": [
+    "CIPHER",
+    "FIELD RECS"
+   ],
+   "spine": "jcard-spine-mix-field-recs",
+   "brand": "CIPHER",
+   "pool": "tape-jcard-mix",
+   "source": "PROPS-COVERS-JCARDS-MIX-D_1.png"
+  },
+  "jcard-spine-mix-mix-4": {
+   "u0": 0.494140625,
+   "v0": 1.18408203125,
+   "u1": 0.572265625,
+   "v1": 1.1943359375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "MIX 4",
+   "lines": [
+    "MIX 4"
+   ],
+   "front": "jcard-mix-mix-4",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-mix-rain-set": {
+   "u0": 0.412109375,
+   "v0": 1.19140625,
+   "u1": 0.490234375,
+   "v1": 1.20166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "RAIN SET",
+   "lines": [
+    "RAIN SET"
+   ],
+   "front": "jcard-mix-rain-set",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-mix-lcs-night-set-12": {
+   "u0": 0.904296875,
+   "v0": 1.169921875,
+   "u1": 0.982421875,
+   "v1": 1.18017578125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 12",
+   "lines": [
+    "LCS NIGHT SET 12"
+   ],
+   "front": "jcard-mix-lcs-night-set-12",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-mix-dub-plates": {
+   "u0": 0.083984375,
+   "v0": 1.189453125,
+   "u1": 0.162109375,
+   "v1": 1.19970703125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "DUB PLATES",
+   "lines": [
+    "DUB PLATES"
+   ],
+   "front": "jcard-mix-dub-plates",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-mix-slow-ones": {
+   "u0": 0.658203125,
+   "v0": 1.18408203125,
+   "u1": 0.736328125,
+   "v1": 1.1943359375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SLOW ONES",
+   "lines": [
+    "SLOW ONES"
+   ],
+   "front": "jcard-mix-slow-ones",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-mix-night-bus": {
+   "u0": 0.166015625,
+   "v0": 1.19140625,
+   "u1": 0.244140625,
+   "v1": 1.20166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "NIGHT BUS",
+   "lines": [
+    "NIGHT BUS"
+   ],
+   "front": "jcard-mix-night-bus",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-mix-b-sides": {
+   "u0": 0.494140625,
+   "v0": 1.169921875,
+   "u1": 0.572265625,
+   "v1": 1.18017578125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "B-SIDES",
+   "lines": [
+    "B-SIDES"
+   ],
+   "front": "jcard-mix-b-sides",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-mix-fog-mix-ii": {
+   "u0": 0.330078125,
+   "v0": 1.17724609375,
+   "u1": 0.408203125,
+   "v1": 1.1875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "FOG MIX II",
+   "lines": [
+    "FOG MIX II"
+   ],
+   "front": "jcard-mix-fog-mix-ii",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-mix-do-not-tape-over": {
+   "u0": 0.001953125,
+   "v0": 1.189453125,
+   "u1": 0.080078125,
+   "v1": 1.19970703125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "DO NOT TAPE OVER",
+   "lines": [
+    "DO NOT TAPE OVER"
+   ],
+   "front": "jcard-mix-do-not-tape-over",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-hand-static": {
+   "u0": 0.083984375,
+   "v0": 1.17529296875,
+   "u1": 0.162109375,
+   "v1": 1.185546875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "STATIC",
+   "lines": [
+    "STATIC"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-hand-breaks": {
+   "u0": 0.576171875,
+   "v0": 1.0849609375,
+   "u1": 0.654296875,
+   "v1": 1.09521484375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "BREAKS",
+   "lines": [
+    "BREAKS"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-hand-loops": {
+   "u0": 0.166015625,
+   "v0": 1.134765625,
+   "u1": 0.244140625,
+   "v1": 1.14501953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LOOPS",
+   "lines": [
+    "LOOPS"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-hand-mix-7": {
+   "u0": 0.576171875,
+   "v0": 1.12744140625,
+   "u1": 0.654296875,
+   "v1": 1.1376953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "MIX 7",
+   "lines": [
+    "MIX 7"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-hand-side-b-only": {
+   "u0": 0.822265625,
+   "v0": 1.1416015625,
+   "u1": 0.900390625,
+   "v1": 1.15185546875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SIDE B ONLY",
+   "lines": [
+    "SIDE B ONLY"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-hand-rough-mix": {
+   "u0": 0.658203125,
+   "v0": 1.1416015625,
+   "u1": 0.736328125,
+   "v1": 1.15185546875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "ROUGH MIX",
+   "lines": [
+    "ROUGH MIX"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-hand-on-air-cuts": {
+   "u0": 0.166015625,
+   "v0": 1.14892578125,
+   "u1": 0.244140625,
+   "v1": 1.1591796875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "ON AIR CUTS",
+   "lines": [
+    "ON AIR CUTS"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-A_1.png"
+  },
+  "jcard-spine-mix-sunday-tape": {
+   "u0": 0.822265625,
+   "v0": 1.18408203125,
+   "u1": 0.900390625,
+   "v1": 1.1943359375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "sunday tape",
+   "lines": [
+    "sunday tape"
+   ],
+   "front": "jcard-mix-sunday-tape",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-mix-for-vibe": {
+   "u0": 0.412109375,
+   "v0": 1.17724609375,
+   "u1": 0.490234375,
+   "v1": 1.1875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "for vibe",
+   "lines": [
+    "for vibe"
+   ],
+   "front": "jcard-mix-for-vibe",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-mix-kitchen-radio": {
+   "u0": 0.822265625,
+   "v0": 1.169921875,
+   "u1": 0.900390625,
+   "v1": 1.18017578125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "kitchen radio",
+   "lines": [
+    "kitchen radio"
+   ],
+   "front": "jcard-mix-kitchen-radio",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-mix-old-radio": {
+   "u0": 0.083984375,
+   "v0": 1.20361328125,
+   "u1": 0.162109375,
+   "v1": 1.2138671875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "old radio",
+   "lines": [
+    "old radio"
+   ],
+   "front": "jcard-mix-old-radio",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-mix-4am": {
+   "u0": 0.904296875,
+   "v0": 1.15576171875,
+   "u1": 0.982421875,
+   "v1": 1.166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "4am",
+   "lines": [
+    "4am"
+   ],
+   "front": "jcard-mix-4am",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-mix-winter-98": {
+   "u0": 0.166015625,
+   "v0": 1.20556640625,
+   "u1": 0.244140625,
+   "v1": 1.2158203125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "winter 98",
+   "lines": [
+    "winter 98"
+   ],
+   "front": "jcard-mix-winter-98",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-mix-rooftop-dub-2": {
+   "u0": 0.576171875,
+   "v0": 1.18408203125,
+   "u1": 0.654296875,
+   "v1": 1.1943359375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "rooftop dub 2",
+   "lines": [
+    "rooftop dub 2"
+   ],
+   "front": "jcard-mix-rooftop-dub-2",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-mix-voice-notes": {
+   "u0": 0.494140625,
+   "v0": 1.1982421875,
+   "u1": 0.572265625,
+   "v1": 1.20849609375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "voice notes",
+   "lines": [
+    "voice notes"
+   ],
+   "front": "jcard-mix-voice-notes",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-mix-good-ones": {
+   "u0": 0.658203125,
+   "v0": 1.169921875,
+   "u1": 0.736328125,
+   "v1": 1.18017578125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "good ones",
+   "lines": [
+    "good ones"
+   ],
+   "front": "jcard-mix-good-ones",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-hand-tuesday": {
+   "u0": 0.658203125,
+   "v0": 1.15576171875,
+   "u1": 0.736328125,
+   "v1": 1.166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "tuesday",
+   "lines": [
+    "tuesday"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-hand-sleep": {
+   "u0": 0.494140625,
+   "v0": 1.15576171875,
+   "u1": 0.572265625,
+   "v1": 1.166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "sleep",
+   "lines": [
+    "sleep"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-hand-trains": {
+   "u0": 0.576171875,
+   "v0": 1.15576171875,
+   "u1": 0.654296875,
+   "v1": 1.166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "trains",
+   "lines": [
+    "trains"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-hand-elevator": {
+   "u0": 0.576171875,
+   "v0": 1.09912109375,
+   "u1": 0.654296875,
+   "v1": 1.109375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "elevator",
+   "lines": [
+    "elevator"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-hand-mints": {
+   "u0": 0.248046875,
+   "v0": 1.134765625,
+   "u1": 0.326171875,
+   "v1": 1.14501953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "mint's",
+   "lines": [
+    "mint's"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-hand-work-mix": {
+   "u0": 0.822265625,
+   "v0": 1.15576171875,
+   "u1": 0.900390625,
+   "v1": 1.166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "work mix",
+   "lines": [
+    "work mix"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-hand-summer-99": {
+   "u0": 0.248046875,
+   "v0": 1.1630859375,
+   "u1": 0.326171875,
+   "v1": 1.17333984375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "summer 99",
+   "lines": [
+    "summer 99"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-B_1.png"
+  },
+  "jcard-spine-mix-tape-9": {
+   "u0": 0.904296875,
+   "v0": 1.18408203125,
+   "u1": 0.982421875,
+   "v1": 1.1943359375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "TAPE 9",
+   "lines": [
+    "TAPE 9"
+   ],
+   "front": "jcard-mix-tape-9",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-mix-overcast-comp": {
+   "u0": 0.248046875,
+   "v0": 1.19140625,
+   "u1": 0.326171875,
+   "v1": 1.20166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "OVERCAST COMP",
+   "lines": [
+    "OVERCAST COMP"
+   ],
+   "front": "jcard-mix-overcast-comp",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-mix-gianni-velour-b-sides": {
+   "u0": 0.576171875,
+   "v0": 1.169921875,
+   "u1": 0.654296875,
+   "v1": 1.18017578125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "GIANNI VELOUR B-SIDES",
+   "lines": [
+    "GIANNI VELOUR B-SIDES"
+   ],
+   "front": "jcard-mix-gianni-velour-b-sides",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-mix-noise-complaint-demo": {
+   "u0": 0.001953125,
+   "v0": 1.20361328125,
+   "u1": 0.080078125,
+   "v1": 1.2138671875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "NOISE COMPLAINT DEMO",
+   "lines": [
+    "NOISE COMPLAINT DEMO"
+   ],
+   "front": "jcard-mix-noise-complaint-demo",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-mix-radio-rips-vol-2": {
+   "u0": 0.330078125,
+   "v0": 1.19140625,
+   "u1": 0.408203125,
+   "v1": 1.20166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "RADIO RIPS VOL 2",
+   "lines": [
+    "RADIO RIPS VOL 2"
+   ],
+   "front": "jcard-mix-radio-rips-vol-2",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-mix-spire-sound-sampler": {
+   "u0": 0.740234375,
+   "v0": 1.18408203125,
+   "u1": 0.818359375,
+   "v1": 1.1943359375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SPIRE SOUND SAMPLER",
+   "lines": [
+    "SPIRE SOUND SAMPLER"
+   ],
+   "front": "jcard-mix-spire-sound-sampler",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-mix-hiss": {
+   "u0": 0.740234375,
+   "v0": 1.169921875,
+   "u1": 0.818359375,
+   "v1": 1.18017578125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "HISS",
+   "lines": [
+    "HISS"
+   ],
+   "front": "jcard-mix-hiss",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-mix-copy-of-copy": {
+   "u0": 0.166015625,
+   "v0": 1.17724609375,
+   "u1": 0.244140625,
+   "v1": 1.1875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "COPY OF COPY",
+   "lines": [
+    "COPY OF COPY"
+   ],
+   "front": "jcard-mix-copy-of-copy",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-mix-field-recs": {
+   "u0": 0.248046875,
+   "v0": 1.17724609375,
+   "u1": 0.326171875,
+   "v1": 1.1875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "FIELD RECS",
+   "lines": [
+    "FIELD RECS"
+   ],
+   "front": "jcard-mix-field-recs",
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-hand-disko-kolkhoz-mix": {
+   "u0": 0.083984375,
+   "v0": 1.11865234375,
+   "u1": 0.162109375,
+   "v1": 1.12890625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "DISKO KOLKHOZ MIX",
+   "lines": [
+    "DISKO KOLKHOZ MIX"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-hand-captain-rhombus": {
+   "u0": 0.822265625,
+   "v0": 1.0849609375,
+   "u1": 0.900390625,
+   "v1": 1.09521484375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "CAPTAIN RHOMBUS",
+   "lines": [
+    "CAPTAIN RHOMBUS"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-hand-forklift-bobby": {
+   "u0": 0.658203125,
+   "v0": 1.09912109375,
+   "u1": 0.736328125,
+   "v1": 1.109375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "FORKLIFT BOBBY",
+   "lines": [
+    "FORKLIFT BOBBY"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-hand-soul": {
+   "u0": 0.166015625,
+   "v0": 1.1630859375,
+   "u1": 0.244140625,
+   "v1": 1.17333984375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SOUL",
+   "lines": [
+    "SOUL"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-hand-test-tones": {
+   "u0": 0.412109375,
+   "v0": 1.1630859375,
+   "u1": 0.490234375,
+   "v1": 1.17333984375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "TEST TONES",
+   "lines": [
+    "TEST TONES"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-hand-ring-road": {
+   "u0": 0.576171875,
+   "v0": 1.1416015625,
+   "u1": 0.654296875,
+   "v1": 1.15185546875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "RING ROAD",
+   "lines": [
+    "RING ROAD"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-hand-qqq": {
+   "u0": 0.083984375,
+   "v0": 1.1611328125,
+   "u1": 0.162109375,
+   "v1": 1.17138671875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "???",
+   "lines": [
+    "???"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-C_1.png"
+  },
+  "jcard-spine-hand-lcs-night-set-1": {
+   "u0": 0.330078125,
+   "v0": 1.12060546875,
+   "u1": 0.408203125,
+   "v1": 1.130859375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 1",
+   "lines": [
+    "LCS NIGHT SET 1"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-lcs-night-set-2": {
+   "u0": 0.658203125,
+   "v0": 1.11328125,
+   "u1": 0.736328125,
+   "v1": 1.12353515625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 2",
+   "lines": [
+    "LCS NIGHT SET 2"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-lcs-night-set-4": {
+   "u0": 0.740234375,
+   "v0": 1.11328125,
+   "u1": 0.818359375,
+   "v1": 1.12353515625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 4",
+   "lines": [
+    "LCS NIGHT SET 4"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-lcs-night-set-5": {
+   "u0": 0.822265625,
+   "v0": 1.11328125,
+   "u1": 0.900390625,
+   "v1": 1.12353515625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 5",
+   "lines": [
+    "LCS NIGHT SET 5"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-lcs-night-set-8": {
+   "u0": 0.904296875,
+   "v0": 1.11328125,
+   "u1": 0.982421875,
+   "v1": 1.12353515625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 8",
+   "lines": [
+    "LCS NIGHT SET 8"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-lcs-night-set-9": {
+   "u0": 0.494140625,
+   "v0": 1.12744140625,
+   "u1": 0.572265625,
+   "v1": 1.1376953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 9",
+   "lines": [
+    "LCS NIGHT SET 9"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-lcs-night-set-10": {
+   "u0": 0.412109375,
+   "v0": 1.12060546875,
+   "u1": 0.490234375,
+   "v1": 1.130859375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 10",
+   "lines": [
+    "LCS NIGHT SET 10"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-lcs-night-set-11": {
+   "u0": 0.576171875,
+   "v0": 1.11328125,
+   "u1": 0.654296875,
+   "v1": 1.12353515625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS NIGHT SET 11",
+   "lines": [
+    "LCS NIGHT SET 11"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-lcs-archive-a": {
+   "u0": 0.083984375,
+   "v0": 1.1328125,
+   "u1": 0.162109375,
+   "v1": 1.14306640625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS ARCHIVE A",
+   "lines": [
+    "LCS ARCHIVE A"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-lcs-archive-b": {
+   "u0": 0.248046875,
+   "v0": 1.12060546875,
+   "u1": 0.326171875,
+   "v1": 1.130859375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "LCS ARCHIVE B",
+   "lines": [
+    "LCS ARCHIVE B"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-mixdown": {
+   "u0": 0.658203125,
+   "v0": 1.12744140625,
+   "u1": 0.736328125,
+   "v1": 1.1376953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "MIXDOWN",
+   "lines": [
+    "MIXDOWN"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-take-2": {
+   "u0": 0.330078125,
+   "v0": 1.1630859375,
+   "u1": 0.408203125,
+   "v1": 1.17333984375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "TAKE 2",
+   "lines": [
+    "TAKE 2"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-hold-music": {
+   "u0": 0.904296875,
+   "v0": 1.09912109375,
+   "u1": 0.982421875,
+   "v1": 1.109375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "HOLD MUSIC",
+   "lines": [
+    "HOLD MUSIC"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-polite-refusal-live": {
+   "u0": 0.001953125,
+   "v0": 1.1611328125,
+   "u1": 0.080078125,
+   "v1": 1.17138671875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "POLITE REFUSAL LIVE",
+   "lines": [
+    "POLITE REFUSAL LIVE"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-mourning-commute": {
+   "u0": 0.740234375,
+   "v0": 1.12744140625,
+   "u1": 0.818359375,
+   "v1": 1.1376953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "MOURNING COMMUTE",
+   "lines": [
+    "MOURNING COMMUTE"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-dental-plan": {
+   "u0": 0.001953125,
+   "v0": 1.11865234375,
+   "u1": 0.080078125,
+   "v1": 1.12890625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "DENTAL PLAN",
+   "lines": [
+    "DENTAL PLAN"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-D_1.png"
+  },
+  "jcard-spine-hand-radio-1-94": {
+   "u0": 0.248046875,
+   "v0": 1.14892578125,
+   "u1": 0.326171875,
+   "v1": 1.1591796875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "RADIO 1/94",
+   "lines": [
+    "RADIO 1/94"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-radio-2-94": {
+   "u0": 0.330078125,
+   "v0": 1.14892578125,
+   "u1": 0.408203125,
+   "v1": 1.1591796875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "RADIO 2/94",
+   "lines": [
+    "RADIO 2/94"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-interview": {
+   "u0": 0.494140625,
+   "v0": 1.11328125,
+   "u1": 0.572265625,
+   "v1": 1.12353515625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "INTERVIEW",
+   "lines": [
+    "INTERVIEW"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-broadcast-03": {
+   "u0": 0.658203125,
+   "v0": 1.0849609375,
+   "u1": 0.736328125,
+   "v1": 1.09521484375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "BROADCAST 03",
+   "lines": [
+    "BROADCAST 03"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-broadcast-07": {
+   "u0": 0.740234375,
+   "v0": 1.0849609375,
+   "u1": 0.818359375,
+   "v1": 1.09521484375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "BROADCAST 07",
+   "lines": [
+    "BROADCAST 07"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-aircheck": {
+   "u0": 0.083984375,
+   "v0": 1.1044921875,
+   "u1": 0.162109375,
+   "v1": 1.11474609375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "AIRCHECK",
+   "lines": [
+    "AIRCHECK"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-master-copy": {
+   "u0": 0.001953125,
+   "v0": 1.14697265625,
+   "u1": 0.080078125,
+   "v1": 1.1572265625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "MASTER COPY",
+   "lines": [
+    "MASTER COPY"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-duplicate": {
+   "u0": 0.412109375,
+   "v0": 1.1064453125,
+   "u1": 0.490234375,
+   "v1": 1.11669921875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "DUPLICATE",
+   "lines": [
+    "DUPLICATE"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-misc": {
+   "u0": 0.330078125,
+   "v0": 1.134765625,
+   "u1": 0.408203125,
+   "v1": 1.14501953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "misc",
+   "lines": [
+    "misc"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-demos": {
+   "u0": 0.494140625,
+   "v0": 1.09912109375,
+   "u1": 0.572265625,
+   "v1": 1.109375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "demos",
+   "lines": [
+    "demos"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-ambient": {
+   "u0": 0.248046875,
+   "v0": 1.09228515625,
+   "u1": 0.326171875,
+   "v1": 1.1025390625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "ambient",
+   "lines": [
+    "ambient"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-noise": {
+   "u0": 0.904296875,
+   "v0": 1.12744140625,
+   "u1": 0.982421875,
+   "v1": 1.1376953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "noise",
+   "lines": [
+    "noise"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-jazzq": {
+   "u0": 0.166015625,
+   "v0": 1.12060546875,
+   "u1": 0.244140625,
+   "v1": 1.130859375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "jazz?",
+   "lines": [
+    "jazz?"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-dub": {
+   "u0": 0.330078125,
+   "v0": 1.1064453125,
+   "u1": 0.408203125,
+   "v1": 1.11669921875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "dub",
+   "lines": [
+    "dub"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-sirens": {
+   "u0": 0.904296875,
+   "v0": 1.1416015625,
+   "u1": 0.982421875,
+   "v1": 1.15185546875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "sirens",
+   "lines": [
+    "sirens"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-found-tape": {
+   "u0": 0.740234375,
+   "v0": 1.09912109375,
+   "u1": 0.818359375,
+   "v1": 1.109375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "found tape",
+   "lines": [
+    "found tape"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-E_1.png"
+  },
+  "jcard-spine-hand-keep": {
+   "u0": 0.001953125,
+   "v0": 1.1328125,
+   "u1": 0.080078125,
+   "v1": 1.14306640625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "MIX 2 / KEEP",
+   "lines": [
+    "MIX 2",
+    "KEEP"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-beats": {
+   "u0": 0.412109375,
+   "v0": 1.09228515625,
+   "u1": 0.490234375,
+   "v1": 1.1025390625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "BLANK / BEATS",
+   "lines": [
+    "BLANK",
+    "BEATS"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-record-over": {
+   "u0": 0.412109375,
+   "v0": 1.14892578125,
+   "u1": 0.490234375,
+   "v1": 1.1591796875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "RECORD OVER",
+   "lines": [
+    "RECORD OVER"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-spare": {
+   "u0": 0.001953125,
+   "v0": 1.17529296875,
+   "u1": 0.080078125,
+   "v1": 1.185546875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SPARE",
+   "lines": [
+    "SPARE"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-no": {
+   "u0": 0.822265625,
+   "v0": 1.12744140625,
+   "u1": 0.900390625,
+   "v1": 1.1376953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "NO",
+   "lines": [
+    "NO"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-bad-ones": {
+   "u0": 0.330078125,
+   "v0": 1.09228515625,
+   "u1": 0.408203125,
+   "v1": 1.1025390625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "BAD ONES",
+   "lines": [
+    "BAD ONES"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-good-onesq": {
+   "u0": 0.822265625,
+   "v0": 1.09912109375,
+   "u1": 0.900390625,
+   "v1": 1.109375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "GOOD ONES?",
+   "lines": [
+    "GOOD ONES?"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-mix-11": {
+   "u0": 0.412109375,
+   "v0": 1.134765625,
+   "u1": 0.490234375,
+   "v1": 1.14501953125,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "MIX 10 / MIX 11",
+   "lines": [
+    "MIX 10",
+    "MIX 11"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-do-not-lend": {
+   "u0": 0.248046875,
+   "v0": 1.1064453125,
+   "u1": 0.326171875,
+   "v1": 1.11669921875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "DO NOT LEND",
+   "lines": [
+    "DO NOT LEND"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-mint-return": {
+   "u0": 0.083984375,
+   "v0": 1.14697265625,
+   "u1": 0.162109375,
+   "v1": 1.1572265625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "MINT - RETURN",
+   "lines": [
+    "MINT - RETURN"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-copy": {
+   "u0": 0.904296875,
+   "v0": 1.0849609375,
+   "u1": 0.982421875,
+   "v1": 1.09521484375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "COPY",
+   "lines": [
+    "COPY"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-old": {
+   "u0": 0.494140625,
+   "v0": 1.1416015625,
+   "u1": 0.572265625,
+   "v1": 1.15185546875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "NEW / OLD",
+   "lines": [
+    "NEW",
+    "OLD"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-side-a": {
+   "u0": 0.740234375,
+   "v0": 1.1416015625,
+   "u1": 0.818359375,
+   "v1": 1.15185546875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "SIDE A",
+   "lines": [
+    "SIDE A"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-weather": {
+   "u0": 0.740234375,
+   "v0": 1.15576171875,
+   "u1": 0.818359375,
+   "v1": 1.166015625,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "WEATHER",
+   "lines": [
+    "WEATHER"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-1997": {
+   "u0": 0.001953125,
+   "v0": 1.1044921875,
+   "u1": 0.080078125,
+   "v1": 1.11474609375,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "1997",
+   "lines": [
+    "1997"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "jcard-spine-hand-demos-2": {
+   "u0": 0.166015625,
+   "v0": 1.1064453125,
+   "u1": 0.244140625,
+   "v1": 1.11669921875,
+   "wMm": 100,
+   "hMm": 13,
+   "kind": "spine",
+   "text": "DEMOS / DEMOS 2",
+   "lines": [
+    "DEMOS",
+    "DEMOS 2"
+   ],
+   "pool": "tape-spine-mix",
+   "source": "PROPS-COVERS-SPINES-F_1.png"
+  },
+  "label-mix-4": {
+   "u0": 0.353515625,
+   "v0": 1.2509765625,
+   "u1": 0.419921875,
+   "v1": 1.2626953125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "MIX 4 / A",
+   "lines": [
+    "MIX 4",
+    "A"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-rain-set": {
+   "u0": 0.072265625,
+   "v0": 1.29443359375,
+   "u1": 0.138671875,
+   "v1": 1.30615234375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "RAIN SET",
+   "lines": [
+    "RAIN SET"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-dub-plates": {
+   "u0": 0.142578125,
+   "v0": 1.24951171875,
+   "u1": 0.208984375,
+   "v1": 1.26123046875,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "DUB PLATES",
+   "lines": [
+    "DUB PLATES"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-night-bus": {
+   "u0": 0.740234375,
+   "v0": 1.22802734375,
+   "u1": 0.806640625,
+   "v1": 1.23974609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "NIGHT BUS / A",
+   "lines": [
+    "NIGHT BUS",
+    "A"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-b-sides": {
+   "u0": 0.001953125,
+   "v0": 1.24609375,
+   "u1": 0.068359375,
+   "v1": 1.2578125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "B-SIDES",
+   "lines": [
+    "B-SIDES"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-fog-mix-ii": {
+   "u0": 0.294921875,
+   "v0": 1.2353515625,
+   "u1": 0.361328125,
+   "v1": 1.2470703125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "FOG MIX II / B",
+   "lines": [
+    "FOG MIX II",
+    "B"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-lcs-set-12": {
+   "u0": 0.212890625,
+   "v0": 1.2509765625,
+   "u1": 0.279296875,
+   "v1": 1.2626953125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "LCS SET 12",
+   "lines": [
+    "LCS SET 12"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-slow-ones": {
+   "u0": 0.716796875,
+   "v0": 1.24365234375,
+   "u1": 0.783203125,
+   "v1": 1.25537109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "SLOW ONES",
+   "lines": [
+    "SLOW ONES"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-static": {
+   "u0": 0.927734375,
+   "v0": 1.24365234375,
+   "u1": 0.994140625,
+   "v1": 1.25537109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "STATIC",
+   "lines": [
+    "STATIC"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-breaks": {
+   "u0": 0.154296875,
+   "v0": 1.23388671875,
+   "u1": 0.220703125,
+   "v1": 1.24560546875,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "BREAKS / A",
+   "lines": [
+    "BREAKS",
+    "A"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-mix-7": {
+   "u0": 0.599609375,
+   "v0": 1.22802734375,
+   "u1": 0.666015625,
+   "v1": 1.23974609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "MIX 7",
+   "lines": [
+    "MIX 7"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-on-air-cuts": {
+   "u0": 0.423828125,
+   "v0": 1.2578125,
+   "u1": 0.490234375,
+   "v1": 1.26953125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "ON AIR CUTS",
+   "lines": [
+    "ON AIR CUTS"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-A_1.png"
+  },
+  "label-sunday": {
+   "u0": 0.423828125,
+   "v0": 1.2734375,
+   "u1": 0.490234375,
+   "v1": 1.28515625,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "sunday",
+   "lines": [
+    "sunday"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-for-vibe": {
+   "u0": 0.365234375,
+   "v0": 1.2353515625,
+   "u1": 0.431640625,
+   "v1": 1.2470703125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "for vibe / B",
+   "lines": [
+    "for vibe",
+    "B"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-kitchen-radio": {
+   "u0": 0.435546875,
+   "v0": 1.2421875,
+   "u1": 0.501953125,
+   "v1": 1.25390625,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "kitchen radio",
+   "lines": [
+    "kitchen radio"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-old-radio": {
+   "u0": 0.505859375,
+   "v0": 1.24365234375,
+   "u1": 0.572265625,
+   "v1": 1.25537109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "old radio",
+   "lines": [
+    "old radio"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-4am": {
+   "u0": 0.494140625,
+   "v0": 0.99365234375,
+   "u1": 0.560546875,
+   "v1": 1.00537109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "4am",
+   "lines": [
+    "4am"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-winter-98": {
+   "u0": 0.353515625,
+   "v0": 1.2822265625,
+   "u1": 0.419921875,
+   "v1": 1.2939453125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "winter 98 / A",
+   "lines": [
+    "winter 98",
+    "A"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-voice-notes": {
+   "u0": 0.001953125,
+   "v0": 1.32421875,
+   "u1": 0.068359375,
+   "v1": 1.3359375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "voice notes",
+   "lines": [
+    "voice notes"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-good-ones": {
+   "u0": 0.787109375,
+   "v0": 1.21240234375,
+   "u1": 0.853515625,
+   "v1": 1.22412109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "good ones",
+   "lines": [
+    "good ones"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-tuesday": {
+   "u0": 0.072265625,
+   "v0": 1.31005859375,
+   "u1": 0.138671875,
+   "v1": 1.32177734375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "tuesday",
+   "lines": [
+    "tuesday"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-sleep": {
+   "u0": 0.646484375,
+   "v0": 1.24365234375,
+   "u1": 0.712890625,
+   "v1": 1.25537109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "sleep / B",
+   "lines": [
+    "sleep",
+    "B"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-summer-99": {
+   "u0": 0.494140625,
+   "v0": 1.25927734375,
+   "u1": 0.560546875,
+   "v1": 1.27099609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "summer 99",
+   "lines": [
+    "summer 99"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-work-mix": {
+   "u0": 0.564453125,
+   "v0": 1.25927734375,
+   "u1": 0.630859375,
+   "v1": 1.27099609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "work mix",
+   "lines": [
+    "work mix"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-B_1.png"
+  },
+  "label-tape-9": {
+   "u0": 0.212890625,
+   "v0": 1.2822265625,
+   "u1": 0.279296875,
+   "v1": 1.2939453125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "TAPE 9",
+   "lines": [
+    "TAPE 9"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-hiss": {
+   "u0": 0.857421875,
+   "v0": 1.21240234375,
+   "u1": 0.923828125,
+   "v1": 1.22412109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "HISS",
+   "lines": [
+    "HISS"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-copy-of-copy": {
+   "u0": 0.318359375,
+   "v0": 1.2197265625,
+   "u1": 0.384765625,
+   "v1": 1.2314453125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "COPY OF COPY",
+   "lines": [
+    "COPY OF COPY"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-field-recs": {
+   "u0": 0.001953125,
+   "v0": 1.27734375,
+   "u1": 0.068359375,
+   "v1": 1.2890625,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "FIELD RECS",
+   "lines": [
+    "FIELD RECS"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-gianni-velour": {
+   "u0": 0.716796875,
+   "v0": 1.21240234375,
+   "u1": 0.783203125,
+   "v1": 1.22412109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "GIANNI VELOUR",
+   "lines": [
+    "GIANNI VELOUR"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-noise-complaint": {
+   "u0": 0.810546875,
+   "v0": 1.22802734375,
+   "u1": 0.876953125,
+   "v1": 1.23974609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "NOISE COMPLAINT",
+   "lines": [
+    "NOISE COMPLAINT"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-disko-kolkhoz": {
+   "u0": 0.576171875,
+   "v0": 1.21240234375,
+   "u1": 0.642578125,
+   "v1": 1.22412109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "DISKO KOLKHOZ / A",
+   "lines": [
+    "DISKO KOLKHOZ",
+    "A"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-captain-rhombus": {
+   "u0": 0.001953125,
+   "v0": 1.26171875,
+   "u1": 0.068359375,
+   "v1": 1.2734375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "CAPTAIN RHOMBUS",
+   "lines": [
+    "CAPTAIN RHOMBUS"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-soul": {
+   "u0": 0.787109375,
+   "v0": 1.24365234375,
+   "u1": 0.853515625,
+   "v1": 1.25537109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "SOUL",
+   "lines": [
+    "SOUL"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-test-tones": {
+   "u0": 0.142578125,
+   "v0": 1.29638671875,
+   "u1": 0.208984375,
+   "v1": 1.30810546875,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "TEST TONES",
+   "lines": [
+    "TEST TONES"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-ring-road": {
+   "u0": 0.283203125,
+   "v0": 1.2666015625,
+   "u1": 0.349609375,
+   "v1": 1.2783203125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "RING ROAD / B",
+   "lines": [
+    "RING ROAD",
+    "B"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-qqq": {
+   "u0": 0.212890625,
+   "v0": 1.2666015625,
+   "u1": 0.279296875,
+   "v1": 1.2783203125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "???",
+   "lines": [
+    "???"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-C_1.png"
+  },
+  "label-aircheck-02": {
+   "u0": 0.494140625,
+   "v0": 1.00927734375,
+   "u1": 0.560546875,
+   "v1": 1.02099609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "AIRCHECK 02",
+   "lines": [
+    "AIRCHECK 02"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-interview": {
+   "u0": 0.927734375,
+   "v0": 1.21240234375,
+   "u1": 0.994140625,
+   "v1": 1.22412109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "INTERVIEW",
+   "lines": [
+    "INTERVIEW"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-broadcast-03": {
+   "u0": 0.072265625,
+   "v0": 1.24755859375,
+   "u1": 0.138671875,
+   "v1": 1.25927734375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "BROADCAST 03",
+   "lines": [
+    "BROADCAST 03"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-master": {
+   "u0": 0.072265625,
+   "v0": 1.27880859375,
+   "u1": 0.138671875,
+   "v1": 1.29052734375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "MASTER",
+   "lines": [
+    "MASTER"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-duplicate": {
+   "u0": 0.072265625,
+   "v0": 1.26318359375,
+   "u1": 0.138671875,
+   "v1": 1.27490234375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "DUPLICATE",
+   "lines": [
+    "DUPLICATE"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-radio-1-94": {
+   "u0": 0.142578125,
+   "v0": 1.28076171875,
+   "u1": 0.208984375,
+   "v1": 1.29248046875,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "RADIO 1/94",
+   "lines": [
+    "RADIO 1/94"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-misc": {
+   "u0": 0.283203125,
+   "v0": 1.2509765625,
+   "u1": 0.349609375,
+   "v1": 1.2626953125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "misc",
+   "lines": [
+    "misc"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-demos": {
+   "u0": 0.388671875,
+   "v0": 1.2197265625,
+   "u1": 0.455078125,
+   "v1": 1.2314453125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "demos",
+   "lines": [
+    "demos"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-ambient": {
+   "u0": 0.083984375,
+   "v0": 1.23193359375,
+   "u1": 0.150390625,
+   "v1": 1.24365234375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "ambient",
+   "lines": [
+    "ambient"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-sirens": {
+   "u0": 0.576171875,
+   "v0": 1.24365234375,
+   "u1": 0.642578125,
+   "v1": 1.25537109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "sirens",
+   "lines": [
+    "sirens"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-found-tape": {
+   "u0": 0.646484375,
+   "v0": 1.21240234375,
+   "u1": 0.712890625,
+   "v1": 1.22412109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "found tape",
+   "lines": [
+    "found tape"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-dub": {
+   "u0": 0.224609375,
+   "v0": 1.2353515625,
+   "u1": 0.291015625,
+   "v1": 1.2470703125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "dub",
+   "lines": [
+    "dub"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-D_1.png"
+  },
+  "label-keep": {
+   "u0": 0.529296875,
+   "v0": 1.22802734375,
+   "u1": 0.595703125,
+   "v1": 1.23974609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "MIX 3 / KEEP",
+   "lines": [
+    "MIX 3",
+    "KEEP"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-beats": {
+   "u0": 0.248046875,
+   "v0": 1.2197265625,
+   "u1": 0.314453125,
+   "v1": 1.2314453125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "BLANK / BEATS",
+   "lines": [
+    "BLANK",
+    "BEATS"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-record-over": {
+   "u0": 0.001953125,
+   "v0": 1.30859375,
+   "u1": 0.068359375,
+   "v1": 1.3203125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "RECORD OVER",
+   "lines": [
+    "RECORD OVER"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-spare": {
+   "u0": 0.857421875,
+   "v0": 1.24365234375,
+   "u1": 0.923828125,
+   "v1": 1.25537109375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "SPARE",
+   "lines": [
+    "SPARE"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-do-not-lend": {
+   "u0": 0.458984375,
+   "v0": 1.2265625,
+   "u1": 0.525390625,
+   "v1": 1.23828125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "DO NOT LEND",
+   "lines": [
+    "DO NOT LEND"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-mint-return": {
+   "u0": 0.001953125,
+   "v0": 1.29296875,
+   "u1": 0.068359375,
+   "v1": 1.3046875,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "MINT - RETURN",
+   "lines": [
+    "MINT - RETURN"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-old": {
+   "u0": 0.880859375,
+   "v0": 1.22802734375,
+   "u1": 0.947265625,
+   "v1": 1.23974609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "NEW / OLD",
+   "lines": [
+    "NEW",
+    "OLD"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-new": {
+   "u0": 0.669921875,
+   "v0": 1.22802734375,
+   "u1": 0.736328125,
+   "v1": 1.23974609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "NEW",
+   "lines": [
+    "NEW"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-side-a": {
+   "u0": 0.353515625,
+   "v0": 1.2666015625,
+   "u1": 0.419921875,
+   "v1": 1.2783203125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "SIDE A",
+   "lines": [
+    "SIDE A"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-weather": {
+   "u0": 0.283203125,
+   "v0": 1.2822265625,
+   "u1": 0.349609375,
+   "v1": 1.2939453125,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "WEATHER",
+   "lines": [
+    "WEATHER"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-1997": {
+   "u0": 0.494140625,
+   "v0": 0.97802734375,
+   "u1": 0.560546875,
+   "v1": 0.98974609375,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "1997",
+   "lines": [
+    "1997"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "label-loops-2": {
+   "u0": 0.142578125,
+   "v0": 1.26513671875,
+   "u1": 0.208984375,
+   "v1": 1.27685546875,
+   "wMm": 85,
+   "hMm": 15,
+   "kind": "label",
+   "text": "LOOPS / LOOPS 2",
+   "lines": [
+    "LOOPS",
+    "LOOPS 2"
+   ],
+   "pool": "tape-label",
+   "source": "PROPS-COVERS-LABELS-E_1.png"
+  },
+  "screen-crt-log": {
+   "u0": 0.494140625,
+   "v0": 1.27490234375,
+   "u1": 0.9140625,
+   "v1": 1.59716796875,
    "wMm": 215,
    "hMm": 165,
    "kind": "screen",
