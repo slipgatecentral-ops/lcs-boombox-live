@@ -203,13 +203,6 @@
    "roughness": 0.3,
    "metalness": 0,
    "opacity": 0.28
-  },
-  "SCREEN_LIVE_LOOK": {
-   "color": "#141718",
-   "roughness": 0.35,
-   "metalness": 0,
-   "emissive": "#ffffff",
-   "emissiveIntensity": 1
   }
  }
 }
