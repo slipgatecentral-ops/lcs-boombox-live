@@ -239,6 +239,13 @@
    "color": "#a18462",
    "roughness": 0.95,
    "metalness": 0
+  },
+  "phosphor-green": {
+   "color": "#66cbb0",
+   "roughness": 0.5,
+   "metalness": 0,
+   "emissive": "#56dbc0",
+   "emissiveIntensity": 1.4
   }
  },
  "extra": {
