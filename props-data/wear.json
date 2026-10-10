@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "ktx2": "wear-9daacb03a6a1.ktx2",
-  "r8": "wear-9daacb03a6a1-r8.ktx2",
-  "png": "wear-9daacb03a6a1.png",
+  "ktx2": "wear-6af7863287d6.ktx2",
+  "r8": "wear-6af7863287d6-r8.ktx2",
+  "png": "wear-6af7863287d6.png",
   "width": 512,
-  "height": 256,
+  "height": 512,
   "levels": 10,
   "uvOrigin": "top-left",
   "range": 0.3,
   "bytes": {
-    "ktx2": 87808,
-    "r8": 175172,
-    "png": 36602
+    "ktx2": 175184,
+    "r8": 349932,
+    "png": 56490
   },
   "gpu": {
-    "bc4": 87400,
-    "r8": 174763
+    "bc4": 174776,
+    "r8": 349525
   },
   "items": {
     "dj-turntable-direct": {
@@ -26,8 +26,41 @@
       "u0": 0,
       "v0": 0,
       "u1": 1,
-      "v1": 1,
+      "v1": 0.5,
       "texelMm": 3
+    },
+    "kitchen-base-cabinet": {
+      "x": 0,
+      "y": 384,
+      "w": 128,
+      "h": 128,
+      "u0": 0,
+      "v0": 0.75,
+      "u1": 0.25,
+      "v1": 1,
+      "texelMm": 10
+    },
+    "kitchen-sink-unit": {
+      "x": 0,
+      "y": 256,
+      "w": 256,
+      "h": 128,
+      "u0": 0,
+      "v0": 0.5,
+      "u1": 0.5,
+      "v1": 0.75,
+      "texelMm": 10
+    },
+    "kitchen-wall-cabinet": {
+      "x": 128,
+      "y": 384,
+      "w": 128,
+      "h": 128,
+      "u0": 0.25,
+      "v0": 0.75,
+      "u1": 0.5,
+      "v1": 1,
+      "texelMm": 10
     }
   }
 }

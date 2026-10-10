@@ -154,6 +154,18 @@
    "roughness": 0.55,
    "metalness": 0
   },
+  "paint-rescued-cream": {
+   "color": "#cfcabb",
+   "roughness": 0.42,
+   "metalness": 0,
+   "wearColour": 0.45
+  },
+  "paint-rescued-beige": {
+   "color": "#b6aa8f",
+   "roughness": 0.47,
+   "metalness": 0,
+   "wearColour": 0.45
+  },
   "grille-mesh": {
    "color": "#2c2c2b",
    "roughness": 0.55,
