@@ -144,6 +144,11 @@
    "roughness": 0.92,
    "metalness": 0
   },
+  "enamel-green": {
+   "color": "#354a32",
+   "roughness": 0.3,
+   "metalness": 0
+  },
   "grille-mesh": {
    "color": "#2c2c2b",
    "roughness": 0.55,
