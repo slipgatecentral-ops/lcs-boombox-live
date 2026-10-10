@@ -1,33 +1,55 @@
 {
   "version": 1,
-  "ktx2": "wear-6af7863287d6.ktx2",
-  "r8": "wear-6af7863287d6-r8.ktx2",
-  "png": "wear-6af7863287d6.png",
-  "width": 512,
+  "ktx2": "wear-15dd593e90b4.ktx2",
+  "r8": "wear-15dd593e90b4-r8.ktx2",
+  "png": "wear-15dd593e90b4.png",
+  "width": 1024,
   "height": 512,
-  "levels": 10,
+  "levels": 11,
   "uvOrigin": "top-left",
   "range": 0.3,
   "bytes": {
-    "ktx2": 175184,
-    "r8": 349932,
-    "png": 56490
+    "ktx2": 349976,
+    "r8": 699484,
+    "png": 128479
   },
   "gpu": {
-    "bc4": 174776,
-    "r8": 349525
+    "bc4": 349544,
+    "r8": 699051
   },
   "items": {
-    "dj-turntable-direct": {
+    "coffee-sideboard": {
       "x": 0,
       "y": 0,
       "w": 512,
       "h": 256,
       "u0": 0,
       "v0": 0,
+      "u1": 0.5,
+      "v1": 0.5,
+      "texelMm": 12
+    },
+    "dj-turntable-direct": {
+      "x": 512,
+      "y": 0,
+      "w": 512,
+      "h": 256,
+      "u0": 0.5,
+      "v0": 0,
       "u1": 1,
       "v1": 0.5,
       "texelMm": 3
+    },
+    "espresso-machine": {
+      "x": 0,
+      "y": 256,
+      "w": 256,
+      "h": 128,
+      "u0": 0,
+      "v0": 0.5,
+      "u1": 0.25,
+      "v1": 0.75,
+      "texelMm": 8
     },
     "kitchen-base-cabinet": {
       "x": 0,
@@ -36,16 +58,16 @@
       "h": 128,
       "u0": 0,
       "v0": 0.75,
-      "u1": 0.25,
+      "u1": 0.125,
       "v1": 1,
       "texelMm": 10
     },
     "kitchen-sink-unit": {
-      "x": 0,
+      "x": 256,
       "y": 256,
       "w": 256,
       "h": 128,
-      "u0": 0,
+      "u0": 0.25,
       "v0": 0.5,
       "u1": 0.5,
       "v1": 0.75,
@@ -56,9 +78,9 @@
       "y": 384,
       "w": 128,
       "h": 128,
-      "u0": 0.25,
+      "u0": 0.125,
       "v0": 0.75,
-      "u1": 0.5,
+      "u1": 0.25,
       "v1": 1,
       "texelMm": 10
     }

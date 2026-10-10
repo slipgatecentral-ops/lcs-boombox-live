@@ -166,6 +166,18 @@
    "metalness": 0,
    "wearColour": 0.45
   },
+  "wood-walnut": {
+   "color": "#79573f",
+   "roughness": 0.56,
+   "metalness": 0,
+   "wearColour": 1.35
+  },
+  "wood-walnut-dark": {
+   "color": "#64452f",
+   "roughness": 0.6,
+   "metalness": 0,
+   "wearColour": 1.35
+  },
   "grille-mesh": {
    "color": "#2c2c2b",
    "roughness": 0.55,
