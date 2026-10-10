@@ -234,6 +234,11 @@
    "metalness": 0,
    "emissive": "#ffffff",
    "emissiveIntensity": 1
+  },
+  "paper-kraft": {
+   "color": "#a18462",
+   "roughness": 0.95,
+   "metalness": 0
   }
  },
  "extra": {
