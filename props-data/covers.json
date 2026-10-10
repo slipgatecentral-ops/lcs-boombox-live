@@ -4,8 +4,8 @@
  "width": 2048,
  "height": 4096,
  "vScale": 0.5,
- "ktx2": "covers-05fdba61a233.ktx2",
- "png": "covers-b2c923393230.png",
+ "ktx2": "covers-bd7f566c598f.ktx2",
+ "png": "covers-144b2400bc37.png",
  "gutterPx": 4,
  "uvUnits": "u and v are in units of the atlas's WIDTH (v runs 0 … height / width): sample at (u, v x vScale). The atlas grew from 2048² to 2048 x 4096 on 8 Oct; every older uv names the same texels",
  "pools": "a tape item's `pool` (tape-jcard-blank / -mix, tape-spine-blank / -mix, tape-label): the room re-draws the tapes' prints per placement from their pool (apps/room/src/catalog/coverPools.ts)",
@@ -4821,7 +4821,7 @@
    "lines": [],
    "prop": "kitchen",
    "pxPerMm": 2.56,
-   "source": "PROPS-KITCHEN-CLOTH_1.png"
+   "source": "PROPS-KITCHEN-CLOTH_2.png"
   },
   "kitchen-cloth-knit": {
    "u0": 0.314453125,
@@ -4835,7 +4835,7 @@
    "lines": [],
    "prop": "kitchen",
    "pxPerMm": 2.56,
-   "source": "PROPS-KITCHEN-CLOTH_1.png"
+   "source": "PROPS-KITCHEN-CLOTH_3.png"
   },
   "kitchen-cloth-red-vinyl": {
    "u0": 0.1845703125,
@@ -4849,7 +4849,7 @@
    "lines": [],
    "prop": "kitchen",
    "pxPerMm": 2.56,
-   "source": "PROPS-KITCHEN-CLOTH_1.png"
+   "source": "PROPS-KITCHEN-CLOTH_2.png"
   },
   "kitchen-cloth-cushion": {
    "u0": 0.0556640625,
@@ -4863,7 +4863,7 @@
    "lines": [],
    "prop": "kitchen",
    "pxPerMm": 2.56,
-   "source": "PROPS-KITCHEN-CLOTH_1.png"
+   "source": "PROPS-KITCHEN-CLOTH_2.png"
   }
  }
 }
