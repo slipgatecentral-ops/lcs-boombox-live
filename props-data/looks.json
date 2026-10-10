@@ -149,6 +149,11 @@
    "roughness": 0.3,
    "metalness": 0
   },
+  "paint-olive": {
+   "color": "#3d3f2c",
+   "roughness": 0.55,
+   "metalness": 0
+  },
   "grille-mesh": {
    "color": "#2c2c2b",
    "roughness": 0.55,
