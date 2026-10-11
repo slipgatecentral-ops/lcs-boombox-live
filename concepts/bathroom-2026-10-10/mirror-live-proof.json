@@ -1,0 +1,81 @@
+{
+  "sourceCommit": "6a9bf9d9d2843a81894ff38549852bc9cbd43dcb",
+  "runtime": "https://lcs-rooms.up.railway.app/",
+  "servedAsset": "/assets/main-5iggY0sL.js",
+  "reflectionCodePresent": true,
+  "backend": "WebGPU",
+  "adapter": {
+    "vendor": "nvidia",
+    "architecture": "blackwell",
+    "device": "",
+    "description": ""
+  },
+  "coldReadySeconds": 11.2614958,
+  "reflectionWarmSeconds": 2.8533883999999996,
+  "mirror": {
+    "placed": 1,
+    "selected": "z-bath.wall-mirror.1",
+    "size": [
+      358,
+      512
+    ],
+    "bytes": 2199552,
+    "captures": 75,
+    "lastCpuMs": 1.399999976158142,
+    "maxHz": 30,
+    "ready": true,
+    "dirt": 1
+  },
+  "drawCalls": {
+    "hidden": 92,
+    "capturing": 147
+  },
+  "steadyCaptureAllocations": {
+    "shaders": 0,
+    "pipelines": 0,
+    "textures": 0
+  },
+  "renderErrors": 0,
+  "owner": {
+    "beforeSha256": "acd8d6bbc6b1e619952fc746e86ce0f2e0cb15d89948c1fe4e243c700ca979ea",
+    "afterSha256": "acd8d6bbc6b1e619952fc746e86ce0f2e0cb15d89948c1fe4e243c700ca979ea",
+    "unchanged": true
+  },
+  "images": [
+    {
+      "file": "mirror-close.jpg",
+      "bytes": 248750,
+      "sha256": "e4ea9ba4e2ff35e77f76930e1d0fec8a0cfe4b642c093f0f31f464a992a5e197"
+    },
+    {
+      "file": "mirror-side-a.jpg",
+      "bytes": 279604,
+      "sha256": "e904634e8264368ae696eedb3624ca6b615e71845c6f4921cc8446afd5af1bdc"
+    },
+    {
+      "file": "mirror-side-b.jpg",
+      "bytes": 234069,
+      "sha256": "ecefb12689acf567c9a13378fbc0f121e6f40dc6b26c53c9b0630ba13e8fb1ce"
+    },
+    {
+      "file": "mirror-daylight.jpg",
+      "bytes": 255116,
+      "sha256": "9a45682392bb41144446ad036993d53c8924ed0b08d6da4c309f61e718e2923d"
+    },
+    {
+      "file": "mirror-night.jpg",
+      "bytes": 248438,
+      "sha256": "2bfed2521b1fabf0d50e11a7f3fb9620e596c75f2e30ee9e03d9d58483143745"
+    },
+    {
+      "file": "progress-a.jpg",
+      "bytes": 309822,
+      "sha256": "435055dccf6606da74ac461a97bc1ebc80710e6c68006855268d480edb9856b5"
+    },
+    {
+      "file": "progress-b.jpg",
+      "bytes": 280758,
+      "sha256": "afa3498378198a7ad7a37862bf05f10458bf35d807b22ff3a8f7f95d2ecd578b"
+    }
+  ]
+}
