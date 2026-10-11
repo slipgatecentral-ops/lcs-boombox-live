@@ -1,0 +1,627 @@
+{
+  "at": "2026-10-11T20:10:00.477Z",
+  "stage": "Constructed lamps, portable audio and supported sofa textiles",
+  "ids": [
+    "floor-lamp",
+    "desk-lamp-banker",
+    "bulb-pendant",
+    "ceiling-pendant-shade",
+    "on-air-lamp",
+    "portable-cassette",
+    "portable-cd",
+    "portable-md",
+    "transistor-radio",
+    "main-sofa-throw",
+    "main-throw-pillow"
+  ],
+  "finals": [
+    {
+      "id": "floor-lamp",
+      "hash": "6f1e1b5b5436",
+      "file": "floor-lamp-6f1e1b5b5436.glb",
+      "triangles": 3452,
+      "bytes": 38660
+    },
+    {
+      "id": "desk-lamp-banker",
+      "hash": "5bf9a37f2d24",
+      "file": "desk-lamp-banker-5bf9a37f2d24.glb",
+      "triangles": 2220,
+      "bytes": 29160
+    },
+    {
+      "id": "bulb-pendant",
+      "hash": "f7a5e6457a4c",
+      "file": "bulb-pendant-f7a5e6457a4c.glb",
+      "triangles": 1496,
+      "bytes": 20376
+    },
+    {
+      "id": "ceiling-pendant-shade",
+      "hash": "ea24c8294aeb",
+      "file": "ceiling-pendant-shade-ea24c8294aeb.glb",
+      "triangles": 2776,
+      "bytes": 33256
+    },
+    {
+      "id": "on-air-lamp",
+      "hash": "d15723dd3cdd",
+      "file": "on-air-lamp-d15723dd3cdd.glb",
+      "triangles": 1714,
+      "bytes": 31532
+    },
+    {
+      "id": "portable-cassette",
+      "hash": "18391ebb8baf",
+      "file": "portable-cassette-18391ebb8baf.glb",
+      "triangles": 1758,
+      "bytes": 38212
+    },
+    {
+      "id": "portable-cd",
+      "hash": "177570461022",
+      "file": "portable-cd-177570461022.glb",
+      "triangles": 2442,
+      "bytes": 38056
+    },
+    {
+      "id": "portable-md",
+      "hash": "df3c9b094d11",
+      "file": "portable-md-df3c9b094d11.glb",
+      "triangles": 1276,
+      "bytes": 30376
+    },
+    {
+      "id": "transistor-radio",
+      "hash": "4b8ba295db63",
+      "file": "transistor-radio-4b8ba295db63.glb",
+      "triangles": 1440,
+      "bytes": 32724
+    },
+    {
+      "id": "main-sofa-throw",
+      "hash": "4f5540d813af",
+      "file": "main-sofa-throw-4f5540d813af.glb",
+      "triangles": 7624,
+      "bytes": 58036
+    },
+    {
+      "id": "main-throw-pillow",
+      "hash": "db62a85ce938",
+      "file": "main-throw-pillow-db62a85ce938.glb",
+      "triangles": 2296,
+      "bytes": 23396
+    }
+  ],
+  "gatesPerAsset": 15,
+  "native": {
+    "backend": "WebGPU",
+    "adapter": "nvidia blackwell",
+    "hour": 19,
+    "placements": 812,
+    "loadedFinals": 204,
+    "failed": [],
+    "skipped": 0,
+    "managed": 37,
+    "pending": 0,
+    "paperPrints": 19
+  },
+  "layout": {
+    "at": "2026-10-11T20:01:30.037Z",
+    "ownerPublished": "2026-10-11T18:47:36.603Z",
+    "before": 805,
+    "after": 808,
+    "added": [
+      "z-sort.main-life.sofa-arm-throw",
+      "z-sort.main-life.sofa-rear-pillow-left",
+      "z-sort.main-life.sofa-rear-pillow-right"
+    ],
+    "changed": [
+      "z-sort.folded-blanket.1",
+      "z-sort.headphones-closed.1"
+    ],
+    "missing": [],
+    "managed": [
+      {
+        "id": "z-sort.folded-blanket.1",
+        "itemId": "folded-blanket",
+        "pending": false
+      },
+      {
+        "id": "z-sort.headphones-closed.1",
+        "itemId": "headphones-closed",
+        "pending": false
+      },
+      {
+        "id": "z-store.step-ladder.1",
+        "itemId": "step-ladder",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.coffee-table",
+        "itemId": "main-coffee-table",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.conversation-seat",
+        "itemId": "main-lounge-chair",
+        "pending": false
+      },
+      {
+        "id": "z-store.main-life.record-credenza",
+        "itemId": "main-record-credenza",
+        "pending": false
+      },
+      {
+        "id": "z-dj.main-life.trolley",
+        "itemId": "main-record-trolley",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.record-cube",
+        "itemId": "record-cube",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.coffee-records",
+        "itemId": "record-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.coffee-books",
+        "itemId": "book-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.coffee-cream",
+        "itemId": "coffee-mug",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.coffee-green",
+        "itemId": "coffee-mug-green",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.coffee-notes",
+        "itemId": "main-session-notes",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.coffee-lower-records",
+        "itemId": "record-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.coffee-lower-books",
+        "itemId": "book-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-vinyl-a",
+        "itemId": "vinyl-crate",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-vinyl-b",
+        "itemId": "vinyl-crate",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-tapes",
+        "itemId": "tape-crate",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-books-a",
+        "itemId": "book-row",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-books-b",
+        "itemId": "book-row",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-records",
+        "itemId": "record-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-cassettes-a",
+        "itemId": "cassette-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-cassettes-b",
+        "itemId": "cassette-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-top-records",
+        "itemId": "record-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-top-books",
+        "itemId": "book-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-top-notes",
+        "itemId": "main-session-notes",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.archive-lamp",
+        "itemId": "desk-lamp",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.trolley-crate",
+        "itemId": "vinyl-crate",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.trolley-records",
+        "itemId": "record-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.trolley-notes",
+        "itemId": "main-session-notes",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.trolley-cassettes",
+        "itemId": "cassette-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.guest-books",
+        "itemId": "book-stack",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.guest-cup",
+        "itemId": "coffee-mug",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.guest-blanket",
+        "itemId": "folded-blanket",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.sofa-arm-throw",
+        "itemId": "main-sofa-throw",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.sofa-rear-pillow-left",
+        "itemId": "main-throw-pillow",
+        "pending": false
+      },
+      {
+        "id": "z-sort.main-life.sofa-rear-pillow-right",
+        "itemId": "main-throw-pillow",
+        "pending": false
+      }
+    ],
+    "geometryAndZonesExact": true,
+    "conflicts": [],
+    "valid": true
+  },
+  "checks": {
+    "roomTests": 633,
+    "workspaceTests": "passed",
+    "propsTypecheck": "passed",
+    "roomTypecheck": "passed"
+  },
+  "foreignFinalRowsChanged": [],
+  "atlas": {
+    "papers": {
+      "at": "2026-10-11",
+      "added": [
+        "main-paper-lcs-card",
+        "main-paper-wiring",
+        "main-paper-chart-week31",
+        "main-paper-bench-note"
+      ],
+      "oldPrints": 308,
+      "foreignPrintRecordsChanged": [],
+      "changedPixelsOutsideNewCellsAndGutters": 0,
+      "rects": {
+        "main-paper-lcs-card": [
+          1060,
+          3671,
+          384,
+          240
+        ],
+        "main-paper-wiring": [
+          1170,
+          3279,
+          256,
+          362
+        ],
+        "main-paper-chart-week31": [
+          906,
+          3279,
+          256,
+          384
+        ],
+        "main-paper-bench-note": [
+          1434,
+          3279,
+          192,
+          288
+        ]
+      },
+      "dimensions": [
+        2048,
+        4096
+      ],
+      "textureBindingGrowth": 0,
+      "gpuAllocationGrowth": 0,
+      "priorPayloadsRetained": true,
+      "propManifestByteExact": true,
+      "png": "covers-0a302b5f28cb.png",
+      "ktx2": "covers-084df1808713.ktx2",
+      "provenance": [
+        {
+          "origin": "builtin generated flat worn callsign card",
+          "tool": "image_gen.imagegen",
+          "model": "not exposed by builtin tool",
+          "prompt": "Use case: stylized-concept. Asset type: flat albedo texture for a400x250mm homemade callsign card in LCS radio apartment. Generate a SINGLE flat rectangular horizontal tan recycled cardboard card filling the complete image edge to edge, exact aspect8:5. ONLY TEXT: 'LCS', three very large loosely hand-painted letters, faded dusty magenta pigment. The letterforms should be human brushwork with unequal strokes, rubbed edges and subtle brush tracks, easily readable at tiny game texture size. Low-cost cared-for makeshift station sign from the1990s, no commercial polish. Card background mid-light tan with restrained paper fibers and tiny handling smudges near corners. No extra text, symbols, logos, serial numbers, stickers, white margin, perspective, cast shadows, tape, pins, frame, lighting gradients or 3D modeling. Neutral unlit diffuse texture only, full bleed,400x250physical proportion.\n",
+          "original": "tools/props/concepts/callsign-card/paper-texture-original.png",
+          "originalSha256": "cd8453300a69457b266a3beec9fd1dd3e31c5c5302a30cbe5684d260a7fb9faa",
+          "selected": true,
+          "atlasPixels": [
+            384,
+            240
+          ],
+          "physicalMm": [
+            400,
+            250
+          ],
+          "billing": "builtin billing unexposed; project API key not used",
+          "notes": [
+            "main-paper-lcs-card: touches the sheet's left/top/right/bottom edge (may be cut)"
+          ]
+        },
+        {
+          "origin": "builtin generated coherent two-input audio path and monitoring branch",
+          "tool": "image_gen.imagegen",
+          "model": "not exposed by builtin tool",
+          "prompt": "Use case: infographic-diagram. Asset type: flat portrait297x420mm scanned homemade audio signal routing sheet, full-bleed aged warm off-white matte paper. A coherent hand-drafted technical wiring diagram with one black signal path: two simple input source boxes labeled 'A' and 'B' at upper left and upper right, each connected by a clear down arrow to a single central box labeled 'MIX', one down arrow to a lower box labeled 'OUT'. A single separate muted purple monitoring branch from the right edge of MIX to a small headphone symbol labeled 'PHONES', along the right side. The audio path arrows only flow A/B into MIX and MIX into OUT and PHONES, no circular contradictory connections. Use readable black hand lettering and uneven straight lines from an old felt pen; sparse purple pencil checkmarks and tiny connection circles. Enough quiet paper so this reads as a useful wall note in a cozy collected radio studio. No extra lore, brand, title, station name, dates, ranks, decorative paragraphs, crop marks, border, grey checkerboard, perspective, shadows, tape, pins, folds, rendered thickness or glow. Flat unlit albedo texture only, portrait1:sqrt(2) proportion, printed content comfortably inside paper with narrow simple margins.\n",
+          "original": "tools/props/concepts/wiring-diagram/paper-texture-original.png",
+          "originalSha256": "4f4e3b276623d7ed111d5d72e81cd95a0967bf8be1a59c1d6e0615a670fd24df",
+          "selected": true,
+          "atlasPixels": [
+            256,
+            362
+          ],
+          "physicalMm": [
+            297,
+            420
+          ],
+          "billing": "builtin billing unexposed; project API key not used",
+          "notes": [
+            "main-paper-wiring: touches the sheet's left/top/right/bottom edge (may be cut)"
+          ]
+        },
+        {
+          "origin": "approved PPR-04 LCS tape chart mip0 crop, exact text preserved",
+          "tool": "exact approved mip0 crop",
+          "model": "no new generation",
+          "prompt": "Copy the exact approved runtime KTX2 mip0 crop without redraw; downsample mechanically to the stated atlas budget.",
+          "original": "tools/props/concepts/chart-printout/paper-texture-original.png",
+          "originalSha256": "0b219c02cc2b87914a7e2e36495a6761766fa761236ce1c02c92185e529b3ea9",
+          "selected": true,
+          "atlasPixels": [
+            256,
+            384
+          ],
+          "physicalMm": [
+            210,
+            315
+          ],
+          "billing": "builtin billing unexposed; project API key not used",
+          "notes": [
+            "main-paper-chart-week31: touches the sheet's left/top/right/bottom edge (may be cut)"
+          ]
+        },
+        {
+          "origin": "approved PPR-15 Bench note II mip0 crop; model restricts UV to real sheet interior",
+          "tool": "exact approved mip0 crop",
+          "model": "no new generation",
+          "prompt": "Copy the exact approved runtime KTX2 mip0 crop without redraw; downsample mechanically to the stated atlas budget.",
+          "original": "tools/props/concepts/main-session-notes/paper-texture-original.png",
+          "originalSha256": "42635f52fbed4ec38ce0d13941e746c7e194e77f9b2c275dd2ae13c32d3b3384",
+          "selected": true,
+          "atlasPixels": [
+            192,
+            288
+          ],
+          "physicalMm": [
+            100,
+            150
+          ],
+          "billing": "builtin billing unexposed; project API key not used",
+          "notes": [
+            "main-paper-bench-note: touches the sheet's left/top/right/bottom edge (may be cut)"
+          ]
+        }
+      ]
+    },
+    "cork": {
+      "at": "2026-10-11",
+      "added": [
+        "main-paper-cork"
+      ],
+      "oldPrints": 312,
+      "foreignPrintRecordsChanged": [],
+      "changedPixelsOutsideNewCellsAndGutters": 0,
+      "rects": {
+        "main-paper-cork": [
+          1060,
+          3919,
+          256,
+          168
+        ]
+      },
+      "dimensions": [
+        2048,
+        4096
+      ],
+      "textureBindingGrowth": 0,
+      "gpuAllocationGrowth": 0,
+      "priorPayloadsRetained": true,
+      "propManifestByteExact": true,
+      "png": "covers-36369163d457.png",
+      "ktx2": "covers-02b7239221d9.ktx2",
+      "provenance": [
+        {
+          "origin": "builtin generated flat irregular matte cork albedo, low contrast behind managed papers",
+          "tool": "image_gen.imagegen",
+          "model": "not exposed by builtin tool",
+          "prompt": "Use case: stylized-concept. Asset type: flat unlit diffuse albedo for an876x576mm reclaimed cork pinboard, to downsample to256x168pixels in an existing game atlas. Generate ONLY the continuous matte raw cork surface filling the full image edge to edge, landscape aspect876:576. Mid tan/brown pressed cork granules with small irregular flecks, tiny natural pores, varied fine fiber inclusions, restrained aged mottling; clear organic cork identity at reduced size, medium-low contrast, calm background for papers. Physical grain scale roughly2–12mm across a nearly90cm board. No frame, board edges, paper, pins, holes from objects, lettering, symbols, logos, repeating stripe patterns, stitch pattern, wood grain, perspective, folds, cast shadows, directional lighting, highlights or glow. This is a neutral flat material texture; geometry and the actual room lights supply depth. Do not make shiny plastic or a boutique decorative finish.\n",
+          "original": "tools/props/concepts/corkboard/paper-texture-original.png",
+          "originalSha256": "0e21821dc0e8ad1bfb0811ad94da492af210f1dbab43c2e5d9e63a245ad0a421",
+          "selected": true,
+          "atlasPixels": [
+            256,
+            168
+          ],
+          "physicalMm": [
+            876,
+            576
+          ],
+          "billing": "builtin billing unexposed; project API key not used",
+          "notes": [
+            "main-paper-cork: touches the sheet's left/top/right/bottom edge (may be cut)"
+          ]
+        }
+      ]
+    },
+    "onAir": {
+      "added": "on-air",
+      "text": "ON AIR",
+      "oldRecordsPreserved": 262,
+      "foreignPixelsChanged": 0,
+      "atlasSize": [
+        2048,
+        2048
+      ],
+      "cell": [
+        1132,
+        607,
+        87,
+        18
+      ],
+      "png": "decals-ee26a89acb6f.png",
+      "ktx2": "decals-3c43bef3ac56.ktx2",
+      "priorFilesRetained": true,
+      "generation": "Existing deterministic word-decal rasterizer; no API call"
+    },
+    "functionalWords": {
+      "added": [
+        {
+          "name": "freq",
+          "text": "FREQ",
+          "from": "added",
+          "rasterScale": 0.375
+        },
+        {
+          "name": "sine",
+          "text": "SINE",
+          "from": "added",
+          "rasterScale": 0.375
+        },
+        {
+          "name": "square",
+          "text": "SQUARE",
+          "from": "added",
+          "rasterScale": 0.375
+        }
+      ],
+      "oldRecordsPreserved": 263,
+      "foreignPixelsChanged": 0,
+      "atlasSize": [
+        2048,
+        2048
+      ],
+      "rects": {
+        "freq": [
+          175,
+          1368,
+          68,
+          18
+        ],
+        "sine": [
+          1512,
+          472,
+          59,
+          18
+        ],
+        "square": [
+          1132,
+          629,
+          105,
+          18
+        ]
+      },
+      "png": "decals-1a3fc604d0a5.png",
+      "ktx2": "decals-9cf3a021d1fd.ktx2",
+      "priorFilesRetained": true,
+      "generation": "Existing deterministic word-decal rasterizer; no API call"
+    }
+  },
+  "review": {
+    "root": "Personally inspected all four refreshed integrated native views and isolated asset evidence.",
+    "astra": "All eleven accepted in actual room: rounded cream pillows retain warm shading, supported throw clears stool and seating; fixtures and portables read correctly."
+  },
+  "textureBilling": "Builtin image generation model/billing unexposed; existing project API key not used.",
+  "sourceCommit": "cabdbc01311f09409633ad60999e9e0dbd5eaf0a",
+  "publicAtlas": {
+    "covers": {
+      "foreignChanged": [],
+      "added": [
+        "main-paper-lcs-card",
+        "main-paper-wiring",
+        "main-paper-chart-week31",
+        "main-paper-bench-note",
+        "main-paper-cork"
+      ],
+      "dimensions": [
+        2048,
+        4096
+      ],
+      "priorFilesRetained": true
+    },
+    "decals": {
+      "foreignChanged": [],
+      "added": [
+        "on-air",
+        "freq",
+        "sine",
+        "square"
+      ],
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "priorFilesRetained": true
+    },
+    "wear": {
+      "foreignChanged": [],
+      "added": [],
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "priorFilesRetained": true
+    }
+  },
+  "foreignPublicRowsChanged": []
+}

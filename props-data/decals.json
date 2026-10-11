@@ -5,8 +5,8 @@
  "uvOrigin": "top-left",
  "width": 2048,
  "height": 2048,
- "ktx2": "decals-ee2fd9b02abf.ktx2",
- "png": "decals-83b0cbb76a93.png",
+ "ktx2": "decals-9cf3a021d1fd.ktx2",
+ "png": "decals-1a3fc604d0a5.png",
  "items": {
   "play": {
    "u0": 0.0009765625,
@@ -2668,6 +2668,50 @@
    "hMm": 7.8125,
    "kind": "logo",
    "text": "HI-FI"
+  },
+  "on-air": {
+   "u0": 0.552734375,
+   "v0": 0.29638671875,
+   "u1": 0.59521484375,
+   "v1": 0.30517578125,
+   "wMm": 14.5625,
+   "hMm": 3.0,
+   "kind": "word",
+   "rasterScale": 0.375,
+   "text": "ON AIR"
+  },
+  "freq": {
+   "u0": 0.08544921875,
+   "v0": 0.66796875,
+   "u1": 0.11865234375,
+   "v1": 0.6767578125,
+   "wMm": 11.3125,
+   "hMm": 3.0,
+   "kind": "word",
+   "rasterScale": 0.375,
+   "text": "FREQ"
+  },
+  "sine": {
+   "u0": 0.73828125,
+   "v0": 0.23046875,
+   "u1": 0.76708984375,
+   "v1": 0.2392578125,
+   "wMm": 9.8125,
+   "hMm": 3.0,
+   "kind": "word",
+   "rasterScale": 0.375,
+   "text": "SINE"
+  },
+  "square": {
+   "u0": 0.552734375,
+   "v0": 0.30712890625,
+   "u1": 0.60400390625,
+   "v1": 0.31591796875,
+   "wMm": 17.5,
+   "hMm": 3.0,
+   "kind": "word",
+   "rasterScale": 0.375,
+   "text": "SQUARE"
   }
  }
 }
