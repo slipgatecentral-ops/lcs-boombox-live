@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-11",
+  "base": "6a9bf9d9d2843a81894ff38549852bc9cbd43dcb",
+  "cycles": [
+    {
+      "cycle": 1,
+      "change": "generated fabric colour on existing laundry",
+      "verdict": "rejected",
+      "reason": "coarse loops read as bright grain in both whole-room views"
+    },
+    {
+      "cycle": 2,
+      "change": "finer washed cloth, soft unequal hems and sock drops",
+      "verdict": "accepted",
+      "reason": "quieter surfaces and less rigid lower silhouettes; pegs and mounting envelopes retained"
+    },
+    {
+      "cycle": 3,
+      "change": "scoped boiler coating wear and slightly more neutral bathroom lamp balance",
+      "verdict": "accepted",
+      "reason": "breaks up the large clean tank while keeping warm incandescent light"
+    }
+  ],
+  "quality": "Native Windows Chrome; NVIDIA Blackwell / RTX 5090; WebGPU low/medium/high and hardware WebGL2",
+  "foreignRuntimeRowsExact": 171,
+  "ownerUnchanged": true,
+  "ownerSha256": "acd8d6bbc6b1e619952fc746e86ce0f2e0cb15d89948c1fe4e243c700ca979ea",
+  "tests": {
+    "app": 621,
+    "props": 84,
+    "covers": 19,
+    "modelGates": 225,
+    "typechecks": "application and props pass",
+    "productionBuild": "pass"
+  },
+  "knownLimitations": [
+    "Existing bathroom suite has three previously documented allocation failures; thresholds unchanged.",
+    "Native RTX 5090 checks do not establish iPhone/iPad/M2 performance.",
+    "Cloth construction remains more angular than the approved generated concept."
+  ],
+  "pictures": {
+    "before-entry.jpg": "3d8619a354affc7a1a48c6b9f19ce55e2fff123fffa3c493d9c4d8d8976439e4",
+    "before-reverse.jpg": "2c3e3a7383035b1578ba1a5c382ff7eb86caa3a6071a1a0a23011f996eb4c97a",
+    "rejected-coarse-entry.jpg": "00f6e7b09913698f20cac1758dc9b2c5e5c9ff09a7f219c73444d8efbbfcbb85",
+    "rejected-coarse-reverse.jpg": "65bb3391a5c3e76e952a51382b3a091f9745cb797b1513c8148c2e792e45c7b8",
+    "fine-cloth-entry.jpg": "f03214146d882987617ea50ba3ad5a908effd3e9037fd263183d2b7c5b8e9ee2",
+    "fine-cloth-reverse.jpg": "aa745a218c03ee06b2b30f65226a6b63e0e8fcf571ff11b4572acdc8bf6091cf",
+    "accepted-entry.jpg": "0e9a45782e1bf54efae14556e8591c9008231fbffc2e7b40651dcd859a206f9d",
+    "accepted-reverse.jpg": "5c336ef9a117a0fd845f197461ecb7262b27cbc38e3332de6d70d1c5ea0a8eba",
+    "accepted-daylight.jpg": "71d94f5723abcbc86c2972fc836bf0b8695c364250f0fcda19a577523c183af8",
+    "accepted-night.jpg": "706b1409b87e1cf51f6d554dea9ae3c26b9d70a151e9cee926c2e37b0149b409",
+    "accepted-mirror.jpg": "3e6aec3d6694bf0d299cf9b7b6f8fc82a5b62f1bf0103f4ccb208768e7d2b6cb",
+    "accepted-towels.jpg": "2ad574e36408c6a196bb44683a4459ed2823a0eb3600e4b6f8a4ce973371f234"
+  }
+}

@@ -4,8 +4,8 @@
  "width": 2048,
  "height": 4096,
  "vScale": 0.5,
- "ktx2": "covers-f3e0632251fa.ktx2",
- "png": "covers-44f5c4b5c36b.png",
+ "ktx2": "covers-6622ab365474.ktx2",
+ "png": "covers-3c7c9e7df8e7.png",
  "gutterPx": 4,
  "uvUnits": "u and v are in units of the atlas's WIDTH (v runs 0 … height / width): sample at (u, v x vScale). The atlas grew from 2048² to 2048 x 4096 on 8 Oct; every older uv names the same texels",
  "pools": "a tape item's `pool` (tape-jcard-blank / -mix, tape-spine-blank / -mix, tape-label): the room re-draws the tapes' prints per placement from their pool (apps/room/src/catalog/coverPools.ts)",
@@ -4878,6 +4878,62 @@
    "prop": "coffee-grinder",
    "pxPerMm": 1.28,
    "source": "PROPS-KITCHEN-COFFEE-BEANS_1.png"
+  },
+  "bath-cloth-cream": {
+   "u0": 0.001953125,
+   "v0": 1.50537109375,
+   "u1": 0.126953125,
+   "v1": 1.63037109375,
+   "wMm": 300,
+   "hMm": 300,
+   "kind": "label",
+   "text": "",
+   "lines": [],
+   "prop": "bathroom",
+   "pxPerMm": 0.8533333333333334,
+   "source": "PROPS-BATHROOM-CLOTH_2.png"
+  },
+  "bath-cloth-lilac": {
+   "u0": 0.130859375,
+   "v0": 1.5986328125,
+   "u1": 0.255859375,
+   "v1": 1.7236328125,
+   "wMm": 300,
+   "hMm": 300,
+   "kind": "label",
+   "text": "",
+   "lines": [],
+   "prop": "bathroom",
+   "pxPerMm": 0.8533333333333334,
+   "source": "PROPS-BATHROOM-CLOTH_2.png"
+  },
+  "bath-cloth-plum": {
+   "u0": 0.001953125,
+   "v0": 1.63427734375,
+   "u1": 0.126953125,
+   "v1": 1.75927734375,
+   "wMm": 300,
+   "hMm": 300,
+   "kind": "label",
+   "text": "",
+   "lines": [],
+   "prop": "bathroom",
+   "pxPerMm": 0.8533333333333334,
+   "source": "PROPS-BATHROOM-CLOTH_2.png"
+  },
+  "bath-cloth-black": {
+   "u0": 0.3134765625,
+   "v0": 1.5556640625,
+   "u1": 0.4384765625,
+   "v1": 1.6806640625,
+   "wMm": 300,
+   "hMm": 300,
+   "kind": "label",
+   "text": "",
+   "lines": [],
+   "prop": "bathroom",
+   "pxPerMm": 0.8533333333333334,
+   "source": "PROPS-BATHROOM-CLOTH_2.png"
   }
  }
 }

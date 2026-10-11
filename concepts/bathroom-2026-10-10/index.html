@@ -32,44 +32,40 @@
     .extras { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
     @media (max-width: 700px) { .extras { grid-template-columns: 1fr; } }
     @media (max-width: 960px) { .views { grid-template-columns: 1fr; gap: 32px; } main { padding: 24px 14px 36px; } }
+    .compare-controls { display:flex; align-items:center; flex-wrap:wrap; gap:12px; margin:0 0 22px; }
+    button { font:inherit; cursor:pointer; color:#efe7dd; background:#312820; border:1px solid #756051; border-radius:6px; padding:10px 18px; }
+    button[aria-pressed="true"] { color:#211d1b; background:#e7cab0; border-color:#e7cab0; }
+    button:focus-visible { outline:3px solid #e2bf9a; outline-offset:4px; }
+    #comparison-state { color:#c5b8aa; font-size:13px; }
   </style>
 </head>
 <body>
   <main>
     <header>
       <p class="eyebrow">Leg City Sounds · Apartment</p>
-      <h1>The bathroom, built</h1>
-      <p>The bathroom now has a working old mirror: the room moves in its reflection, behind water spots, wiping traces and grime along the edges. The worn frame, stickers and glass shelf remain.</p>
-      <nav class="links" aria-label="Bathroom review links"><a href="#mirror">See the dirty mirror</a><a href="https://lcs-rooms.up.railway.app/?q=high&amp;t=19">Open the live apartment</a><a href="../../props/?item=wall-mirror">Inspect the models</a><a href="#approved">See the approved concepts</a></nav>
+      <h1>The bathroom · three polish passes</h1>
+      <p>Finer washed fabric, softer free towel hems and unequal sock drops, with used coating on the cream boiler. The lamps keep their warm character, and the dirty mirror reflects the finished room. Both views below are from the live apartment.</p>
+      <nav class="links" aria-label="Bathroom review links"><a href="#polish">Compare before and after</a><a href="#mirror">See the dirty mirror</a><a href="https://lcs-rooms.up.railway.app/?q=high&amp;t=19">Open the live apartment</a><a href="../../props/?item=boiler-drum">Inspect the models</a><a href="#approved">See the approved concepts</a></nav>
     </header>
-    <section aria-labelledby="mirror" style="margin-top:0;margin-bottom:38px"><h2 id="mirror">A dirty mirror that reflects the room</h2>
+<section aria-labelledby="polish" style="margin-top:0"><h2 id="polish">Both room angles · before and after</h2><div class="compare-controls" role="group" aria-label="Choose bathroom comparison"><button type="button" data-state="before" aria-pressed="false">Before</button><button type="button" data-state="after" aria-pressed="true">After</button><span id="comparison-state" aria-live="polite">After · accepted polish</span></div><div class="views" id="built"><figure><figcaption><span class="number">01</span>From the entrance toward the bath</figcaption><a data-full href="progress-a.jpg?polish=5127583"><img data-compare data-before="before-entry.jpg?polish=5127583" data-after="progress-a.jpg?polish=5127583" src="progress-a.jpg?polish=5127583" alt="From the entrance toward the bath, in the bathroom before and after visual polish." width="1536" height="1024" fetchpriority="high"></a><a data-full class="open" href="progress-a.jpg?polish=5127583">Open full size</a></figure><figure><figcaption><span class="number">02</span>From the bath toward the entrance</figcaption><a data-full href="progress-b.jpg?polish=5127583"><img data-compare data-before="before-reverse.jpg?polish=5127583" data-after="progress-b.jpg?polish=5127583" src="progress-b.jpg?polish=5127583" alt="From the bath toward the entrance, in the bathroom before and after visual polish." width="1536" height="1024" fetchpriority="high"></a><a data-full class="open" href="progress-b.jpg?polish=5127583">Open full size</a></figure></div></section>
+    <section aria-labelledby="mirror" style="margin-bottom:38px"><h2 id="mirror">A dirty mirror that reflects the room</h2>
       <div class="views">
-        <figure><figcaption>At the basin · warm evening light</figcaption><a href="mirror-close.jpg"><img src="mirror-close.jpg" alt="A dirty bathroom mirror reflecting the opposite towels and cream boiler, with wiping smears, dried splash rings, old silvering chips and stickers." width="1536" height="1024" fetchpriority="high"></a><a class="open" href="mirror-close.jpg">Open full size</a></figure>
-        <figure><figcaption>Looking from the bath · reflected laundry and shelf</figcaption><a href="mirror-side-a.jpg"><img src="mirror-side-a.jpg" alt="The same bathroom mirror seen from the side, correctly reflecting hanging laundry, the shower curtain and wire toiletries rack." width="1536" height="1024"></a><a class="open" href="mirror-side-a.jpg">Open full size</a></figure>
+        <figure><figcaption>At the basin · warm evening light</figcaption><a href="mirror-close.jpg?polish=5127583"><img src="mirror-close.jpg?polish=5127583" alt="A dirty bathroom mirror reflecting the opposite towels and cream boiler, with wiping smears, dried splash rings, old silvering chips and stickers." width="1536" height="1024" fetchpriority="high"></a><a class="open" href="mirror-close.jpg?polish=5127583">Open full size</a></figure>
+        <figure><figcaption>Looking from the bath · reflected laundry and shelf</figcaption><a href="mirror-side-a.jpg?polish=5127583"><img src="mirror-side-a.jpg?polish=5127583" alt="The same bathroom mirror seen from the side, correctly reflecting hanging laundry, the shower curtain and wire toiletries rack." width="1536" height="1024"></a><a class="open" href="mirror-side-a.jpg?polish=5127583">Open full size</a></figure>
       </div>
       <div class="extras" style="margin-top:24px">
-        <figure><figcaption>The other side</figcaption><a href="mirror-side-b.jpg"><img src="mirror-side-b.jpg" alt="The mirror viewed from the other side, showing a different reflected portion of the bathroom." width="1536" height="1024" loading="lazy"></a></figure>
-        <figure><figcaption>Daylight</figcaption><a href="mirror-daylight.jpg"><img src="mirror-daylight.jpg" alt="The dirty bathroom mirror and basin in daylight." width="1536" height="1024" loading="lazy"></a></figure>
-        <figure><figcaption>Night</figcaption><a href="mirror-night.jpg"><img src="mirror-night.jpg" alt="The bathroom mirror at night under the warm vanity bar, reflecting the towels and boiler." width="1536" height="1024" loading="lazy"></a></figure>
+        <figure><figcaption>The other side</figcaption><a href="mirror-side-b.jpg?polish=5127583"><img src="mirror-side-b.jpg?polish=5127583" alt="The mirror viewed from the other side, showing a different reflected portion of the bathroom." width="1536" height="1024" loading="lazy"></a></figure>
+        <figure><figcaption>Daylight</figcaption><a href="mirror-daylight.jpg?polish=5127583"><img src="mirror-daylight.jpg?polish=5127583" alt="The dirty bathroom mirror and basin in daylight." width="1536" height="1024" loading="lazy"></a></figure>
+        <figure><figcaption>Night</figcaption><a href="mirror-night.jpg?polish=5127583"><img src="mirror-night.jpg?polish=5127583" alt="The bathroom mirror at night under the warm vanity bar, reflecting the towels and boiler." width="1536" height="1024" loading="lazy"></a></figure>
       </div>
     </section>
-    <div class="views" id="built">
-      <figure>
-        <figcaption><span class="number">01 · LIVE</span> From the entrance toward the bath</figcaption>
-        <a href="progress-a.jpg?mirror=6a9bf9d"><img src="progress-a.jpg?mirror=6a9bf9d" alt="The built bathroom viewed from the entrance, with enamel bathtub and basin, cream boiler, radiator, wire rack and laundry under warm light." width="1536" height="1024" fetchpriority="high"></a>
-        <a class="open" href="progress-a.jpg?mirror=6a9bf9d">Open full size</a>
-      </figure>
-      <figure>
-        <figcaption><span class="number">02 · LIVE</span> From the bath back toward the entrance</figcaption>
-        <a href="progress-b.jpg?mirror=6a9bf9d"><img src="progress-b.jpg?mirror=6a9bf9d" alt="The built bathroom viewed toward the entrance door, showing the basin and mirror, hanging robe, boiler, towels and toilet." width="1536" height="1024"></a>
-        <a class="open" href="progress-b.jpg?mirror=6a9bf9d">Open full size</a>
-      </figure>
-    </div>
+
     <section aria-labelledby="states"><h2 id="states">Daylight, night and the curtain</h2><div class="extras">
-      <figure><figcaption>Noon · entrance view</figcaption><a href="daylight.jpg"><img src="daylight.jpg" alt="The bathroom at noon with warm lamps and cool light through the small window." width="1536" height="1024" loading="lazy"></a></figure>
-      <figure><figcaption>Night · reverse view</figcaption><a href="night.jpg"><img src="night.jpg" alt="The bathroom at night, looking back toward the entrance in warm incandescent light." width="1536" height="1024" loading="lazy"></a></figure>
-      <figure><figcaption>Curtain drawn</figcaption><a href="curtain-closed.jpg"><img src="curtain-closed.jpg" alt="The lilac shower curtain drawn across the bathtub." width="1536" height="1024" loading="lazy"></a></figure>
+      <figure><figcaption>Noon · entrance view</figcaption><a href="daylight.jpg?polish=5127583"><img src="daylight.jpg?polish=5127583" alt="The bathroom at noon with warm lamps and cool light through the small window." width="1536" height="1024" loading="lazy"></a></figure>
+      <figure><figcaption>Night · reverse view</figcaption><a href="night.jpg?polish=5127583"><img src="night.jpg?polish=5127583" alt="The bathroom at night, looking back toward the entrance in warm incandescent light." width="1536" height="1024" loading="lazy"></a></figure>
+      <figure><figcaption>Curtain drawn</figcaption><a href="curtain-closed.jpg?polish=5127583"><img src="curtain-closed.jpg?polish=5127583" alt="The lilac shower curtain drawn across the bathtub." width="1536" height="1024" loading="lazy"></a></figure>
     </div></section>
+<details id="polish-studies"><summary>The three review cycles</summary><p style="margin-bottom:22px">Cycle 1 was rejected: coarse fiber loops made the towels too grainy. Cycle 2 used quieter fabric and softened free hems and sock drops. Cycle 3 added used boiler coating and a subtle lamp-balance adjustment; its accepted result is shown above.</p><div class="views"><figure><figcaption>Cycle 1 · rejected coarse fabric · entrance</figcaption><a href="rejected-coarse-entry.jpg"><img src="rejected-coarse-entry.jpg" alt="Rejected coarse fabric study in the entrance bathroom view." width="1536" height="1024" loading="lazy"></a></figure><figure><figcaption>Cycle 1 · rejected coarse fabric · reverse</figcaption><a href="rejected-coarse-reverse.jpg"><img src="rejected-coarse-reverse.jpg" alt="Rejected coarse fabric study in the reverse bathroom view." width="1536" height="1024" loading="lazy"></a></figure><figure><figcaption>Cycle 2 · finer fabric and relaxed hems · entrance</figcaption><a href="fine-cloth-entry.jpg"><img src="fine-cloth-entry.jpg" alt="Finer fabric and relaxed cloth study in the entrance bathroom view." width="1536" height="1024" loading="lazy"></a></figure><figure><figcaption>Cycle 2 · finer fabric and relaxed hems · reverse</figcaption><a href="fine-cloth-reverse.jpg"><img src="fine-cloth-reverse.jpg" alt="Finer fabric and relaxed cloth study in the reverse bathroom view." width="1536" height="1024" loading="lazy"></a></figure></div></details>
     <details id="approved"><summary>Approved concepts · 10 October 2026</summary>
     <div class="views">
       <figure>
@@ -84,7 +80,19 @@
       </figure>
     </div>
     </details>
-    <footer>Dirty mirror update 6a9bf9d · 11 October 2026 · 56 finished model types.<br>Tap any picture to inspect it at full size. The reflection is softer on phone quality. Cloth is still smoother than in the concept artwork.</footer>
+    <footer>Three visual polish cycles · 11 October 2026 · 56 finished model types.<br>Tap any picture for full size. Cloth still has simpler folds than the concept artwork. The mirror is softer on phone quality.</footer>
   </main>
+  <script>
+    const buttons = [...document.querySelectorAll('button[data-state]')];
+    for (const button of buttons) button.addEventListener('click', () => {
+      const state = button.dataset.state;
+      for (const b of buttons) b.setAttribute('aria-pressed', String(b === button));
+      for (const img of document.querySelectorAll('img[data-compare]')) {
+        img.src = img.dataset[state];
+        for (const link of img.closest('figure').querySelectorAll('[data-full]')) link.href = img.src;
+      }
+      document.getElementById('comparison-state').textContent = state === 'after' ? 'After · accepted polish' : 'Before · dirty-mirror checkpoint';
+    });
+  </script>
 </body>
 </html>

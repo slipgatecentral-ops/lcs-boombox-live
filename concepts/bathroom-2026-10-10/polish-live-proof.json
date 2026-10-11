@@ -1,0 +1,316 @@
+{
+  "sourceCommit": "512758338b03ba95378b8993a6841acd2b69495d",
+  "runtime": "https://lcs-rooms.up.railway.app",
+  "owner": {
+    "beforeSha256": "acd8d6bbc6b1e619952fc746e86ce0f2e0cb15d89948c1fe4e243c700ca979ea",
+    "afterSha256": "acd8d6bbc6b1e619952fc746e86ce0f2e0cb15d89948c1fe4e243c700ca979ea",
+    "unchanged": true
+  },
+  "servedManifestMatches": true,
+  "placements": 763,
+  "loadedFinals": 169,
+  "failedFinals": [],
+  "renderErrors": 0,
+  "backend": "WebGPU",
+  "adapter": {
+    "vendor": "nvidia",
+    "architecture": "blackwell",
+    "device": "",
+    "description": ""
+  },
+  "readySeconds": 13.0685852,
+  "firstBathroomViewSeconds": 9.836381400000002,
+  "settledViewSeconds": [
+    0.3446242999999995,
+    0.3958188000000009,
+    0.39948029999999923,
+    0.38226469999999974,
+    0.33779200000000126,
+    0.34471240000000036,
+    0.33930209999999716,
+    0.3484495999999999,
+    0.3849043999999994,
+    0.3211941000000006
+  ],
+  "repeatedCaptures": 12,
+  "steadyAllocations": {
+    "shaders": 0,
+    "pipelines": 0,
+    "textures": 0
+  },
+  "localTiers": [
+    {
+      "tier": "low",
+      "backend": "WebGPU",
+      "errors": [],
+      "captures": 12
+    },
+    {
+      "tier": "medium",
+      "backend": "WebGPU",
+      "errors": [],
+      "captures": 12
+    },
+    {
+      "tier": "high",
+      "backend": "WebGPU",
+      "errors": [],
+      "captures": 12
+    },
+    {
+      "tier": "webgl",
+      "backend": "WebGL2 (fallback)",
+      "errors": [],
+      "captures": 12
+    }
+  ],
+  "archive": {
+    "commit": "512758338b03ba95378b8993a6841acd2b69495d",
+    "trackedArchive": true,
+    "install": "frozen lockfile, offline",
+    "productionBuild": "pass",
+    "models": [
+      {
+        "id": "towel-on-hook",
+        "hash": "1f84535ef3fd",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "towel-stack",
+        "hash": "47eee2b85c4e",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "towel-draped-mint",
+        "hash": "7d3661b4cb37",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "towel-draped-white",
+        "hash": "07e83480e06a",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "towel-line-mint",
+        "hash": "d82126021c02",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "towel-line-vibe",
+        "hash": "3bea9cf699b0",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "socks-line-mint",
+        "hash": "2946ade01dab",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "socks-line-vibe",
+        "hash": "e12515b33d64",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "socks-draped-mint",
+        "hash": "373891d71fda",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "socks-draped-vibe",
+        "hash": "fb6af700cd7f",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "bath-robe-on-hook",
+        "hash": "7153bf5c6354",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "bra-line-mint",
+        "hash": "485adcfd6f1f",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "bra-line-vibe",
+        "hash": "8b02e45e20da",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "tights-line-vibe",
+        "hash": "b2390a5e2f59",
+        "gates": 15,
+        "byteIdentical": true
+      },
+      {
+        "id": "boiler-drum",
+        "hash": "6c7c67dee32d",
+        "gates": 15,
+        "byteIdentical": true
+      }
+    ]
+  },
+  "publicMerge": {
+    "owned": [
+      "towel-on-hook",
+      "towel-stack",
+      "towel-draped-mint",
+      "towel-draped-white",
+      "towel-line-mint",
+      "towel-line-vibe",
+      "socks-line-mint",
+      "socks-line-vibe",
+      "socks-draped-mint",
+      "socks-draped-vibe",
+      "bath-robe-on-hook",
+      "bra-line-mint",
+      "bra-line-vibe",
+      "tights-line-vibe",
+      "boiler-drum"
+    ],
+    "models": 15,
+    "stamp": "591de8662f26",
+    "source": {
+      "repo": "lcs-rooms",
+      "commit": "512758338b03ba95378b8993a6841acd2b69495d"
+    },
+    "foreignRowsPreserved": 270,
+    "foreignFinalsPreserved": 171,
+    "oldPayloadsPreserved": 1071,
+    "oldCoverRowsPreserved": 297,
+    "newCoverNames": [
+      "bath-cloth-black",
+      "bath-cloth-cream",
+      "bath-cloth-lilac",
+      "bath-cloth-plum"
+    ],
+    "wearDescriptorsPreserved": 31,
+    "changedBoilerWearTexels": 30444,
+    "changedForeignWearTexels": 0,
+    "looksAppended": [
+      "enamel-bath-aged"
+    ],
+    "catalogWear": {
+      "previous": "wear-9b416be76ead-r8.ktx2",
+      "current": "wear-065f459aac78-r8.ktx2",
+      "rect": {
+        "x": 1536,
+        "y": 768,
+        "w": 256,
+        "h": 256,
+        "u0": 0.75,
+        "v0": 0.375,
+        "u1": 0.875,
+        "v1": 0.5,
+        "texelMm": 8
+      },
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "gpu": {
+        "bc4": 2796216,
+        "r8": 5592405
+      }
+    }
+  },
+  "images": [
+    {
+      "file": "progress-a.jpg",
+      "bytes": 304968,
+      "sha256": "ca8ba2c9022ffb5d9990bd82b52b9913438c42b84ff0a0923fcf6a5e1090f948"
+    },
+    {
+      "file": "progress-b.jpg",
+      "bytes": 285692,
+      "sha256": "5c677350c35e14d010ae4c2c51b28ab94de8cec648282fd883c59a219feff01c"
+    },
+    {
+      "file": "daylight.jpg",
+      "bytes": 315715,
+      "sha256": "b2e8b547a2f59dc19c24202526d5da7480be6bda9005527331e13924e17c9ac5"
+    },
+    {
+      "file": "night.jpg",
+      "bytes": 285121,
+      "sha256": "85bda52aefe359c77b22f3289b343b001a55020b39965e5b28bab847903a023f"
+    },
+    {
+      "file": "curtain-closed.jpg",
+      "bytes": 289817,
+      "sha256": "358b98b96803638051a66e04d1201b17c7222584ba7f752c0b47a9bc6c99a080"
+    },
+    {
+      "file": "mirror-close.jpg",
+      "bytes": 244710,
+      "sha256": "9e39655b1b3aecdcd9b7d52412f1a08c4ba495bd372109d8a5272bd031c5f8f3"
+    },
+    {
+      "file": "mirror-side-a.jpg",
+      "bytes": 275759,
+      "sha256": "b98f202c02f254463910f29876cb0f5a0c9780e2680080aefbc60eaafa633b32"
+    },
+    {
+      "file": "mirror-side-b.jpg",
+      "bytes": 229441,
+      "sha256": "304555b993049af4daf15f0f515a99effe627102276873eadc6db00c500f4d3c"
+    },
+    {
+      "file": "mirror-daylight.jpg",
+      "bytes": 251810,
+      "sha256": "8477743f1da1b3863000ce25020bcc79abe56bb4daf9a94c5e2e1b380546a9be"
+    },
+    {
+      "file": "mirror-night.jpg",
+      "bytes": 244548,
+      "sha256": "76353d1d6c72d3831bfac24772da3630b28bd415bd724ed21a12c0c3672b8c4c"
+    },
+    {
+      "file": "polish-towels.jpg",
+      "bytes": 237102,
+      "sha256": "c014a009ff03b8d807219bde03819509fa88997be42eb86260257a37231c0695"
+    },
+    {
+      "file": "before-entry.jpg",
+      "bytes": 183575,
+      "sha256": "3d8619a354affc7a1a48c6b9f19ce55e2fff123fffa3c493d9c4d8d8976439e4"
+    },
+    {
+      "file": "before-reverse.jpg",
+      "bytes": 165880,
+      "sha256": "2c3e3a7383035b1578ba1a5c382ff7eb86caa3a6071a1a0a23011f996eb4c97a"
+    },
+    {
+      "file": "rejected-coarse-entry.jpg",
+      "bytes": 185793,
+      "sha256": "00f6e7b09913698f20cac1758dc9b2c5e5c9ff09a7f219c73444d8efbbfcbb85"
+    },
+    {
+      "file": "rejected-coarse-reverse.jpg",
+      "bytes": 176153,
+      "sha256": "65bb3391a5c3e76e952a51382b3a091f9745cb797b1513c8148c2e792e45c7b8"
+    },
+    {
+      "file": "fine-cloth-entry.jpg",
+      "bytes": 184695,
+      "sha256": "f03214146d882987617ea50ba3ad5a908effd3e9037fd263183d2b7c5b8e9ee2"
+    },
+    {
+      "file": "fine-cloth-reverse.jpg",
+      "bytes": 172368,
+      "sha256": "aa745a218c03ee06b2b30f65226a6b63e0e8fcf571ff11b4572acdc8bf6091cf"
+    }
+  ]
+}
