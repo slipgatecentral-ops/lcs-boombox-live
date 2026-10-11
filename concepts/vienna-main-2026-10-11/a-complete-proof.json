@@ -1,0 +1,236 @@
+{
+  "at": "2026-10-11T21:01:21.097Z",
+  "stage": "Completed approved Concept A room art pass",
+  "ids": [
+    "low-bookcase",
+    "side-table",
+    "sorting-table",
+    "stool-low",
+    "step-ladder",
+    "callsign-card",
+    "wiring-diagram",
+    "chart-printout",
+    "main-session-notes",
+    "corkboard",
+    "headphone-hook",
+    "power-strip-floor",
+    "cardboard-box-open",
+    "signal-generator",
+    "book-row"
+  ],
+  "finals": [
+    {
+      "id": "low-bookcase",
+      "hash": "70a26e37d427",
+      "file": "low-bookcase-70a26e37d427.glb",
+      "triangles": 1220,
+      "bytes": 29728
+    },
+    {
+      "id": "side-table",
+      "hash": "567095212553",
+      "file": "side-table-567095212553.glb",
+      "triangles": 1164,
+      "bytes": 22780
+    },
+    {
+      "id": "sorting-table",
+      "hash": "5ab15673e8b0",
+      "file": "sorting-table-5ab15673e8b0.glb",
+      "triangles": 2932,
+      "bytes": 47144
+    },
+    {
+      "id": "stool-low",
+      "hash": "a8603011946b",
+      "file": "stool-low-a8603011946b.glb",
+      "triangles": 832,
+      "bytes": 15536
+    },
+    {
+      "id": "step-ladder",
+      "hash": "b7c526c8be43",
+      "file": "step-ladder-b7c526c8be43.glb",
+      "triangles": 3144,
+      "bytes": 48812
+    },
+    {
+      "id": "callsign-card",
+      "hash": "f67ec9fbef50",
+      "file": "callsign-card-f67ec9fbef50.glb",
+      "triangles": 1152,
+      "bytes": 9600
+    },
+    {
+      "id": "wiring-diagram",
+      "hash": "cf4e2a52e260",
+      "file": "wiring-diagram-cf4e2a52e260.glb",
+      "triangles": 1344,
+      "bytes": 12284
+    },
+    {
+      "id": "chart-printout",
+      "hash": "bbc6005e096c",
+      "file": "chart-printout-bbc6005e096c.glb",
+      "triangles": 4172,
+      "bytes": 38752
+    },
+    {
+      "id": "main-session-notes",
+      "hash": "4ece8027d906",
+      "file": "main-session-notes-4ece8027d906.glb",
+      "triangles": 1072,
+      "bytes": 14112
+    },
+    {
+      "id": "corkboard",
+      "hash": "bc0d8c6314f7",
+      "file": "corkboard-bc0d8c6314f7.glb",
+      "triangles": 1066,
+      "bytes": 17280
+    },
+    {
+      "id": "headphone-hook",
+      "hash": "c02f1b8ee9fe",
+      "file": "headphone-hook-c02f1b8ee9fe.glb",
+      "triangles": 352,
+      "bytes": 8916
+    },
+    {
+      "id": "power-strip-floor",
+      "hash": "16a6949c07ea",
+      "file": "power-strip-floor-16a6949c07ea.glb",
+      "triangles": 2390,
+      "bytes": 38452
+    },
+    {
+      "id": "cardboard-box-open",
+      "hash": "9081608a6028",
+      "file": "cardboard-box-open-9081608a6028.glb",
+      "triangles": 2352,
+      "bytes": 25612
+    },
+    {
+      "id": "signal-generator",
+      "hash": "80c9e4e3149c",
+      "file": "signal-generator-80c9e4e3149c.glb",
+      "triangles": 3548,
+      "bytes": 52176
+    },
+    {
+      "id": "book-row",
+      "hash": "cf1dcadd8264",
+      "file": "book-row-cf1dcadd8264.glb",
+      "triangles": 2560,
+      "bytes": 42228
+    }
+  ],
+  "gatesPerAsset": 15,
+  "native": {
+    "backend": "WebGPU",
+    "adapter": {
+      "vendor": "nvidia",
+      "architecture": "blackwell",
+      "device": "",
+      "description": ""
+    },
+    "hour": 19,
+    "fov": 62,
+    "viewport": [
+      1280,
+      800
+    ],
+    "scenePlacements": 821,
+    "persistentCandidate": 817,
+    "manifestFinals": 236,
+    "loadedFinals": 219,
+    "failed": [],
+    "managed": 46,
+    "pending": 0,
+    "paperPrints": 35,
+    "coldReadySeconds": 21.4,
+    "heldCaptureSeconds": [
+      0.311,
+      0.469,
+      0.311,
+      0.466
+    ]
+  },
+  "layout": {
+    "before": 808,
+    "after": 817,
+    "added": [
+      "z-sort.main-life.listening-books-a",
+      "z-sort.main-life.listening-books-b",
+      "z-sort.main-life.listening-books-c",
+      "z-sort.main-life.window-books",
+      "z-sort.main-life.window-tapes",
+      "z-sort.main-life.archive-short-tapes",
+      "z-sort.main-life.archive-blank-pack",
+      "z-sort.main-life.coffee-loose-tape",
+      "z-sort.main-life.peripheral-notes"
+    ],
+    "changed": [
+      "z-sort.main-life.coffee-books",
+      "z-sort.main-life.coffee-records"
+    ],
+    "removed": [],
+    "geometryAndZonesExact": true,
+    "conflicts": [],
+    "foreignGeneratedRecordsExact": 621,
+    "foreignDerivedDecalsExact": 423,
+    "sofaStations": 2,
+    "cableHits": 0,
+    "populateIdempotent": true,
+    "coffeeClearPatchMm": [
+      240,
+      180
+    ]
+  },
+  "paper": {
+    "newCount": 16,
+    "priorGroupsExact": true,
+    "allEarlierDerivedDecalsExact": true,
+    "windowBreadthMm": 694,
+    "neonBreadthMm": 717.048629056294,
+    "windowPhotoArea": 0.7476415156087646,
+    "neonPhotoArea": 0.8551496710665335,
+    "nativeSizesExact": true,
+    "serviceTriangleRays": 144,
+    "semanticSlotIds": true
+  },
+  "checks": {
+    "roomTests": 639,
+    "serverTests": 31,
+    "roomTypecheck": "passed",
+    "propsTypecheck": "passed",
+    "physicalCoverage": "76/76; four raster-managed types independently accounted"
+  },
+  "foreignFinalRowsChanged": [],
+  "wear": {
+    "baseline": "eleven-final checkpoint",
+    "oldRegions": 38,
+    "newRegions": [
+      "low-bookcase",
+      "side-table",
+      "sorting-table",
+      "stool-low"
+    ],
+    "changedForeignPixels": 0,
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "oldTexturesRetained": true
+  },
+  "review": {
+    "root": "Personally inspected all four refreshed integrated native views, opposing clay/PBR asset evidence and final book construction/contact.",
+    "astraComplete": true,
+    "astra": "Personally compared A against all four final native views. Photo-led window-left and neon clusters satisfy the final correction; book row integrates cleanly. Seating, textiles, storage and activity props form a coherent interpretation of A. No material blocker or worthwhile bounded art revision remains."
+  },
+  "constraints": "Existing architecture/opening spacing, furniture envelopes and approved native print sizes remain authoritative. Renderer/Post-FX changes are separate.",
+  "textureBilling": "Builtin generation model/billing unexposed; project API key not used.",
+  "sourceCommit": "d65266ea1339adbe123920b925652c57f9d45d64",
+  "foreignPublicRowsChanged": [],
+  "priorPayloadsRetained": true
+}
