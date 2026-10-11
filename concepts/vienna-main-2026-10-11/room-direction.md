@@ -9,7 +9,7 @@ These two built-in image-generation studies use the actual deployed wide and rev
 | A — Social broadcast den | Low salvaged coffee table, second mismatched lounge chair, long low record credenza; existing sofa, armchair and steel shelves | A conversation/listening group, selected record sleeves, magazines, coffee mugs, notes, headphones, supported throw/cushions; personal wall clusters |
 | B — Working record archive | Waist-high browsing cabinet, narrow sorting table and office chair, loaded steel trolley, tall timber storage mixed with existing shelves | Record browsing/sorting, open sleeves, tape cartons, paper dividers, working noticeboard and fuller uneven shelf pockets |
 
-Root and GPT6 Astra inspected both generated sheets. Both are useful directions and need no essential regeneration before presentation. Recommendation: A's conversation group with B's fuller perimeter storage and one compact trolley. Do not combine both central furniture arrangements: preserve the room's working routes and the DJ operator space. This blend is a recommendation awaiting the owner's direction, not a signed-off layout.
+The owner approved **picture A, Social broadcast den**, on 11 October and requested a full art pass toward that image. Root and GPT6 Astra inspected both generated sheets. A's conversation group drives the layout, supported by fuller perimeter storage and one compact trolley. Preserve the room's working routes and the DJ operator space. The procedural blockout and native visual checks establish the buildable arrangement before final art.
 
 ## Procedural translation, before blockouts
 

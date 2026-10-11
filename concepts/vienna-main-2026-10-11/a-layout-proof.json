@@ -1,0 +1,88 @@
+{
+  "sourceCommit": "cc0a7b7d9578a4ffd4eb3341920c77c765e0da19",
+  "at": "2026-10-11T18:11:09.515Z",
+  "concept": "Approved A — Social broadcast den",
+  "stage": "Procedural furniture and clutter layout, before new furniture finals",
+  "layout": {
+    "baselineCount": 778,
+    "candidateCount": 809,
+    "newCount": 31,
+    "managed": 32,
+    "pending": [],
+    "originalChanged": [
+      "z-store.step-ladder.1"
+    ],
+    "foreignRecords": 623,
+    "foreignRecordChanges": [],
+    "foreignMatrixChanges": [],
+    "sameRoomProtectedChanges": [],
+    "geometryIdentical": true,
+    "idempotent": true,
+    "serializable": true,
+    "validation": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "doorPaths": [
+      {
+        "sectorId": "s_09728e6a",
+        "name": "Main room",
+        "ok": true,
+        "doors": 2,
+        "reachable": 22.997500000000006,
+        "free": 48.29500000000001,
+        "problems": []
+      }
+    ],
+    "coffeeGapM": 0.3999878654465556,
+    "sofaStations": 2,
+    "cablePartHits": [],
+    "floorCableEnvelopeHits": [],
+    "planningMs": 347.4699
+  },
+  "merge": {
+    "baseCommit": "633740f",
+    "ownerPublished": "2026-10-11T15:24:47.000Z",
+    "before": 774,
+    "after": 805,
+    "added": 31,
+    "changed": [
+      "z-store.step-ladder.1"
+    ],
+    "missing": [],
+    "conflicts": [],
+    "geometryAndZonesExact": true,
+    "valid": true
+  },
+  "native": {
+    "backend": "WebGPU",
+    "adapter": "nvidia blackwell",
+    "hour": 19,
+    "fov": 62,
+    "placements": 809,
+    "skipped": 0,
+    "loadedFinals": 184,
+    "failedFinals": []
+  },
+  "papers": {
+    "count": 19,
+    "groups": 3,
+    "art": "Existing approved print library; no new atlas pixels"
+  },
+  "checks": {
+    "roomTests": 621,
+    "roomFailures": 0,
+    "serverTests": 31,
+    "serverFailures": 0,
+    "workspaceTypecheck": true
+  },
+  "review": "Root personally inspected opposing native room views. Astra ultra accepted the corrected seating relationship, perimeter anchors and personal paper clusters. Wide/reverse hide the characters to expose the arrangement; gear retains a character. This accepts the first composition checkpoint, not the finished full-room concept match.",
+  "foreignCatalogRowsChanged": [],
+  "catalogCounts": {
+    "items": 301,
+    "finals": 201,
+    "concepts": 378,
+    "blockoutsInterim": 3
+  }
+}
