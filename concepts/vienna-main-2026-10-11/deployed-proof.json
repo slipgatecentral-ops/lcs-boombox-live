@@ -1,0 +1,160 @@
+{
+  "sourceCommit": "8bc6323",
+  "at": "2026-10-11T15:00:54.274Z",
+  "url": "https://lcs-rooms.up.railway.app/?q=high&t=19&weather=clear&characters",
+  "ownerPublished": "2026-10-11T14:57:55.484Z",
+  "backend": "WebGPU",
+  "adapter": {
+    "vendor": "nvidia",
+    "architecture": "blackwell",
+    "device": "",
+    "description": ""
+  },
+  "seating": [
+    {
+      "id": "sofa-small",
+      "hash": "c566d70b9dc9",
+      "file": "sofa-small-c566d70b9dc9.glb"
+    },
+    {
+      "id": "worn-armchair",
+      "hash": "1d4a924fcad6",
+      "file": "worn-armchair-1d4a924fcad6.glb"
+    }
+  ],
+  "loadedFinals": 178,
+  "failedFinals": [],
+  "stock": [
+    {
+      "id": "z-store.main-stock.vinyl-a",
+      "itemId": "vinyl-crate",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.1",
+        "surfaceId": "shelf-1"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.vinyl-b",
+      "itemId": "vinyl-crate",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.1",
+        "surfaceId": "shelf-2"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.tapes-a",
+      "itemId": "tape-crate",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.1",
+        "surfaceId": "shelf-3"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.tapes-b",
+      "itemId": "tape-crate",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.3",
+        "surfaceId": "shelf-3"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.carton-a",
+      "itemId": "cardboard-box",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.3",
+        "surfaceId": "shelf-3"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.books-a",
+      "itemId": "book-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.2",
+        "surfaceId": "shelf-4"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.books-b",
+      "itemId": "book-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-dj.metal-shelving.1",
+        "surfaceId": "shelf-4"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.books-c",
+      "itemId": "book-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-listen.low-bookcase.1",
+        "surfaceId": "upper"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.records-a",
+      "itemId": "record-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.2",
+        "surfaceId": "shelf-3"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.records-b",
+      "itemId": "record-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.2",
+        "surfaceId": "shelf-1"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.chair-records",
+      "itemId": "record-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-listen.side-table.1",
+        "surfaceId": "shelf"
+      },
+      "pending": false
+    },
+    {
+      "id": "z-store.main-stock.loose-tapes",
+      "itemId": "cassette-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.1",
+        "surfaceId": "shelf-4"
+      },
+      "pending": false
+    }
+  ],
+  "owner": {
+    "priorPreviewPlacements": 764,
+    "priorPersistentPlacements": 760,
+    "derivedLoot": 4,
+    "deployedPersistentPlacements": 772,
+    "changed": [],
+    "missing": []
+  },
+  "errors": [],
+  "failedRequests": [],
+  "review": "Root personally inspected the fully loaded deployed views; Astra accepted the matching local stock batch."
+}

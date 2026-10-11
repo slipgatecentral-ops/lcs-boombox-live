@@ -1,0 +1,186 @@
+{
+  "existingPlacements": 764,
+  "oldChanged": [],
+  "valid": true,
+  "stock": [
+    {
+      "id": "z-store.main-stock.vinyl-a",
+      "item": "vinyl-crate",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.1",
+        "surfaceId": "shelf-1"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.vinyl-b",
+      "item": "vinyl-crate",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.1",
+        "surfaceId": "shelf-2"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.tapes-a",
+      "item": "tape-crate",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.1",
+        "surfaceId": "shelf-3"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.tapes-b",
+      "item": "tape-crate",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.3",
+        "surfaceId": "shelf-3"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.carton-a",
+      "item": "cardboard-box",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.3",
+        "surfaceId": "shelf-3"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.books-a",
+      "item": "book-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.2",
+        "surfaceId": "shelf-4"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.books-b",
+      "item": "book-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-dj.metal-shelving.1",
+        "surfaceId": "shelf-4"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.books-c",
+      "item": "book-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-listen.low-bookcase.1",
+        "surfaceId": "upper"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.records-a",
+      "item": "record-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.2",
+        "surfaceId": "shelf-3"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.records-b",
+      "item": "record-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.2",
+        "surfaceId": "shelf-1"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.chair-records",
+      "item": "record-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-listen.side-table.1",
+        "surfaceId": "shelf"
+      },
+      "pending": false,
+      "resolved": true
+    },
+    {
+      "id": "z-store.main-stock.loose-tapes",
+      "item": "cassette-stack",
+      "parent": {
+        "kind": "item",
+        "id": "z-store.metal-shelving.1",
+        "surfaceId": "shelf-4"
+      },
+      "pending": false,
+      "resolved": true
+    }
+  ],
+  "baselineSourceCommit": "c186c41",
+  "ownerPublished": "2026-10-11T13:48:42.464Z",
+  "normalMerge": {
+    "placementAdds": 12,
+    "otherChanges": 0,
+    "valid": true
+  },
+  "texturesAdded": 0,
+  "modelsAdded": 0,
+  "native": {
+    "backend": "WebGPU",
+    "adapter": "nvidia blackwell",
+    "highHours": [
+      12,
+      19,
+      22
+    ],
+    "fov": 62,
+    "tiers": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "review": "Root inspected three fully loaded native views; GPT6 Astra accepted the bounded stock batch. Equipment remains readable and gaps stay useful. Lamp and character states differ between captures; no identical-lighting claim.",
+  "tests": {
+    "room": 596,
+    "passed": 596,
+    "typecheck": "workspace passed"
+  },
+  "existingPersistentPlacements": 760,
+  "derivedLootPlacements": 4,
+  "baselineDescription": "764 preview placements:760 persistent owner records plus4 runtime-derived loot posters.",
+  "deployed": {
+    "sourceCommit": "8bc6323",
+    "at": "2026-10-11T15:00:54.274Z",
+    "ownerPublished": "2026-10-11T14:57:55.484Z",
+    "stock": 12,
+    "pending": 0,
+    "ownerRecordsChanged": [],
+    "ownerRecordsMissing": [],
+    "loadedFinals": 178,
+    "errors": [],
+    "failedRequests": []
+  },
+  "sourceCommit": "8bc6323",
+  "deployedVerification": "passed native GPU and loaded-art checks"
+}
