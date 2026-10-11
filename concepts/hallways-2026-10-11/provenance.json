@@ -1,0 +1,201 @@
+{
+  "status": "proposed hallway concepts; awaiting owner design review",
+  "createdLocalDate": "2026-10-11",
+  "generator": "built-in image_gen.imagegen",
+  "apiUsage": null,
+  "billedCost": null,
+  "sourceBaselineCommit": "6be34a8bddbbe6f534255c6b16bc9074bb3013a3",
+  "ownerRoom": {
+    "publishedAt": "2026-10-11T15:24:47.000Z",
+    "sha256": "b7d3d4eb883e406315888bacc7d32ca0de807ba6f91287ba4190b2cadad73107",
+    "placementCount": 774
+  },
+  "layoutAuthority": "The current owner room, captured on native Windows Chrome / WebGPU with NVIDIA Blackwell. Concepts are illustrative design references; use the room document for measured implementation.",
+  "floors": [
+    {
+      "level": "L0",
+      "areas": [
+        "Entry hall",
+        "Stair hall"
+      ],
+      "sectors": [
+        "s_25b296f5",
+        "s_e4ef625c"
+      ],
+      "ceilingHeightM": 3.8,
+      "lowerWallColour": "worn navy blue",
+      "upperWallColour": "beige white",
+      "paintSplitHeightM": 1.9
+    },
+    {
+      "level": "L1",
+      "areas": [
+        "Landing"
+      ],
+      "sectors": [
+        "s_L1_7691a2a1"
+      ],
+      "floorElevationM": 4.1,
+      "ceilingHeightM": 3.5,
+      "lowerWallColour": "worn service green",
+      "upperWallColour": "beige white",
+      "paintSplitHeightM": 1.75
+    }
+  ],
+  "preview": {
+    "backend": "WebGPU",
+    "vendor": "nvidia",
+    "architecture": "blackwell",
+    "coldReadySeconds": 35.4,
+    "firstPictureSeconds": 2.3,
+    "settledPictureSeconds": 0.4,
+    "hour": 12,
+    "viewport": [
+      1536,
+      1024
+    ],
+    "fov": 74,
+    "charactersHiddenForUpperReferences": true
+  },
+  "views": [
+    {
+      "id": "lower-a",
+      "level": "L0",
+      "caption": "Toward the stairs and workshop",
+      "camera": "@9.15,1.68,8.98>2.2,1.63,8.1",
+      "concept": "concept-lower-a.png",
+      "baseline": "lower-a-baseline.png",
+      "prompt": "prompt-lower-a.txt",
+      "generationWallSeconds": 42.504
+    },
+    {
+      "id": "lower-b",
+      "level": "L0",
+      "caption": "Back toward the entry hall",
+      "camera": "@0.95,1.68,8.92>8.9,1.63,8.25",
+      "concept": "concept-lower-b.png",
+      "baseline": "lower-b-baseline.png",
+      "prompt": "prompt-lower-b.txt",
+      "generationWallSeconds": 49.53
+    },
+    {
+      "id": "upper-a",
+      "level": "L1",
+      "caption": "The landing toward the archive",
+      "camera": "@9.08,5.78,8.92>1.35,5.7,8.4",
+      "concept": "concept-upper-a.png",
+      "baseline": "upper-a-baseline.png",
+      "prompt": "prompt-upper-a.txt",
+      "generationWallSeconds": 37.456
+    },
+    {
+      "id": "upper-b",
+      "level": "L1",
+      "caption": "Back toward the deck entrance",
+      "camera": "@1.03,5.78,9.15>8.9,5.7,8.8",
+      "concept": "concept-upper-b.png",
+      "baseline": "upper-b-baseline.png",
+      "prompt": "prompt-upper-b.txt",
+      "generationWallSeconds": 44.502
+    }
+  ],
+  "designIntent": [
+    "Painted two-tone plaster rather than exposed polished concrete",
+    "Telecom stencil ghosts, cabinet and shelf footprints, bolt holes and surviving conduits",
+    "Technical wall hatches with ceramic fuses and disconnected cables",
+    "Plain industrial steel doors and wired caged incandescent lamps",
+    "Small uneven salvage groups beginning to become temporary storage; clear circulation and stair access"
+  ],
+  "notes": [
+    "Two opposing views on each floor describe one design rather than alternative layouts.",
+    "The navy scheme continues into the downstairs entry hall.",
+    "Both floors retain the current shell, openings and stair direction; no runtime geometry or owner document is changed by this concept publication.",
+    "No plants, wireless, LED/RGB, neon, LCD/flat displays, brands or new canon."
+  ],
+  "images": [
+    {
+      "file": "concept-lower-a.png",
+      "bytes": 2700346,
+      "sha256": "215b4bb13a229036dedc50447e31e778899f0042437f536c3d22f80ab946ba3f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "concept-lower-a.jpg",
+      "bytes": 330684,
+      "sha256": "30697214ab0ac1fc03ca225a34ed09549b7f8ddc49f98f67a867b5dceae84360",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "lower-a-baseline.jpg",
+      "bytes": 165986,
+      "sha256": "0c2f827b9034c703290ef021a4303cac81bc0211f1fbe2570c577ed2735eca28",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "concept-lower-b.png",
+      "bytes": 2733504,
+      "sha256": "82419dc6cbf06b0abf298564ca4f7374597e95ea6e66f2600b01cd5aa8629791",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "concept-lower-b.jpg",
+      "bytes": 341779,
+      "sha256": "9eed13485007e6becd0f3c9d5157e547fbb0f9f8a309cd30193866b91204ccf4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "lower-b-baseline.jpg",
+      "bytes": 147956,
+      "sha256": "bc502f6621dc0ec3fca85db879ea102bfae8874c18a48a2feeaa96e0bdef02f5",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "concept-upper-a.png",
+      "bytes": 2518705,
+      "sha256": "e572b223e01cc5ce498b57ed95c09ca4dc57aafd6f7e1daf2a36b5560fbf1b8a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "concept-upper-a.jpg",
+      "bytes": 291171,
+      "sha256": "c7a061fc03b1bdedefeabb98c9c474b1e9552466805b5f2bb3fcd8a9f5989225",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "upper-a-baseline.jpg",
+      "bytes": 162604,
+      "sha256": "fc3b8ebfd8e188815ea17fa3ba6127f40b3564facd863b05884d63c12122a6f5",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "concept-upper-b.png",
+      "bytes": 2578213,
+      "sha256": "ec32be0f02f4755a3eb96d8514311fbc30873c642a6816ae5a2dfa9f2eb29963",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "concept-upper-b.jpg",
+      "bytes": 318985,
+      "sha256": "03d13f2d3f546a9fbafd43027643f2e0e82d677e42ba68d03ec8dca0ef5856be",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "upper-b-baseline.jpg",
+      "bytes": 159717,
+      "sha256": "35d8539a680185484a212eba95dd7ce9b9eb8770b99b8fea48b2b46d35a340db",
+      "width": 1536,
+      "height": 1024
+    }
+  ]
+}
