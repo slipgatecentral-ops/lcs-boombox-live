@@ -4,8 +4,8 @@
  "width": 2048,
  "height": 4096,
  "vScale": 0.5,
- "ktx2": "covers-1ba1a11a13c4.ktx2",
- "png": "covers-7484d633ef62.png",
+ "ktx2": "covers-648e86a2096a.ktx2",
+ "png": "covers-14d188ec3537.png",
  "gutterPx": 4,
  "uvUnits": "u and v are in units of the atlas's WIDTH (v runs 0 … height / width): sample at (u, v x vScale). The atlas grew from 2048² to 2048 x 4096 on 8 Oct; every older uv names the same texels",
  "pools": "a tape item's `pool` (tape-jcard-blank / -mix, tape-spine-blank / -mix, tape-label): the room re-draws the tapes' prints per placement from their pool (apps/room/src/catalog/coverPools.ts)",
@@ -5018,6 +5018,20 @@
    "prop": "worn-armchair",
    "pxPerMm": 2.56,
    "source": "PROPS-MAIN-SEATING-CLOTH_3.png"
+  },
+  "main-cloth-lounge-chair-grey-brown": {
+   "u0": 0.388671875,
+   "v0": 1.8134765625,
+   "u1": 0.513671875,
+   "v1": 1.9384765625,
+   "wMm": 100,
+   "hMm": 100,
+   "kind": "label",
+   "text": "",
+   "lines": [],
+   "prop": "main-lounge-chair",
+   "pxPerMm": 2.56,
+   "source": "PROPS-MAIN-LOUNGE-CHAIR-CLOTH_1.png"
   }
  }
 }

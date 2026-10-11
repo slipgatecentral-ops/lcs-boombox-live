@@ -1,0 +1,196 @@
+{
+  "at": "2026-10-11T19:20:54.588Z",
+  "stage": "Furniture, textiles and audio finals",
+  "ids": [
+    "main-coffee-table",
+    "main-record-credenza",
+    "main-record-trolley",
+    "main-lounge-chair",
+    "floor-cushion",
+    "folded-blanket",
+    "bookshelf-speaker",
+    "boombox-large"
+  ],
+  "finals": [
+    {
+      "id": "main-coffee-table",
+      "hash": "1c2b15e909b2",
+      "triangles": 980,
+      "bytes": 27240,
+      "file": "main-coffee-table-1c2b15e909b2.glb"
+    },
+    {
+      "id": "main-record-credenza",
+      "hash": "10e542d5c50e",
+      "triangles": 2016,
+      "bytes": 40160,
+      "file": "main-record-credenza-10e542d5c50e.glb"
+    },
+    {
+      "id": "main-record-trolley",
+      "hash": "a4fad9adaece",
+      "triangles": 4556,
+      "bytes": 54556,
+      "file": "main-record-trolley-a4fad9adaece.glb"
+    },
+    {
+      "id": "main-lounge-chair",
+      "hash": "eaf62a651898",
+      "triangles": 3548,
+      "bytes": 42324,
+      "file": "main-lounge-chair-eaf62a651898.glb"
+    },
+    {
+      "id": "floor-cushion",
+      "hash": "d78f8aea1ff2",
+      "triangles": 2100,
+      "bytes": 22776,
+      "file": "floor-cushion-d78f8aea1ff2.glb"
+    },
+    {
+      "id": "folded-blanket",
+      "hash": "29b3129ba947",
+      "triangles": 4064,
+      "bytes": 34268,
+      "file": "folded-blanket-29b3129ba947.glb"
+    },
+    {
+      "id": "bookshelf-speaker",
+      "hash": "5bcdc96fc39a",
+      "triangles": 3442,
+      "bytes": 44228,
+      "file": "bookshelf-speaker-5bcdc96fc39a.glb"
+    },
+    {
+      "id": "boombox-large",
+      "hash": "a7e02a49c883",
+      "triangles": 9564,
+      "bytes": 112640,
+      "file": "boombox-large-a7e02a49c883.glb"
+    }
+  ],
+  "gatesPerAsset": 15,
+  "native": {
+    "backend": "WebGPU",
+    "adapter": "nvidia blackwell",
+    "hour": 19,
+    "placements": 809,
+    "skipped": 0,
+    "loadedFinals": 193,
+    "failed": [],
+    "paperPrints": 19
+  },
+  "foreignManifestRowsChanged": [],
+  "cover": {
+    "added": [
+      "main-cloth-lounge-chair-grey-brown"
+    ],
+    "oldPrints": 307,
+    "foreignPrintRecordsChanged": [],
+    "changedPixelsOutsideNewCellAndGutter": 0,
+    "newCell": [
+      796,
+      3714,
+      256,
+      256
+    ],
+    "newCellWithGutter": [
+      792,
+      3710,
+      1056,
+      3974
+    ],
+    "dimensions": [
+      2048,
+      4096
+    ],
+    "gutterPx": 4,
+    "textureBindingGrowth": 0,
+    "gpuAllocationGrowth": 0,
+    "ktxHeaderExact": true,
+    "png": "covers-14d188ec3537.png",
+    "ktx2": "covers-648e86a2096a.ktx2",
+    "oldContentAddressedFilesPreserved": [
+      "covers-065c685cd8e4.png",
+      "covers-144b2400bc37.png",
+      "covers-1ba1a11a13c4.ktx2",
+      "covers-39cad8eb671a.png",
+      "covers-3c7c9e7df8e7.png",
+      "covers-44f5c4b5c36b.png",
+      "covers-6622ab365474.ktx2",
+      "covers-7484d633ef62.png",
+      "covers-9667498fd926.ktx2",
+      "covers-bd7f566c598f.ktx2",
+      "covers-f3e0632251fa.ktx2",
+      "covers-fd5500eb59b0.ktx2"
+    ],
+    "propManifestByteExact": true,
+    "propManifestSHA256": "9b6b1193d10408aedd0181ce8e8577f3c5da0b9104f8177ebc1f85741ebccf6d",
+    "authoringChanges": [
+      "one 1x1 fullBleed sheet",
+      "one 100mm/2.56ppm tile",
+      "one selected try"
+    ],
+    "apiCalls": 0,
+    "helpersModified": 0,
+    "notes": [
+      "main-cloth-lounge-chair-grey-brown: touches the sheet's left/top/right/bottom edge (may be cut)"
+    ]
+  },
+  "wear": {
+    "baseline": "latest upstream bedroom correction",
+    "oldRegions": 35,
+    "newRegions": [
+      "main-coffee-table",
+      "main-record-credenza",
+      "main-record-trolley"
+    ],
+    "changedForeignPixels": 0,
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "oldTexturesRetained": true
+  },
+  "review": {
+    "root": "Personally inspected opposing integrated native views, gear view and current prop material evidence.",
+    "astraAssets": "All eight accepted, including corrected grey-brown chair material.",
+    "astraRoom": "Accepted after personally inspecting refreshed merged native wide, reverse and gear views. Upstream renderer and bedroom updates do not invalidate this checkpoint."
+  },
+  "textureBilling": "Builtin image generation model and image billing are not exposed; no project API key used.",
+  "checks": {
+    "roomTests": 627,
+    "propPipelineTests": 84,
+    "workspaceTypecheck": "passed",
+    "upstream": "18a474d",
+    "foreignFinalRowsPreserved": 202
+  },
+  "sourceCommit": "db94499a925b3ec42672be83642d217fbe291552",
+  "publicAtlas": {
+    "covers": {
+      "foreignChanged": [],
+      "added": [
+        "main-cloth-lounge-chair-grey-brown"
+      ],
+      "dimensions": [
+        2048,
+        4096
+      ],
+      "priorFilesRetained": true
+    },
+    "wear": {
+      "foreignChanged": [],
+      "added": [
+        "main-coffee-table",
+        "main-record-credenza",
+        "main-record-trolley"
+      ],
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "priorFilesRetained": true
+    }
+  },
+  "foreignPublicRowsChanged": []
+}
