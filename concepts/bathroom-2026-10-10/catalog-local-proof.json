@@ -1,0 +1,794 @@
+{
+  "phase": "local",
+  "backend": "webgpu",
+  "stamp": "e38769a3fdb6",
+  "source": {
+    "repo": "lcs-rooms",
+    "commit": "7c41de4efea863c7b951d991eab83fb1f3c2db25"
+  },
+  "models": [
+    {
+      "id": "basin-pedestal",
+      "hash": "cdab2626c028",
+      "total": 4826,
+      "bytes": 41792,
+      "slots": [
+        "brushed",
+        "rubber",
+        "enamel",
+        "chrome"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "bath-robe-on-hook",
+      "hash": "5a4ba195cb5b",
+      "total": 10408,
+      "bytes": 77000,
+      "slots": [
+        "cloth-cream",
+        "cloth-plum"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "bath-scale",
+      "hash": "40d6815e643f",
+      "total": 3972,
+      "bytes": 58904,
+      "slots": [
+        "brushed",
+        "rubber",
+        "enamel",
+        "enamel-red",
+        "dial-cream",
+        "rubber-foot",
+        "decal-ink",
+        "glass-clear"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "bathtub-alcove",
+      "hash": "63b138b467b3",
+      "total": 1784,
+      "bytes": 31220,
+      "slots": [
+        "plastic-dark",
+        "metal",
+        "brushed",
+        "enamel",
+        "tile",
+        "chrome",
+        "rubber-foot"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "bathtub-alcove-r",
+      "hash": "b516a71e1317",
+      "total": 1784,
+      "bytes": 31348,
+      "slots": [
+        "plastic-dark",
+        "metal",
+        "brushed",
+        "enamel",
+        "tile",
+        "chrome",
+        "rubber-foot"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "body-wash-vibe",
+      "hash": "dc26a8591883",
+      "total": 656,
+      "bytes": 13996,
+      "slots": [
+        "plastic-dark",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "boiler-drum",
+      "hash": "0c09e947fb14",
+      "total": 4144,
+      "bytes": 67832,
+      "slots": [
+        "metal",
+        "brushed",
+        "rubber",
+        "emissive-warm",
+        "enamel",
+        "enamel-black",
+        "enamel-beige",
+        "dial-cream",
+        "glass-clear"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "bottles-small",
+      "hash": "61d1b32ec595",
+      "total": 1628,
+      "bytes": 34276,
+      "slots": [
+        "plastic-dark",
+        "plastic-light",
+        "paper",
+        "accent-magenta",
+        "accent-lilac",
+        "enamel-black",
+        "glass-clear"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "bra-dropped-mint",
+      "hash": "7c475a8637f8",
+      "total": 2972,
+      "bytes": 27048,
+      "slots": [
+        "cloth-cream",
+        "cloth-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "bra-line-mint",
+      "hash": "a77c15260ef3",
+      "total": 3868,
+      "bytes": 36180,
+      "slots": [
+        "brushed",
+        "wood",
+        "cloth-cream",
+        "cloth-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "bra-line-vibe",
+      "hash": "0ac5eab63210",
+      "total": 3868,
+      "bytes": 36220,
+      "slots": [
+        "brushed",
+        "wood",
+        "rubber",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "crate-shelf-wall",
+      "hash": "b8dd8af19706",
+      "total": 1704,
+      "bytes": 36708,
+      "slots": [
+        "metal",
+        "brushed",
+        "wood-workshop"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "deodorant-can",
+      "hash": "d34bf2f11123",
+      "total": 736,
+      "bytes": 15328,
+      "slots": [
+        "plastic-dark",
+        "brushed",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "hair-dryer",
+      "hash": "a38c273c091e",
+      "total": 4378,
+      "bytes": 48688,
+      "slots": [
+        "plastic-dark",
+        "plastic-light",
+        "brushed",
+        "accent-lilac",
+        "enamel-red",
+        "grille-mesh"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "hairbrush",
+      "hash": "9b978f411170",
+      "total": 5602,
+      "bytes": 59372,
+      "slots": [
+        "plastic-dark",
+        "brushed",
+        "rubber"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "jar-cotton",
+      "hash": "86655a6b7286",
+      "total": 5472,
+      "bytes": 56976,
+      "slots": [
+        "brushed",
+        "rubber-foot",
+        "glass-clear",
+        "cloth-cream"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "jar-hair-ties",
+      "hash": "d3dd575d6fae",
+      "total": 3872,
+      "bytes": 67784,
+      "slots": [
+        "brushed",
+        "rubber",
+        "accent-magenta",
+        "accent-purple",
+        "accent-lilac",
+        "rubber-foot",
+        "glass-clear"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "knickers-dropped-vibe",
+      "hash": "42cecdc2d1ff",
+      "total": 3628,
+      "bytes": 29956,
+      "slots": [
+        "rubber",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "knickers-line-mint",
+      "hash": "71d06c1f1043",
+      "total": 3948,
+      "bytes": 34676,
+      "slots": [
+        "brushed",
+        "wood",
+        "cloth-cream",
+        "cloth-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "knickers-line-plain",
+      "hash": "c317c5648693",
+      "total": 3948,
+      "bytes": 33296,
+      "slots": [
+        "brushed",
+        "wood",
+        "cloth-cream"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "knickers-line-vibe",
+      "hash": "6aa3684f155c",
+      "total": 3948,
+      "bytes": 34716,
+      "slots": [
+        "brushed",
+        "wood",
+        "rubber",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "laundry-basket-full",
+      "hash": "2c573d8a2c0e",
+      "total": 14432,
+      "bytes": 134112,
+      "slots": [
+        "wood",
+        "fabric",
+        "accent-crimson",
+        "speaker-cloth",
+        "cloth-cream",
+        "cloth-lilac",
+        "cloth-plum"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "makeup-bag",
+      "hash": "7ce9504fafb3",
+      "total": 6744,
+      "bytes": 63232,
+      "slots": [
+        "brushed",
+        "cloth-cream",
+        "cloth-lilac",
+        "cloth-plum"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "makeup-tray",
+      "hash": "415d2037a5e5",
+      "total": 1360,
+      "bytes": 38276,
+      "slots": [
+        "plastic-dark",
+        "plastic-light",
+        "metal",
+        "brushed",
+        "paper",
+        "accent-warm",
+        "accent-magenta",
+        "accent-crimson",
+        "accent-purple",
+        "accent-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "mirror-light",
+      "hash": "5738852d340b",
+      "total": 3276,
+      "bytes": 32820,
+      "slots": [
+        "brushed",
+        "rubber",
+        "emissive-warm",
+        "enamel",
+        "chrome"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "nail-polish-row",
+      "hash": "0a974f13f77a",
+      "total": 2100,
+      "bytes": 38760,
+      "slots": [
+        "plastic-dark",
+        "accent-magenta",
+        "accent-crimson",
+        "accent-purple",
+        "accent-lilac",
+        "glass-clear"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "paper-lantern-pendant",
+      "hash": "0d68725cbc5e",
+      "total": 6948,
+      "bytes": 52816,
+      "slots": [
+        "plastic-dark",
+        "brushed",
+        "rubber",
+        "paper",
+        "shade",
+        "emissive-warm",
+        "enamel"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "perfume-bottle",
+      "hash": "d6242b7da5ca",
+      "total": 564,
+      "bytes": 18416,
+      "slots": [
+        "plastic-light",
+        "brushed",
+        "paper",
+        "accent-magenta",
+        "enamel-beige",
+        "glass-clear"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "pump-bottle",
+      "hash": "98333eae1b1b",
+      "total": 776,
+      "bytes": 15788,
+      "slots": [
+        "plastic-light",
+        "paper"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "radiator-column",
+      "hash": "2fd91bad362f",
+      "total": 6324,
+      "bytes": 86712,
+      "slots": [
+        "metal",
+        "brushed",
+        "rubber",
+        "paint-rescued-cream"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "razor",
+      "hash": "253c1d5f2c8d",
+      "total": 364,
+      "bytes": 16220,
+      "slots": [
+        "plastic-dark",
+        "plastic-light",
+        "brushed",
+        "rubber",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "shampoo-bottle",
+      "hash": "296116ce7dae",
+      "total": 692,
+      "bytes": 15544,
+      "slots": [
+        "plastic-dark",
+        "plastic-light",
+        "paper"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "shampoo-bottle-mint",
+      "hash": "004a428f6550",
+      "total": 656,
+      "bytes": 14024,
+      "slots": [
+        "paper",
+        "accent-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "shower-riser",
+      "hash": "c0b2cfe9639e",
+      "total": 4396,
+      "bytes": 36704,
+      "slots": [
+        "brushed",
+        "enamel",
+        "chrome",
+        "enamel-red"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "soap-on-holder",
+      "hash": "c6079d2b157b",
+      "total": 712,
+      "bytes": 16556,
+      "slots": [
+        "metal",
+        "paper",
+        "enamel"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "sock-dropped-mint",
+      "hash": "04966eec6f34",
+      "total": 2132,
+      "bytes": 18776,
+      "slots": [
+        "cloth-cream",
+        "cloth-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "sock-dropped-vibe",
+      "hash": "286bdb35eb9c",
+      "total": 2132,
+      "bytes": 18780,
+      "slots": [
+        "rubber",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "socks-draped-mint",
+      "hash": "0fcdd626ba38",
+      "total": 3328,
+      "bytes": 28492,
+      "slots": [
+        "cloth-cream",
+        "cloth-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "socks-draped-vibe",
+      "hash": "281c4aeb5ea1",
+      "total": 3328,
+      "bytes": 28536,
+      "slots": [
+        "rubber",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "socks-line-mint",
+      "hash": "b99e91def6ca",
+      "total": 3512,
+      "bytes": 32160,
+      "slots": [
+        "brushed",
+        "wood",
+        "cloth-cream",
+        "cloth-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "socks-line-vibe",
+      "hash": "01430ce9da7d",
+      "total": 3512,
+      "bytes": 32204,
+      "slots": [
+        "brushed",
+        "wood",
+        "rubber",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "tights-line-vibe",
+      "hash": "642180738bfe",
+      "total": 5476,
+      "bytes": 38740,
+      "slots": [
+        "brushed",
+        "wood",
+        "rubber"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "toilet-brush",
+      "hash": "91fb383e4f5f",
+      "total": 1228,
+      "bytes": 20424,
+      "slots": [
+        "plastic-light",
+        "cloth-cream"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "toilet-rolls",
+      "hash": "0bd296a6373b",
+      "total": 2916,
+      "bytes": 53192,
+      "slots": [
+        "paper",
+        "paper-kraft"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "toothbrush-holder-mint",
+      "hash": "51739c58d0b9",
+      "total": 1072,
+      "bytes": 29960,
+      "slots": [
+        "plastic-light",
+        "rubber",
+        "accent-purple",
+        "accent-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "toothbrush-holder-vibe",
+      "hash": "5d309b721a62",
+      "total": 940,
+      "bytes": 23308,
+      "slots": [
+        "plastic-light",
+        "rubber",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "towel-draped-mint",
+      "hash": "f814df9bee68",
+      "total": 3940,
+      "bytes": 25836,
+      "slots": [
+        "cloth-cream",
+        "cloth-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "towel-draped-white",
+      "hash": "d7fcd5041cf5",
+      "total": 3940,
+      "bytes": 25836,
+      "slots": [
+        "cloth-cream",
+        "cloth-plum"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "towel-line-mint",
+      "hash": "7591393b28e0",
+      "total": 3604,
+      "bytes": 25480,
+      "slots": [
+        "cloth-cream",
+        "cloth-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "towel-line-vibe",
+      "hash": "2d8c5054a1f4",
+      "total": 3604,
+      "bytes": 25524,
+      "slots": [
+        "rubber",
+        "accent-magenta"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "towel-on-hook",
+      "hash": "8a0a6d490a8b",
+      "total": 2812,
+      "bytes": 29256,
+      "slots": [
+        "cloth-cream",
+        "cloth-lilac"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "towel-rail",
+      "hash": "efadd6631a3c",
+      "total": 3688,
+      "bytes": 29364,
+      "slots": [
+        "brushed",
+        "chrome",
+        "cloth-cream"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "towel-stack",
+      "hash": "7fc80872d661",
+      "total": 5448,
+      "bytes": 35956,
+      "slots": [
+        "cloth-cream",
+        "cloth-lilac",
+        "cloth-plum"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "wall-mirror",
+      "hash": "e2e009144e61",
+      "total": 988,
+      "bytes": 17360,
+      "slots": [
+        "plastic-dark",
+        "brushed",
+        "mirror",
+        "glass-clear"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "wc-cistern",
+      "hash": "c7d2f62dfa58",
+      "total": 4072,
+      "bytes": 40340,
+      "slots": [
+        "plastic-dark",
+        "brushed",
+        "rubber",
+        "enamel",
+        "chrome"
+      ],
+      "clay": false,
+      "missing": false
+    },
+    {
+      "id": "wire-rack-bath",
+      "hash": "c598dc842a68",
+      "total": 4104,
+      "bytes": 69416,
+      "slots": [
+        "chrome",
+        "rubber-foot"
+      ],
+      "clay": false,
+      "missing": false
+    }
+  ],
+  "review": null,
+  "errors": [],
+  "failedHttp": []
+}

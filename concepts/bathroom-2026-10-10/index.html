@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#211d1b">
-  <title>LCS · Bathroom concepts</title>
+  <title>LCS · Bathroom review</title>
   <style>
     :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #211d1b; color: #efe7dd; }
     * { box-sizing: border-box; }
@@ -23,6 +23,14 @@
     img { display: block; width: 100%; height: auto; background: #312820; border-radius: 5px; }
     .open { display: inline-block; font-size: 13px; margin-top: 12px; color: #d9c0a9; text-underline-offset: 3px; }
     footer { font-size: 13px; color: #b9a69a; line-height: 1.5; margin-top: 32px; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 18px; }
+    .links a { color: #e7cab0; text-underline-offset: 4px; }
+    h2 { font-size: 22px; font-weight: 550; margin: 0 0 20px; }
+    section { margin-top: 38px; }
+    details { margin-top: 38px; border-top: 1px solid #514139; padding-top: 20px; }
+    summary { cursor: pointer; color: #e7cab0; margin-bottom: 22px; }
+    .extras { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    @media (max-width: 700px) { .extras { grid-template-columns: 1fr; } }
     @media (max-width: 960px) { .views { grid-template-columns: 1fr; gap: 32px; } main { padding: 24px 14px 36px; } }
   </style>
 </head>
@@ -30,9 +38,28 @@
   <main>
     <header>
       <p class="eyebrow">Leg City Sounds · Apartment</p>
-      <h1>Bathroom concepts</h1>
-      <p>Two opposing views of one lived-in bathroom: a wall-to-wall tub, warm light, worn tiles, improvised storage and two roommates’ everyday things.</p>
+      <h1>The bathroom, built</h1>
+      <p>The approved room now has finished enamel fixtures, timber and wire storage, toiletries, towels and everyday laundry. These are pictures from the live apartment, with warm lantern and mirror light.</p>
+      <nav class="links" aria-label="Bathroom review links"><a href="https://lcs-rooms.up.railway.app/?q=high&amp;t=19">Open the live apartment</a><a href="../../props/?item=bathtub-alcove">Inspect the models</a><a href="#approved">See the approved concepts</a></nav>
     </header>
+    <div class="views" id="built">
+      <figure>
+        <figcaption><span class="number">01 · LIVE</span> From the entrance toward the bath</figcaption>
+        <a href="progress-a.jpg"><img src="progress-a.jpg" alt="The built bathroom viewed from the entrance, with enamel bathtub and basin, cream boiler, radiator, wire rack and laundry under warm light." width="1536" height="1024" fetchpriority="high"></a>
+        <a class="open" href="progress-a.jpg">Open full size</a>
+      </figure>
+      <figure>
+        <figcaption><span class="number">02 · LIVE</span> From the bath back toward the entrance</figcaption>
+        <a href="progress-b.jpg"><img src="progress-b.jpg" alt="The built bathroom viewed toward the entrance door, showing the basin and mirror, hanging robe, boiler, towels and toilet." width="1536" height="1024"></a>
+        <a class="open" href="progress-b.jpg">Open full size</a>
+      </figure>
+    </div>
+    <section aria-labelledby="states"><h2 id="states">Daylight, night and the curtain</h2><div class="extras">
+      <figure><figcaption>Noon · entrance view</figcaption><a href="daylight.jpg"><img src="daylight.jpg" alt="The bathroom at noon with warm lamps and cool light through the small window." width="1536" height="1024" loading="lazy"></a></figure>
+      <figure><figcaption>Night · reverse view</figcaption><a href="night.jpg"><img src="night.jpg" alt="The bathroom at night, looking back toward the entrance in warm incandescent light." width="1536" height="1024" loading="lazy"></a></figure>
+      <figure><figcaption>Curtain drawn</figcaption><a href="curtain-closed.jpg"><img src="curtain-closed.jpg" alt="The lilac shower curtain drawn across the bathtub." width="1536" height="1024" loading="lazy"></a></figure>
+    </div></section>
+    <details id="approved"><summary>Approved concepts · 10 October 2026</summary>
     <div class="views">
       <figure>
         <figcaption><span class="number">01</span> From the entrance toward the bath</figcaption>
@@ -45,7 +72,8 @@
         <a class="open" href="concept-b-bath-to-entry.png">Open full size</a>
       </figure>
     </div>
-    <footer>Proposed concept pair · 10 October 2026. Tap either image to inspect it at full size.</footer>
+    </details>
+    <footer>56 finished model types · Bathroom implementation 7c41de4 · 10 October 2026.<br>Tap any picture to inspect it at full size. Cloth is still smoother than in the concept artwork.</footer>
   </main>
 </body>
 </html>

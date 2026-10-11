@@ -5,8 +5,8 @@
  "uvOrigin": "top-left",
  "width": 2048,
  "height": 2048,
- "ktx2": "decals-65b00ebdb23a.ktx2",
- "png": "decals-f3bac0d9f7b4.png",
+ "ktx2": "decals-ee2fd9b02abf.ktx2",
+ "png": "decals-83b0cbb76a93.png",
  "items": {
   "play": {
    "u0": 0.0009765625,
@@ -2198,6 +2198,17 @@
    "kind": "word",
    "rasterScale": 0.375,
    "text": "6.35 mm"
+  },
+  "kg": {
+   "u0": 0.50927734375,
+   "v0": 0.19140625,
+   "u1": 0.52783203125,
+   "v1": 0.203125,
+   "wMm": 4.75,
+   "hMm": 3.0,
+   "kind": "word",
+   "rasterScale": 0.5,
+   "text": "kg"
   },
   "icon-play": {
    "u0": 0.09423828125,
