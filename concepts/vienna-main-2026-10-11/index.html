@@ -6,11 +6,24 @@
 :root{color-scheme:dark;background:#171613;color:#ebe6d9;font:16px/1.5 system-ui,sans-serif}body{margin:0}main{max-width:1440px;margin:auto;padding:32px 20px 70px}h1{font-size:clamp(28px,4vw,48px);margin:8px 0}h2{font-size:25px;margin:0 0 12px}p{max-width:900px;color:#c6c0b1}a{color:#e1b672}nav{display:flex;gap:20px;flex-wrap:wrap;border-bottom:1px solid #454238;padding:0 0 15px;margin-bottom:28px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:#b8a58a}.batch{margin-top:38px;border-top:1px solid #454238;padding-top:24px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;background:#23211c;border:1px solid #454238;border-radius:4px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:10px 14px;font-size:14px;color:#cac2b3}.single{margin-top:18px}.single img{max-height:900px;object-fit:contain}.tag{display:inline-block;border:1px solid #61553d;border-radius:20px;padding:3px 12px;font-size:13px;color:#e1b672}.note{font-size:14px;color:#b8af9f}.links{display:flex;gap:18px;flex-wrap:wrap}details{margin:18px 0}summary{cursor:pointer;color:#e1b672}footer{margin-top:38px;padding-top:15px;border-top:1px solid #454238;font-size:14px;color:#b8af9f}@media(max-width:700px){main{padding:20px 12px 40px}.grid{grid-template-columns:1fr}nav{gap:14px}}
 </style>
 <main>
-<nav><a href="https://lcs-rooms.up.railway.app/?t=19">Open live room</a><a href="../../props/">Asset catalog</a><a href="../kitchen-comfort-2026-10-09/">Kitchen review</a><a href="seating-proof.json">Verification record</a></nav>
+<nav><a href="#room-concepts">Room concepts</a><a href="https://lcs-rooms.up.railway.app/?t=19">Open live room</a><a href="../../props/">Asset catalog</a><a href="../kitchen-comfort-2026-10-09/">Kitchen review</a><a href="seating-proof.json">Verification record</a></nav>
 <div class="eyebrow">LCS · 11 October 2026</div>
 <h1>Vienna's main room</h1>
-<p>The DJ station already has its analog gear. This pass gives the listening and sorting corner more comfort, beginning with the large furniture shapes and then the stored records and tapes.</p>
+<p>The DJ station already has its analog gear. The next update starts with room concepts: substantial collected furniture, fuller storage and grouped clutter around listening and record sorting. Earlier native checkpoints are retained below.</p>
 <p><span class="tag">Sol implementation · Astra visual review</span></p>
+<section class="batch" id="room-concepts">
+<h2>Room concepts — more furniture, more life</h2>
+<p>Two opposing views per direction. Larger furniture groups and clustered activity give the room a busier, more personal character. These are generated concepts; the existing room still governs architecture and exact placement.</p>
+<h3>A — Social broadcast den</h3>
+<p>A salvaged coffee table, mismatched lounge chair and long low record storage make a shared listening corner. Sleeves, books, coffee mugs, notes and textiles gather around that activity.</p>
+<figure class="single"><a href="a-social-broadcast-den.jpg" target="_blank"><img src="a-social-broadcast-den.jpg" alt="Concept A: two opposing views of a busy social broadcast den"></a><figcaption>Generated room direction A · open the image for full size</figcaption></figure>
+<h3>B — Working record archive</h3>
+<p>A record browsing cabinet, sorting table, trolley and fuller timber/steel storage make the collection visibly active. More cartons and media groups occupy the perimeter and work surfaces.</p>
+<figure class="single"><a href="b-working-record-archive.jpg" target="_blank"><img src="b-working-record-archive.jpg" alt="Concept B: two opposing views of a working record archive"></a><figcaption>Generated room direction B · open the image for full size</figcaption></figure>
+<p><strong>Recommended direction:</strong> A’s conversation group with B’s fuller perimeter storage and one compact trolley. Keep one clear central arrangement and usable routes to the doors and deck.</p>
+<p class="note">Astra reviewed both sheets. Furniture will be distributed by room zones and available floor/wall pockets; clutter will occupy compatible carrying surfaces with load and clearance checks. Stable identities, owner locks and reshuffling after layout changes remain requirements. Generated perspective, rugs, lamp positions and tiny artwork are illustrative; they do not change the room contract.</p>
+<p class="links"><a href="room-direction.md">Furniture and distribution plan</a><a href="room-concept-prompts.json">Generation prompts</a></p>
+</section>
 <section class="batch" id="storage">
 <h2>Pass 2 — a working record library</h2>
 <p>Twelve groups of records, tapes, books and cartons fill useful shelf pockets. Mixed volumes and gaps give the storage wall more weight without moving the furniture.</p>
@@ -28,6 +41,6 @@
 <details><summary>Generated construction concepts</summary><div class="grid single"><figure><img loading="lazy" src="sofa-small-concept.jpg" alt="Generated opposing sofa construction views"><figcaption>Generated concept — direction for the sofa</figcaption></figure><figure><img loading="lazy" src="worn-armchair-concept.jpg" alt="Generated opposing armchair construction views"><figcaption>Generated concept — direction for the armchair</figcaption></figure></div></details>
 <p class="note">Both assets passed 15 exporter checks and personal native GPU inspection. Astra accepted the final shapes and quiet cloth. Two 256px swatches use the existing atlas; existing public print pixels and other catalog records remain unchanged. Concept images show the intended construction; the room and material images show the implementation.</p>
 </section>
-<footer>Two accepted art checkpoints. Remaining priorities: personal wall groups and the loose blanket / floor cushion finals. Keep clear pockets and access to the gear.</footer>
+<footer>Next stage: choose the room direction, build its procedural furniture and clutter layout, then finalize assets in small reviewed batches.</footer>
 </main>
 </html>
