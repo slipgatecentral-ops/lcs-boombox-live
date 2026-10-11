@@ -4,44 +4,84 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#24221f">
-  <title>LCS · Workshop concepts</title>
+  <title>LCS · Workshop concepts and live corrections</title>
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; background: #24221f; color: #f0e9df; font-family: system-ui, sans-serif; }
     main { width: min(1200px, 100%); margin: auto; padding: 32px 24px 48px; }
     .eyebrow { color: #c4b39a; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
     h1 { margin: 8px 0 12px; font-size: clamp(28px, 5vw, 44px); line-height: 1.1; }
-    .intro { max-width: 70ch; margin: 0 0 28px; color: #d5cbc0; line-height: 1.55; }
-    figure { margin: 0 0 32px; }
+    .intro, .note { max-width: 78ch; margin: 0 0 28px; color: #d5cbc0; line-height: 1.55; }
+    figure { margin: 0 0 32px; min-width: 0; }
     h2 { margin: 0 0 12px; font-size: 20px; font-weight: 600; }
+    h3 { margin: 0 0 10px; font-size: 17px; font-weight: 600; }
     a { color: #e6c590; text-underline-offset: 3px; }
     .image-link { display: block; background: #151411; border: 1px solid #50483e; border-radius: 8px; overflow: hidden; }
     img { display: block; width: 100%; height: auto; }
     figcaption { margin-top: 10px; color: #bfb4a7; font-size: 14px; line-height: 1.5; }
+    .comparison { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }
+    section { margin: 12px 0 32px; }
     footer { border-top: 1px solid #50483e; padding-top: 20px; color: #bfb4a7; font-size: 13px; line-height: 1.5; }
-    @media (max-width: 600px) { main { padding: 24px 14px 32px; } h2 { font-size: 18px; } }
+    @media (max-width: 600px) { main { padding: 24px 14px 32px; } h2 { font-size: 18px; } .comparison { grid-template-columns: 1fr; gap: 0; } }
   </style>
 </head>
 <body>
   <main>
     <div class="eyebrow">Leg City · 10 October 2026</div>
     <h1>Workshop · concepts and progress</h1>
-    <p class="intro">The second 3D pass is live: fine hardboard pegboards, hanging repair leads, brown cartons, warm worn plaster and a fuller repair bench with an open chassis, solder spool and tool cup. A larger rug and the bench-side extraction duct complete this pass. These are actual pictures of the deployed room at 19:00. The approved concepts below remain the visual target. Tap any picture for full resolution.</p>
+    <p class="intro">The third room pass is live: outside light reaches the workshop with every lamp off, ordinary rendering now casts shadows from the workshop lamps, the bench uses custom API-generated timber grain and wear, and the wall coils hang in uneven loops. Existing repair stock fills the emptier shelves and follows its supports when the layout changes. The pictures below are actual captures of the deployed apartment on an RTX 5090. Tap any picture for full resolution.</p>
     <figure id="live-forward">
       <h2>Live · entrance toward the workbench</h2>
-      <a class="image-link" href="pass2-live-forward.png"><img src="pass2-live-forward.png" alt="Deployed workshop second pass, looking from the entrance toward the fuller repair bench, fine pegboards and rear shelving." loading="eager" decoding="async"></a>
-      <figcaption>Second room pass · actual live capture · 10 October 2026.</figcaption>
+      <a class="image-link" href="pass3-live-forward.jpg"><img src="pass3-live-forward.jpg" alt="Live · entrance toward the workbench" loading="eager" decoding="async"></a>
+      <figcaption>All workshop lamps on · 19:00 · ordinary high-quality rendering. The existing layout and windows are retained.</figcaption>
     </figure>
     <figure id="live-reverse">
       <h2>Live · workbench toward the entrance</h2>
-      <a class="image-link" href="pass2-live-reverse.png"><img src="pass2-live-reverse.png" alt="Deployed workshop second pass, looking back past the repair bench and cable storage toward the entrance." loading="eager" decoding="async"></a>
-      <figcaption>The same room from the opposite end.</figcaption>
+      <a class="image-link" href="pass3-live-reverse.jpg"><img src="pass3-live-reverse.jpg" alt="Live · workbench toward the entrance" loading="eager" decoding="async"></a>
+      <figcaption>The same deployed room from the opposite end. Kitchen, Wires and owner edits were preserved.</figcaption>
     </figure>
     <figure id="live-bench">
       <h2>Live · repair bench detail</h2>
-      <a class="image-link" href="pass2-live-bench.png"><img src="pass2-live-bench.png" alt="Open cassette chassis, solder spool and tool cup beside the clearly glowing oscilloscope waveform on the live workbench." loading="eager" decoding="async"></a>
-      <figcaption>The open repair chassis and small tools share the bench with the analog instruments. The parts tray rests on the lower shelf, keeping the power leads clear. All 31 workshop finals are present.</figcaption>
+      <a class="image-link" href="pass3-live-bench.jpg"><img src="pass3-live-bench.jpg" alt="Live · repair bench detail" loading="eager" decoding="async"></a>
+      <figcaption>Custom generated timber channels give the existing bench directional grain and localized wear. The oscilloscope, open chassis, solder spool and loose speaker driver sit on the working surface.</figcaption>
     </figure>
+    <section id="lighting">
+      <h2>Lighting · matched comparisons</h2>
+      <p class="note">The noon pair uses the same camera and lamp state. Evening examples isolate the bench lamp and pendant so their shadows can be judged. Ordinary high and medium settings have lamp shadows; low keeps its existing lighter rendering budget.</p>
+      <div class="comparison">
+    <figure>
+      <h3>Before · noon, lamps off</h3>
+      <a class="image-link" href="pass3-before-off12.jpg"><img src="pass3-before-off12.jpg" alt="Before · noon, lamps off" loading="eager" decoding="async"></a>
+      <figcaption>Earlier pass at the matched camera. The windows were visible but the interior received almost no useful outside light.</figcaption>
+    </figure>
+    <figure>
+      <h3>Live · noon, lamps off</h3>
+      <a class="image-link" href="pass3-live-off12.jpg"><img src="pass3-live-off12.jpg" alt="Live · noon, lamps off" loading="eager" decoding="async"></a>
+      <figcaption>Cool outside light now reaches the wall, shelves and workbench in ordinary rendering.</figcaption>
+    </figure>
+    <figure>
+      <h3>Live · bench lamp only</h3>
+      <a class="image-link" href="pass3-live-task19.jpg"><img src="pass3-live-task19.jpg" alt="Live · bench lamp only" loading="eager" decoding="async"></a>
+      <figcaption>19:00 · ordinary rendering. The equipment, shelf edges and stool now cast visible shadows.</figcaption>
+    </figure>
+    <figure>
+      <h3>Live · ceiling pendant only</h3>
+      <a class="image-link" href="pass3-live-pendant19.jpg"><img src="pass3-live-pendant19.jpg" alt="Live · ceiling pendant only" loading="eager" decoding="async"></a>
+      <figcaption>19:00 · ordinary rendering. A separate lamp state, with its own shadows and warm pool of light.</figcaption>
+    </figure>
+    <figure>
+      <h3>Live · noon, lamps off · P mode</h3>
+      <a class="image-link" href="pass3-live-off12-photo.jpg"><img src="pass3-live-off12-photo.jpg" alt="Live · noon, lamps off · P mode" loading="eager" decoding="async"></a>
+      <figcaption>Actual path tracing after 256 accumulated frames. Outside light enters the same windows; corners remain darker where the room blocks the light.</figcaption>
+    </figure>
+    <figure>
+      <h3>Live · evening lamps · P mode</h3>
+      <a class="image-link" href="pass3-live-all19-photo.jpg"><img src="pass3-live-all19-photo.jpg" alt="Live · evening lamps · P mode" loading="eager" decoding="async"></a>
+      <figcaption>Actual path tracing after 256 accumulated frames. P mode still resolves occlusion more accurately than ordinary rendering.</figcaption>
+    </figure>
+      </div>
+    </section>
+    <p class="note">Remaining concept gaps: the bench and storage proportions are still constrained by the existing room, shelf groupings remain more regular than the concepts, and ordinary window lighting lacks the full shadow detail of P mode. Mobile hardware performance is not verified in these captures.</p>
     <figure id="entrance">
       <h2>Approved concept · entrance toward the workbench</h2>
       <a class="image-link" href="concept-a-entry-to-bench.png" aria-label="Open entrance concept at full resolution">
@@ -56,7 +96,7 @@
       </a>
       <figcaption>The reverse view of the same design, with repair equipment toward the entrance end and parts trays in the foreground.</figcaption>
     </figure>
-    <footer>Two grouped room passes · latest deployment 8acb9b2. <a href="https://lcs-rooms.up.railway.app/?q=high&amp;t=19">Open the live apartment</a> · <a href="https://slipgatecentral-ops.github.io/lcs-boombox-live/props/">Browse the prop catalog</a>. The owner’s room edits and the parallel kitchen and Wires work are preserved.</footer>
+    <footer>Three grouped room passes · latest deployment a9c0e8a · correction cd9951c. <a href="https://lcs-rooms.up.railway.app/?q=high&amp;t=19">Open the live apartment</a> · <a href="https://slipgatecentral-ops.github.io/lcs-boombox-live/props/">Browse the prop catalog</a>.</footer>
   </main>
 </body>
 </html>
