@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vienna's main room — art pass</title>
+<style>
+:root{color-scheme:dark;background:#171613;color:#ebe6d9;font:16px/1.5 system-ui,sans-serif}body{margin:0}main{max-width:1440px;margin:auto;padding:32px 20px 70px}h1{font-size:clamp(28px,4vw,48px);margin:8px 0}h2{font-size:25px;margin:0 0 12px}p{max-width:900px;color:#c6c0b1}a{color:#e1b672}nav{display:flex;gap:20px;flex-wrap:wrap;border-bottom:1px solid #454238;padding:0 0 15px;margin-bottom:28px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:#b8a58a}.batch{margin-top:38px;border-top:1px solid #454238;padding-top:24px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:0;background:#23211c;border:1px solid #454238;border-radius:4px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:10px 14px;font-size:14px;color:#cac2b3}.single{margin-top:18px}.single img{max-height:900px;object-fit:contain}.tag{display:inline-block;border:1px solid #61553d;border-radius:20px;padding:3px 12px;font-size:13px;color:#e1b672}.note{font-size:14px;color:#b8af9f}.links{display:flex;gap:18px;flex-wrap:wrap}details{margin:18px 0}summary{cursor:pointer;color:#e1b672}footer{margin-top:38px;padding-top:15px;border-top:1px solid #454238;font-size:14px;color:#b8af9f}@media(max-width:700px){main{padding:20px 12px 40px}.grid{grid-template-columns:1fr}nav{gap:14px}}
+</style>
+<main>
+<nav><a href="https://lcs-rooms.up.railway.app/?t=19">Open live room</a><a href="../../props/">Asset catalog</a><a href="../kitchen-comfort-2026-10-09/">Kitchen review</a><a href="seating-proof.json">Verification record</a></nav>
+<div class="eyebrow">LCS · 11 October 2026</div>
+<h1>Vienna's main room</h1>
+<p>The DJ station already has its analog gear. This pass gives the listening and sorting corner more comfort, beginning with the large furniture shapes and then the stored records and tapes.</p>
+<p><span class="tag">Sol implementation · Astra visual review</span></p>
+<section class="batch" id="seating">
+<h2>Pass 1 — softer seating</h2>
+<p>A recovered sofa and a collected armchair now have separate padded cushions, softened arms and quiet tobacco / ochre cloth. Existing footprints, carrying surfaces and procedural placements stay intact.</p>
+<div class="grid"><figure><img src="before-gear.jpg" alt="DJ room before seating finals"><figcaption>Before — rigid blockout seating</figcaption></figure><figure><img src="seating-gear.jpg" alt="DJ room with upholstered sofa final"><figcaption>After — actual native room render, 19:00</figcaption></figure></div>
+<details><summary>Two matching room angles</summary><div class="grid single"><figure><img loading="lazy" src="seating-wide.jpg" alt="Main room toward DJ window"><figcaption>Window / DJ station</figcaption></figure><figure><img loading="lazy" src="seating-reverse.jpg" alt="Main room toward storage and listening seats"><figcaption>Reverse / storage wall</figcaption></figure></div></details>
+<div class="grid single"><figure><img loading="lazy" src="sofa-small-front3q.jpg" alt="Small sofa blockout beside material final"><figcaption>Small sofa — 5,072 triangles · 50 KiB GLB</figcaption></figure><figure><img loading="lazy" src="worn-armchair-front3q.jpg" alt="Worn armchair blockout beside material final"><figcaption>Worn armchair — 3,888 triangles · 39 KiB GLB</figcaption></figure></div>
+<details><summary>Generated construction concepts</summary><div class="grid single"><figure><img loading="lazy" src="sofa-small-concept.jpg" alt="Generated opposing sofa construction views"><figcaption>Generated concept — direction for the sofa</figcaption></figure><figure><img loading="lazy" src="worn-armchair-concept.jpg" alt="Generated opposing armchair construction views"><figcaption>Generated concept — direction for the armchair</figcaption></figure></div></details>
+<p class="note">Both assets passed 15 exporter checks and personal native GPU inspection. Astra accepted the final shapes and quiet cloth. Two 256px swatches use the existing atlas; existing public print pixels and other catalog records remain unchanged. Concept images show the intended construction; the room and material images show the implementation.</p>
+</section>
+<footer>Next pass: uneven record, tape and book groups on compatible existing shelf surfaces. Keep clear pockets and access to the gear.</footer>
+</main>
+</html>

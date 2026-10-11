@@ -1,0 +1,47 @@
+{
+  "sourceCommit": "c186c41",
+  "ids": [
+    "sofa-small",
+    "worn-armchair"
+  ],
+  "catalogItems": 285,
+  "foreignCatalogRowsChanged": [],
+  "wearAndDecalsUnchanged": true,
+  "retiredFilesPreserved": true,
+  "atlas": {
+    "added": [
+      "main-cloth-sofa",
+      "main-cloth-armchair"
+    ],
+    "oldPrints": 301,
+    "changedPixelsOutsideNewCellsAndGutters": 0,
+    "png": "covers-b79eaaac260e.png",
+    "ktx2": "covers-732af821358b.ktx2",
+    "dimensions": [
+      2048,
+      4096
+    ],
+    "regions": [
+      [
+        552,
+        3446,
+        816,
+        3710
+      ],
+      [
+        528,
+        3798,
+        792,
+        4062
+      ]
+    ],
+    "privateBedroomCellsPublished": false
+  },
+  "native": {
+    "backend": "WebGPU",
+    "device": "nvidia blackwell",
+    "hour": 19,
+    "ownerPublished": "2026-10-11T13:48:42.464Z"
+  },
+  "review": "GPT6 Astra accepted geometry and quiet cloth; root personally inspected native prop and room views."
+}
