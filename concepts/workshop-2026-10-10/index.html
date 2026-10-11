@@ -29,22 +29,43 @@
   <main>
     <div class="eyebrow">Leg City · 10 October 2026</div>
     <h1>Workshop · concepts and progress</h1>
-    <p class="intro">The third room pass is live: outside light reaches the workshop with every lamp off, ordinary rendering now casts shadows from the workshop lamps, the bench uses custom API-generated timber grain and wear, and the wall coils hang in uneven loops. Existing repair stock fills the emptier shelves and follows its supports when the layout changes. The pictures below are actual captures of the deployed apartment on an RTX 5090. Tap any picture for full resolution.</p>
+    <p class="intro">The fourth pass is live: ten distinct cable types replace the two repeated coils, with denser windings, different thicknesses, bindings and connector families. The room now has worn timber, tool marks, oil stains, scuffed equipment cases, aged steel, plaster damage and floor abrasion. This pass reused the existing generated timber and shared texture tiles. These are actual captures of the deployed apartment on an RTX 5090. Tap any picture for full resolution.</p>
     <figure id="live-forward">
       <h2>Live · entrance toward the workbench</h2>
-      <a class="image-link" href="pass3-live-forward.jpg"><img src="pass3-live-forward.jpg" alt="Live · entrance toward the workbench" loading="eager" decoding="async"></a>
+      <a class="image-link" href="pass4-live-forward.jpg"><img src="pass4-live-forward.jpg" alt="Live · entrance toward the workbench" loading="eager" decoding="async"></a>
       <figcaption>All workshop lamps on · 19:00 · ordinary high-quality rendering. The existing layout and windows are retained.</figcaption>
     </figure>
     <figure id="live-reverse">
       <h2>Live · workbench toward the entrance</h2>
-      <a class="image-link" href="pass3-live-reverse.jpg"><img src="pass3-live-reverse.jpg" alt="Live · workbench toward the entrance" loading="eager" decoding="async"></a>
+      <a class="image-link" href="pass4-live-reverse.jpg"><img src="pass4-live-reverse.jpg" alt="Live · workbench toward the entrance" loading="eager" decoding="async"></a>
       <figcaption>The same deployed room from the opposite end. Kitchen, Wires and owner edits were preserved.</figcaption>
     </figure>
     <figure id="live-bench">
       <h2>Live · repair bench detail</h2>
-      <a class="image-link" href="pass3-live-bench.jpg"><img src="pass3-live-bench.jpg" alt="Live · repair bench detail" loading="eager" decoding="async"></a>
-      <figcaption>Custom generated timber channels give the existing bench directional grain and localized wear. The oscilloscope, open chassis, solder spool and loose speaker driver sit on the working surface.</figcaption>
+      <a class="image-link" href="pass4-live-bench.jpg"><img src="pass4-live-bench.jpg" alt="Live · repair bench detail" loading="eager" decoding="async"></a>
+      <figcaption>Existing generated timber channels now carry stronger hand wear, chipped drawer edges, dark joints, solder burns, tool drags and uneven oil marks. The oscilloscope, open chassis, solder spool and loose speaker driver sit on the working surface.</figcaption>
     </figure>
+    <section id="cables-and-wear">
+      <h2>Cables and wear · matched comparison</h2>
+      <p class="note">The same camera, hour and lamp state show the change from the previous pass. Existing placements follow their original supports; the new cable families replace the repeated shapes.</p>
+      <div class="comparison">
+        <figure>
+          <h3>Before · two repeated cable types</h3>
+          <a class="image-link" href="pass4-before-owner.jpg"><img src="pass4-before-owner.jpg" alt="Before the cable and wear pass, at the matched workshop camera" loading="eager" decoding="async"></a>
+          <figcaption>Previous workshop pass · 19:00 · all workshop lamps on.</figcaption>
+        </figure>
+        <figure>
+          <h3>Live · cable variety and salvaged finishes</h3>
+          <a class="image-link" href="pass4-live-owner.jpg"><img src="pass4-live-owner.jpg" alt="Deployed workshop with dense grey and cloth leads, red repair cable and aged surfaces" loading="eager" decoding="async"></a>
+          <figcaption>Current deployed workshop · the same camera and lighting. Case edges, shelves, timber and plaster show localized wear.</figcaption>
+        </figure>
+      </div>
+      <figure>
+        <h3>Ten cable types · close inspection</h3>
+        <a class="image-link" href="pass4-cable-family.jpg"><img src="pass4-cable-family.jpg" alt="Ten built cable models: black mic, grey mic, cloth, power, loose, patch pair, red repair, phono pair, instrument and tied utility" loading="eager" decoding="async"></a>
+        <figcaption>Native model renders of the built cable family. Five full-size and five smaller types; continuous windings, varied bindings and connector pairs. The complete family uses about 39,000 triangles and 341 KiB of model data.</figcaption>
+      </figure>
+    </section>
     <section id="lighting">
       <h2>Lighting · matched comparisons</h2>
       <p class="note">The noon pair uses the same camera and lamp state. Evening examples isolate the bench lamp and pendant so their shadows can be judged. Ordinary high and medium settings have lamp shadows; low keeps its existing lighter rendering budget.</p>
@@ -56,32 +77,32 @@
     </figure>
     <figure>
       <h3>Live · noon, lamps off</h3>
-      <a class="image-link" href="pass3-live-off12.jpg"><img src="pass3-live-off12.jpg" alt="Live · noon, lamps off" loading="eager" decoding="async"></a>
+      <a class="image-link" href="pass4-live-off12.jpg"><img src="pass4-live-off12.jpg" alt="Live · noon, lamps off" loading="eager" decoding="async"></a>
       <figcaption>Cool outside light now reaches the wall, shelves and workbench in ordinary rendering.</figcaption>
     </figure>
     <figure>
       <h3>Live · bench lamp only</h3>
-      <a class="image-link" href="pass3-live-task19.jpg"><img src="pass3-live-task19.jpg" alt="Live · bench lamp only" loading="eager" decoding="async"></a>
+      <a class="image-link" href="pass4-live-task19.jpg"><img src="pass4-live-task19.jpg" alt="Live · bench lamp only" loading="eager" decoding="async"></a>
       <figcaption>19:00 · ordinary rendering. The equipment, shelf edges and stool now cast visible shadows.</figcaption>
     </figure>
     <figure>
       <h3>Live · ceiling pendant only</h3>
-      <a class="image-link" href="pass3-live-pendant19.jpg"><img src="pass3-live-pendant19.jpg" alt="Live · ceiling pendant only" loading="eager" decoding="async"></a>
+      <a class="image-link" href="pass4-live-pendant19.jpg"><img src="pass4-live-pendant19.jpg" alt="Live · ceiling pendant only" loading="eager" decoding="async"></a>
       <figcaption>19:00 · ordinary rendering. A separate lamp state, with its own shadows and warm pool of light.</figcaption>
     </figure>
     <figure>
       <h3>Live · noon, lamps off · P mode</h3>
-      <a class="image-link" href="pass3-live-off12-photo.jpg"><img src="pass3-live-off12-photo.jpg" alt="Live · noon, lamps off · P mode" loading="eager" decoding="async"></a>
+      <a class="image-link" href="pass4-live-off12-photo.jpg"><img src="pass4-live-off12-photo.jpg" alt="Live · noon, lamps off · P mode" loading="eager" decoding="async"></a>
       <figcaption>Actual path tracing after 256 accumulated frames. Outside light enters the same windows; corners remain darker where the room blocks the light.</figcaption>
     </figure>
     <figure>
       <h3>Live · evening lamps · P mode</h3>
-      <a class="image-link" href="pass3-live-all19-photo.jpg"><img src="pass3-live-all19-photo.jpg" alt="Live · evening lamps · P mode" loading="eager" decoding="async"></a>
+      <a class="image-link" href="pass4-live-all19-photo.jpg"><img src="pass4-live-all19-photo.jpg" alt="Live · evening lamps · P mode" loading="eager" decoding="async"></a>
       <figcaption>Actual path tracing after 256 accumulated frames. P mode still resolves occlusion more accurately than ordinary rendering.</figcaption>
     </figure>
       </div>
     </section>
-    <p class="note">Remaining concept gaps: the bench and storage proportions are still constrained by the existing room, shelf groupings remain more regular than the concepts, and ordinary window lighting lacks the full shadow detail of P mode. Mobile hardware performance is not verified in these captures.</p>
+    <p class="note">Remaining concept gaps: bench and storage proportions remain constrained by their existing support contracts. Shelf groups are still more regular, and there is less loose paper and fine repair detail than in the concepts. Plaster wear is an approximation; ordinary window lighting lacks the full occlusion of P mode, whose secondary material response remains simpler. Mobile hardware performance is unverified.</p>
     <figure id="entrance">
       <h2>Approved concept · entrance toward the workbench</h2>
       <a class="image-link" href="concept-a-entry-to-bench.png" aria-label="Open entrance concept at full resolution">
@@ -96,7 +117,7 @@
       </a>
       <figcaption>The reverse view of the same design, with repair equipment toward the entrance end and parts trays in the foreground.</figcaption>
     </figure>
-    <footer>Three grouped room passes · latest deployment a9c0e8a · correction cd9951c. <a href="https://lcs-rooms.up.railway.app/?q=high&amp;t=19">Open the live apartment</a> · <a href="https://slipgatecentral-ops.github.io/lcs-boombox-live/props/">Browse the prop catalog</a>.</footer>
+    <footer>Fourth grouped workshop pass · deployment c0ecea5 · no new image-generation calls in this pass. <a href="https://lcs-rooms.up.railway.app/?q=high&amp;t=19">Open the live apartment</a> · <a href="https://slipgatecentral-ops.github.io/lcs-boombox-live/props/">Browse the prop catalog</a>.</footer>
   </main>
 </body>
 </html>
