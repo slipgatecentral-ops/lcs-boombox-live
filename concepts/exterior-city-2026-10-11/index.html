@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>LCS — Exterior concept pass</title>
+  <style>
+    :root{--bg:#101211;--panel:#181b19;--ink:#e7ebe4;--muted:#a0a99f;--line:#333a33;--accent:#c5d5ac;--warm:#c6aa84}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Segoe UI",Arial,sans-serif}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--accent)}button,input{font:inherit}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:5px}button{cursor:pointer}main{max-width:1584px;margin:auto;padding:48px 48px 0}.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:650}.mast{display:flex;justify-content:space-between;align-items:center;padding-bottom:28px;border-bottom:1px solid var(--line)}.mast .brand{font-size:17px;font-weight:750;letter-spacing:.18em}.mast .date{color:var(--muted);font-size:12px}header{padding:58px 0 38px;display:grid;grid-template-columns:1.6fr 1fr;gap:60px;align-items:end}h1{font-size:clamp(38px,4.7vw,76px);line-height:1.04;letter-spacing:-.045em;font-weight:500;margin:16px 0 22px}header p{max-width:690px;font-size:17px;color:#b9c2b7;margin:0}.status{margin-bottom:12px;display:inline-block;color:var(--warm);border:1px solid #534736;padding:6px 11px;font-size:11px;letter-spacing:.08em;text-transform:uppercase}.scope{color:var(--muted);font-size:13px}.scope p{font-size:13px;color:var(--muted);margin:0 0 14px}.scope a{font-size:12px}.principles{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:25px 0;gap:38px;margin-bottom:28px}.principles h2{font-size:13px;font-weight:600;margin:0 0 7px}.principles p{color:var(--muted);font-size:13px;margin:0}.jump{display:flex;gap:24px;flex-wrap:wrap;padding:0 0 28px}.jump a{font-size:12px;color:var(--muted);text-decoration:none}.jump a span{color:var(--accent);padding-right:8px}.scene{padding-top:28px;scroll-margin-top:20px;margin-bottom:68px}.scene-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:17px}.scene-name{display:flex;gap:18px;align-items:baseline}.scene-num{color:var(--accent);font-size:12px}.scene h2{font-size:27px;font-weight:450;letter-spacing:-.025em;margin:0}.controls{display:flex;border:1px solid var(--line);padding:3px;border-radius:5px;background:var(--panel);flex-shrink:0}.controls button{border:0;border-radius:2px;padding:7px 13px;background:transparent;color:var(--muted);font-size:12px}.controls button[aria-pressed="true"]{background:#d6dfce;color:#172013}.stage{position:relative;aspect-ratio:16/9;overflow:hidden;background:#1d231e;border:1px solid var(--line);isolation:isolate}.stage img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}.stage .concept{z-index:2;clip-path:inset(0 0 0 0)}.stage .pending{position:absolute;inset:0;display:none;place-content:center;text-align:center;z-index:3;background:#1d231e;color:var(--muted);padding:20px}.stage .pending strong{font-weight:450;color:var(--ink);font-size:20px}.stage[data-missing="true"]:not([data-mode="source"]) .pending{display:grid}.stage[data-mode="source"] .concept{visibility:hidden}.stage[data-mode="split"] .concept{clip-path:inset(0 0 0 var(--split,50%))}.split-line{display:none;position:absolute;inset:0 auto 0 var(--split,50%);width:1px;background:#e7ebe4;z-index:5;pointer-events:none;box-shadow:0 0 0 1px #0003}.split-line:after{content:'↔';position:absolute;top:50%;left:0;transform:translate(-50%,-50%);width:38px;height:38px;border-radius:50%;background:#e3e8dc;color:#243023;display:grid;place-items:center;font-size:21px;box-shadow:0 1px 15px #0005}.stage[data-mode="split"] .split-line{display:block}.image-label{position:absolute;z-index:6;bottom:15px;left:16px;padding:5px 9px;background:#101611d9;color:#e7ebe4;font-size:10px;letter-spacing:.12em;text-transform:uppercase;border:1px solid #c5d5ac40;pointer-events:none}.image-label.right{left:auto;right:16px;display:none}.stage[data-mode="split"] .image-label.right{display:block}.compare-row{display:flex;align-items:center;gap:16px;padding-top:13px;min-height:42px;color:var(--muted);font-size:11px}.compare-row label{white-space:nowrap}.compare-row input{width:180px;accent-color:var(--accent)}.compare-row .hint{margin-left:auto;text-align:right}.scene-footer{display:grid;grid-template-columns:1.6fr 1fr;gap:50px;margin-top:15px}.scene-footer p{margin:0;color:#aeb7ab;max-width:800px;font-size:14px}.download{display:flex;flex-direction:column;gap:7px;align-items:flex-end}.download a{font-size:12px}.camera{font-family:Consolas,monospace;color:#808d7c;font-size:10px;letter-spacing:0;margin-top:5px}.next{margin:10px 0 60px;border-top:1px solid var(--line);padding-top:33px;display:grid;grid-template-columns:1fr 2fr;gap:60px}.next h2{font-weight:450;font-size:30px;letter-spacing:-.03em;margin:12px 0}.next p{color:var(--muted);font-size:13px;max-width:340px}.next ol{list-style:none;padding:0;margin:0;counter-reset:step;display:grid;gap:22px}.next li{counter-increment:step;display:grid;grid-template-columns:28px 1fr;gap:12px}.next li:before{content:'0'counter(step);font-size:11px;color:var(--accent);padding-top:3px}.next li strong{font-size:14px;font-weight:550;display:block;margin-bottom:4px}.next li p{max-width:none;margin:0;font-size:13px}footer{border-top:1px solid var(--line);padding:22px 0 30px;display:flex;justify-content:space-between;gap:25px;font-size:11px;color:#82907d}footer a{white-space:nowrap}@media(max-width:800px){main{padding:24px 20px 0}header{grid-template-columns:1fr;gap:28px;padding-top:38px}.principles{gap:20px}.scene-heading{align-items:start;flex-direction:column;gap:13px}.scene-footer{grid-template-columns:1fr;gap:18px}.download{align-items:start}.compare-row{flex-wrap:wrap;gap:8px 14px}.compare-row .hint{margin-left:0;text-align:left}.next{grid-template-columns:1fr;gap:18px}.scene{margin-bottom:38px}}@media(max-width:520px){.principles{grid-template-columns:1fr}.mast{align-items:start}.mast .date{text-align:right}.jump{gap:12px 18px}.image-label{bottom:8px;left:8px;font-size:8px}.image-label.right{right:8px}.scene h2{font-size:23px}.camera{font-size:9px}footer{flex-direction:column;gap:10px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="mast"><a class="brand" href="#" style="text-decoration:none" aria-label="LCS exterior concepts, top">LCS</a><div class="date">EXTERIOR STUDIES<br>11 OCTOBER 2026</div></div>
+  <header>
+    <div><div class="eyebrow">Buildings · towers · rooftops</div><h1>A city that has<br>been lived in.</h1><p>Three views around the LCS tower. Dense mechanical rooftops, dirty reflective windows, and layers of repair beneath a cold, rain-heavy sky.</p></div>
+    <div class="scope"><span class="status">Concept art · not implemented</span><p>Generated visual targets based on actual scene captures and the supplied video. Compare each image with its source to review composition, architectural continuity, and the proposed detail.</p><a href="prompts.json" download>Download generation prompts ↗</a></div>
+  </header>
+  <div class="principles" aria-label="Visual direction">
+    <div><h2>Cold air, wet weight</h2><p>Grey-green overcast light, dirty ivory concrete, charcoal roofs, and depth falling away into blue-grey haze.</p></div>
+    <div><h2>Density with a purpose</h2><p>Equipment in readable clusters, cables spanning real anchors, antennas and cranes breaking the roofline. Broad surfaces stay quiet.</p></div>
+    <div><h2>Traces of former use</h2><p>Runoff, repaired infill, torn advertising and dead neon frames. Small warm windows and restrained existing magenta suggest occupation.</p></div>
+  </div>
+  <nav class="jump" aria-label="Scenes"><a href="#01-tower-district"><span>01</span>The tower district</a><a href="#02-rooftop-network"><span>02</span>Rooftop network</a><a href="#03-canyon-facing-lcs"><span>03</span>Across the canyon</a></nav>
+  <div id="scenes"></div>
+  <section class="next" aria-labelledby="next-title">
+    <div><div class="eyebrow">From concept to scene</div><h2 id="next-title">The next build pass</h2><p>These are implementation directions for the next stage. The renders above are visual targets; the live scene has not been changed by this concept pass.</p></div>
+    <ol>
+      <li><div><strong>Extend the existing TSL interior mapping</strong><p>Build on the facade’s recessed windows and room shading. Give close windows convincing room depth, varied curtains and blinds, with repeated instances sharing the same material.</p></div></li>
+      <li><div><strong>Keep glazing dirt and reflections distinct</strong><p>Localize dirt at frames and runoff paths. Vary pane roughness and tint while retaining broad reflections of the opposite buildings; avoid baking reflection shapes into the dirt texture.</p></div></li>
+      <li><div><strong>Build a rooftop silhouette kit</strong><p>Start with HVAC banks, ducts, service sheds, water tanks, telecom arrays and crane structures. Add supported cable spans and weathered sign frames, then reduce detail with distance.</p></div></li>
+    </ol>
+  </section>
+  <footer><span>Leg City Sounds · Exterior concept pass · Sunburst 2.5<br>Sharp forms. Restrained surface detail. Clear atmosphere.</span><a href="prompts.json" download>Prompts &amp; source references ↗</a></footer>
+</main>
+<script>
+  const scenes = [
+    {id:'01-tower-district',number:'01',title:'The tower district',source:'high-12-custom.png',camera:'@70,43,75 → 0,8,0',fov:60,note:'The LCS tower sits within a larger industrial district. Foreground mechanical clusters, varied roof silhouettes and distant idle cranes add depth; the close window bands carry broad reflections of neighbouring buildings.'},
+    {id:'02-rooftop-network',number:'02',title:'Rooftop network',source:'high-12-custom-roof-bands.png',camera:'@−18,15,32 → −25,5,−95',fov:63,note:'A closer study of buildable equipment and glazing: a telecom assembly, cabinet banks, ductwork and several coherent cable spans. Recessed rooms remain subtle beneath perimeter grime and reflected sky.'},
+    {id:'03-canyon-facing-lcs',number:'03',title:'Across the canyon',source:'high-12-custom-tower-reverse.png',camera:'@36,12,−40 → 1,5,7',fov:65,note:'The view back toward the inhabited LCS floors and terrace. Surrounding rooftops carry the heavier equipment, weathered sign supports and layered service structures, with wet roof patches and dark reflective glass close to the camera.'}
+  ];
+  document.getElementById('scenes').innerHTML = scenes.map(s => `
+    <article class="scene" id="${s.id}">
+      <div class="scene-heading"><div class="scene-name"><span class="scene-num">${s.number}</span><h2>${s.title}</h2></div><div class="controls" role="group" aria-label="${s.title} view"><button type="button" data-mode="source" aria-pressed="false">Scene capture</button><button type="button" data-mode="split" aria-pressed="false">Compare</button><button type="button" data-mode="concept" aria-pressed="true">Concept art</button></div></div>
+      <div class="stage" data-mode="concept" style="--split:50%">
+        <img class="source" src="snapshots/${s.source}" alt="Original LCS scene capture: ${s.title}" width="1920" height="1080">
+        <img class="concept" src="concepts/${s.id}.png" alt="Photoreal exterior concept art: ${s.title}" width="2048" height="1152">
+        <div class="pending"><strong>Concept image pending</strong><span>The scene capture is available using the control above.<br>Reload this page when generation is complete.</span></div>
+        <div class="split-line" aria-hidden="true"></div><span class="image-label">Concept art</span><span class="image-label right">Concept art</span>
+      </div>
+      <div class="compare-row"><label for="split-${s.id}">Compare position</label><input type="range" id="split-${s.id}" min="0" max="100" value="50" aria-label="Comparison divider for ${s.title}"><span class="hint">Moving the slider opens the comparison · source left / concept right</span></div>
+      <div class="scene-footer"><p>${s.note}</p><div class="download"><a href="concepts/${s.id}.png" download>Full concept image ↗</a><a href="snapshots/${s.source}" download>Original scene capture ↗</a><span class="camera">ROOM-LOCAL ${s.camera} · ${s.fov}° FOV</span></div></div>
+    </article>`).join('');
+  document.querySelectorAll('.scene').forEach(article => {
+    const stage=article.querySelector('.stage');
+    const label=article.querySelector('.image-label');
+    const concept=article.querySelector('.concept');
+    const buttons=article.querySelectorAll('button[data-mode]');
+    const setMode=mode=>{stage.dataset.mode=mode;label.textContent=mode==='concept'?'Concept art':'Scene capture';buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mode===mode)))};
+    buttons.forEach(button=>button.addEventListener('click',()=>setMode(button.dataset.mode)));
+    article.querySelector('input').addEventListener('input',event=>{setMode('split');stage.style.setProperty('--split',event.target.value+'%')});
+    concept.addEventListener('error',()=>{stage.dataset.missing='true'});
+    concept.addEventListener('load',()=>{stage.dataset.missing='false'});
+    if(concept.complete && concept.naturalWidth===0)stage.dataset.missing='true';
+  });
+</script>
+</body>
+</html>
