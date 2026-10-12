@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "ktx2": "wear-89e5105210d5.ktx2",
-  "r8": "wear-89e5105210d5-r8.ktx2",
-  "png": "wear-89e5105210d5.png",
+  "ktx2": "wear-4a0b71f8d86c.ktx2",
+  "r8": "wear-4a0b71f8d86c-r8.ktx2",
+  "png": "wear-4a0b71f8d86c.png",
   "width": 2048,
   "height": 2048,
   "levels": 12,
@@ -11,7 +11,7 @@
   "bytes": {
     "ktx2": 2796672,
     "r8": 5592860,
-    "png": 1364336
+    "png": 1382159
   },
   "gpu": {
     "bc4": 2796216,
