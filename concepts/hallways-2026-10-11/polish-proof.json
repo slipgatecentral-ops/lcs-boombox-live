@@ -1,115 +1,115 @@
 {
-  "at": "2026-10-12T11:43:14.618Z",
+  "at": "2026-10-12T12:34:52.525Z",
   "status": "Native local preview of the owner room merged with the feature branch; live apartment deployment awaits merge approval.",
   "images": [
     {
       "file": "polish-lower-a.png",
-      "bytes": 1576516,
-      "sha256": "6952ce7c3c5ff3dc7985b45d4fd4b11ca915adbf669f0bed5bda29375b9cc40b",
+      "bytes": 1576844,
+      "sha256": "ef8a2b8f87a687d30fd1c012ddee134acae3c0694108d3a921e1f191f06d9270",
       "view": "lower-a",
       "title": "Lower hall · toward the stairs",
       "hour": 12
     },
     {
       "file": "polish-lower-a.jpg",
-      "bytes": 222589,
-      "sha256": "f431349e88a25e5206ac29dcbd93a8ca56dbd65001dc6d116c61c47b014fc32c",
+      "bytes": 222390,
+      "sha256": "69e836fec8c45a0a954b83905ad0ddce730cce04d6c39c06a82f1d15cfbe8b88",
       "view": "lower-a",
       "title": "Lower hall · toward the stairs",
       "hour": 12
     },
     {
       "file": "polish-lower-b.png",
-      "bytes": 1513070,
-      "sha256": "dc16753fa844eae9eaeea7663662b582046e3b64fc9c98430d7561e03f830280",
+      "bytes": 1513320,
+      "sha256": "567dee0c48ff325ab7e898e995c772d3579d295f3b177e50c6b87e2727c2bfd3",
       "view": "lower-b",
       "title": "Lower hall · toward the service entrance",
       "hour": 12
     },
     {
       "file": "polish-lower-b.jpg",
-      "bytes": 230289,
-      "sha256": "e22790bfcef9f2f0283493d310cc2637308cbfdd057a521a6f22fcad4cc90cea",
+      "bytes": 230326,
+      "sha256": "966a111b8df3332c0f1123ccfefca948d812c0fde0c03300716d7bfa74a84eda",
       "view": "lower-b",
       "title": "Lower hall · toward the service entrance",
       "hour": 12
     },
     {
       "file": "polish-upper-a.png",
-      "bytes": 1565254,
-      "sha256": "81b33caca5c2321cc59bd43b04c19e58d2017bba3e2f77f192cdf40d7f59a03a",
+      "bytes": 1565308,
+      "sha256": "fb5e9c8b70254438887809dbafd151f21c9f921c61b4953169e6009cf164c9c2",
       "view": "upper-a",
       "title": "Upper landing · toward the archive",
       "hour": 12
     },
     {
       "file": "polish-upper-a.jpg",
-      "bytes": 206421,
-      "sha256": "422b7af681e20f90e19bfc4f50d716bf10555130a504c6380422aca545aadf71",
+      "bytes": 206320,
+      "sha256": "9af565d5bd390c49f246de7ff26da4f658112790199b0ca4302c566b11045b72",
       "view": "upper-a",
       "title": "Upper landing · toward the archive",
       "hour": 12
     },
     {
       "file": "polish-upper-b.png",
-      "bytes": 1607166,
-      "sha256": "a6f99b95d7007ffcc4cd0e67ca11f818e72e4751dba965173b346a3dbe0adc2a",
+      "bytes": 1607084,
+      "sha256": "ac4ea916d9345f3132eefb5e228e8a42bbdf4aebab7c20093fe725541e9c8a41",
       "view": "upper-b",
       "title": "Upper landing · toward the deck",
       "hour": 12
     },
     {
       "file": "polish-upper-b.jpg",
-      "bytes": 230847,
-      "sha256": "9805d245785e55f7e121506d58276a7b6ca8b8c0d4585fa2a351bb44e053d7c1",
+      "bytes": 230848,
+      "sha256": "50d770df0610552bd16255f253e78a90d12f9a9000cbbec06d0ec131f39b1149",
       "view": "upper-b",
       "title": "Upper landing · toward the deck",
       "hour": 12
     },
     {
       "file": "polish-elevator.png",
-      "bytes": 1569749,
-      "sha256": "cbc0576d8b3a69afb2e536ab2e964ea68c7b2e83c705d5b30390b8fe06bc3326",
+      "bytes": 1571164,
+      "sha256": "267bfe7b76e00d20b8d547954cee360c784349d54f00cae7c036ba2c327c8f21",
       "view": "elevator",
       "title": "Closed service elevator · mechanical 14",
       "hour": 12
     },
     {
       "file": "polish-elevator.jpg",
-      "bytes": 205376,
-      "sha256": "a21217119d4dc36fe86d5cb70318e1d9dd0106e86a9e51ac2e30ae52460bb11a",
+      "bytes": 205388,
+      "sha256": "e7e88cfb4ea2ecb5b4f34b8361bcd6a3facadd6577c529b4ea8f0d46baa6e143",
       "view": "elevator",
       "title": "Closed service elevator · mechanical 14",
       "hour": 12
     },
     {
       "file": "polish-elevator-night.png",
-      "bytes": 1529305,
-      "sha256": "994695ba58020ad2b95f50c4cf749062442b0763329ec1d25c955ba927f99cc6",
+      "bytes": 1530998,
+      "sha256": "0c2f8a64365e328772b29dc485fe087bacc5bbe7c93b5ca9116dd99d33a65b5c",
       "view": "elevator-night",
       "title": "Closed service elevator · night",
       "hour": 22
     },
     {
       "file": "polish-elevator-night.jpg",
-      "bytes": 195957,
-      "sha256": "92283da9ec660b9cc705d77e9a142b54e8955caeaa721e26d65c076bf5a81007",
+      "bytes": 196122,
+      "sha256": "588c3ab71229d4028ee7859ce6371e6d02fd693abc008e7746d2d462c012c523",
       "view": "elevator-night",
       "title": "Closed service elevator · night",
       "hour": 22
     },
     {
       "file": "polish-salvage.png",
-      "bytes": 1526259,
-      "sha256": "02b136bf0fddedbc1a57f1cf9eeef928d5104cf173f2efda1708102c4501d176",
+      "bytes": 1526185,
+      "sha256": "0e0cbdeb9a26cbb20c39fb6f4253b114c13d59087b046d6173dd42d675675896",
       "view": "salvage",
       "title": "Fuse hatch and temporary salvage stack",
       "hour": 12
     },
     {
       "file": "polish-salvage.jpg",
-      "bytes": 226023,
-      "sha256": "b7c421dc18c8d323512d780daa2b9885ed8368d2b409ee1d763e7aab3aa959c8",
+      "bytes": 226267,
+      "sha256": "74acc9d99438b516e535b2942e43ee89cf062ad6175e797efdfaad2d7b986eb0",
       "view": "salvage",
       "title": "Fuse hatch and temporary salvage stack",
       "hour": 12
@@ -130,7 +130,8 @@
     "Corrected caged-sconce gain and added dedicated worn steel/case finishes.",
     "Rejected broad paint loss; moved cabinet ghosts onto the actual plaster finish with round fixing holes and local oxide.",
     "Reduced loss to localized connected flakes; added commercial leaf hardware and working closers.",
-    "Raised the lower salvage pile on a rated case top and gave the reclaimed boards a separate pale timber finish."
+    "Raised the lower salvage pile on a rated case top and gave the reclaimed boards a separate pale timber finish.",
+    "Refined cabinet edges and perimeter dirt; ghost stencil strokes remain legible and fade into their actual wall paint."
   ],
   "models": 7,
   "gatesPerModel": 15,
@@ -218,5 +219,26 @@
       "result": "The same22 shader/device-loss errors occur on unchanged1df394e main and the latest merged branch. Low-tier fallback passes; no compatibility gates weakened."
     }
   },
-  "sourceCommit": "a11f50afb22f12c87616a10b2abf82744103a434"
+  "additionalPass": {
+    "affectedTests": 33,
+    "workspaceTypecheck": true,
+    "productionBuild": true,
+    "infraTriangles": {
+      "low": 22576,
+      "medium": 39988,
+      "high": 62944
+    },
+    "infraLimits": {
+      "low": 25000,
+      "medium": 40000,
+      "high": 70000
+    },
+    "newTextures": 0,
+    "newPaletteSlots": 0,
+    "newDraws": 0,
+    "ownerUnchangedPlacements": 773,
+    "nativeLowVisitorEditor": true,
+    "nativeHighWebGPUEditor": true
+  },
+  "sourceCommit": "ad868fabce7639f5c38d336c8a91bc281f9b2234"
 }
