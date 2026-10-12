@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "ktx2": "wear-ee26872d61fd.ktx2",
-  "r8": "wear-ee26872d61fd-r8.ktx2",
-  "png": "wear-ee26872d61fd.png",
+  "ktx2": "wear-30a4acf4f27f.ktx2",
+  "r8": "wear-30a4acf4f27f-r8.ktx2",
+  "png": "wear-30a4acf4f27f.png",
   "width": 2048,
   "height": 2048,
   "levels": 12,
@@ -11,7 +11,7 @@
   "bytes": {
     "ktx2": 2796672,
     "r8": 5592860,
-    "png": 1301553
+    "png": 1364341
   },
   "gpu": {
     "bc4": 2796216,
@@ -183,6 +183,28 @@
       "v1": 1,
       "texelMm": 4
     },
+    "hallway-leaning-panel": {
+      "x": 1536,
+      "y": 1792,
+      "w": 256,
+      "h": 256,
+      "u0": 0.75,
+      "v0": 0.875,
+      "u1": 0.875,
+      "v1": 1,
+      "texelMm": 8
+    },
+    "hallway-salvage-case": {
+      "x": 512,
+      "y": 1792,
+      "w": 512,
+      "h": 256,
+      "u0": 0.25,
+      "v0": 0.875,
+      "u1": 0.5,
+      "v1": 1,
+      "texelMm": 12
+    },
     "hallway-service-elevator": {
       "x": 1024,
       "y": 1536,
@@ -198,12 +220,12 @@
       "x": 1536,
       "y": 1536,
       "w": 512,
-      "h": 512,
+      "h": 256,
       "u0": 0.75,
       "v0": 0.75,
       "u1": 1,
-      "v1": 1,
-      "texelMm": 4
+      "v1": 0.875,
+      "texelMm": 6
     },
     "jar-cotton": {
       "x": 1664,
