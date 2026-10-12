@@ -245,6 +245,11 @@
     "sourceMergeCommit": "871628dd6363f9af091010b3df5c7194c16396d0",
     "deployedBuildId": "mv5e2q3c",
     "proof": "deployment-proof.json",
-    "live": "https://lcs-rooms.up.railway.app/?q=high&t=12"
+    "live": "https://lcs-rooms.up.railway.app/?q=high&t=12",
+    "elevatorRecess": {
+      "sourceMergeCommit": "7a96f1879ed76a24811604c709133088d04ebe12",
+      "proof": "recess-proof.json",
+      "views": "#recess"
+    }
   }
 }

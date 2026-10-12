@@ -1,0 +1,221 @@
+{
+  "at": "2026-10-12T16:28:59.614Z",
+  "sourceMergeCommit": "7a96f1879ed76a24811604c709133088d04ebe12",
+  "railwayStatus": "success",
+  "ownerPublishedAt": "2026-10-12T16:24:32.154Z",
+  "savedRoomExactlyMatchesVerifiedMerge": true,
+  "health": {
+    "persistent": true,
+    "servingDefault": false,
+    "merge": {
+      "at": "2026-10-12T16:24:29.680Z",
+      "state": "merged",
+      "summary": "2 changes from the repository: walls.w_shell.recesses, placements.z-entry.hallway-fixture.elevator.local.z",
+      "version": "2026-10-12T16-24-32.154Z",
+      "taken": 2,
+      "conflicts": [],
+      "errors": []
+    }
+  },
+  "existingArtAndWearPayloadsUnchanged": true,
+  "pullRequest": "https://github.com/slipgatecentral-ops/lcs-rooms/pull/3",
+  "preservation": {
+    "at": "2026-10-12T16:02:17.582Z",
+    "baseCommit": "58c99dce99bd948082bea1e803986909bea2aa4a",
+    "ownerPublishedAt": "2026-10-12T15:11:35.793Z",
+    "scope": "Only the generated elevator standoff and two blind wall pockets change.",
+    "counts": {
+      "before": 806,
+      "after": 806,
+      "unchangedRecords": 805,
+      "unchangedWorldPoses": 805
+    },
+    "merge": {
+      "taken": [
+        "walls.w_shell.recesses",
+        "placements.z-entry.hallway-fixture.elevator.local.z"
+      ],
+      "conflicts": []
+    },
+    "wall": {
+      "thickness": 0.35,
+      "pocketDepths": [
+        0.2,
+        0.195
+      ],
+      "backAndCapsExact": true,
+      "collisionExact": true,
+      "allOtherWallsExact": true,
+      "allExistingOpeningsAndGlassExact": true
+    },
+    "elevator": {
+      "trimProudMm": 3,
+      "leavesRecessMm": 29.5,
+      "closed": true,
+      "counter": "14",
+      "wallAttachmentUnchanged": true,
+      "depthChangeMm": 198
+    },
+    "documentSha256": "46be4d191e7d5c835a40397e8d6a26775895ad932052a6c1fea43e58c45cec19",
+    "privacy": "Full owner and merged room documents remain in ignored private scratch."
+  },
+  "validation": {
+    "productionBuild": true,
+    "workspaceTypecheck": true,
+    "projectTests": 786,
+    "passed": 786,
+    "focusedRecessRegressions": 4,
+    "localNative": "High WebGPU front/side/counter/day/night and low WebGL2 editor; zero application, diagnostic, request or prop-load errors",
+    "liveNative": [
+      {
+        "name": "high-webgpu",
+        "build": "mv5goocq",
+        "env": {
+          "backend": "WebGPU",
+          "compat": "",
+          "adapter": {
+            "vendor": "nvidia",
+            "architecture": "blackwell",
+            "device": "",
+            "description": ""
+          },
+          "features": [
+            "bgra8unorm-storage",
+            "clip-distances",
+            "core-features-and-limits",
+            "depth-clip-control",
+            "depth32float-stencil8",
+            "dual-source-blending",
+            "float32-blendable",
+            "float32-filterable",
+            "indirect-first-instance",
+            "rg11b10ufloat-renderable",
+            "shader-f16",
+            "subgroups",
+            "texture-compression-bc",
+            "texture-compression-bc-sliced-3d",
+            "texture-formats-tier1",
+            "texture-formats-tier2",
+            "timestamp-query"
+          ],
+          "missing": [
+            "texture-compression-etc2",
+            "texture-compression-astc"
+          ],
+          "limits": {
+            "maxColorAttachments": 8,
+            "maxColorAttachmentBytesPerSample": 32,
+            "maxTextureDimension2D": 8192,
+            "maxTextureArrayLayers": 256,
+            "maxSampledTexturesPerShaderStage": 16,
+            "maxSamplersPerShaderStage": 16,
+            "maxUniformBuffersPerShaderStage": 12,
+            "maxUniformBufferBindingSize": 65536,
+            "maxStorageBuffersPerShaderStage": 8,
+            "maxBindGroups": 4,
+            "maxBindingsPerBindGroup": 1000,
+            "maxInterStageShaderVariables": 16,
+            "maxVertexAttributes": 16,
+            "maxVertexBuffers": 8
+          },
+          "wgslFeatures": [
+            "packed_4x8_integer_dot_product",
+            "subgroup_uniformity",
+            "immediate_address_space",
+            "linear_indexing",
+            "subgroup_id",
+            "readonly_and_readwrite_storage_textures",
+            "swizzle_assignment",
+            "unrestricted_pointer_parameters",
+            "buffer_view",
+            "pointer_composite_access",
+            "texture_and_sampler_let",
+            "texture_formats_tier1",
+            "uniform_buffer_standard_layout"
+          ],
+          "canvasFormat": "bgra8unorm",
+          "threeCompatibilityMode": false
+        },
+        "diagnosticErrors": 0,
+        "closed": true,
+        "standoff": -0.197,
+        "failedProps": [],
+        "errors": [],
+        "failedRequests": []
+      }
+    ]
+  },
+  "images": [
+    {
+      "file": "recess-marked.png",
+      "title": "The corrected service elevator in the hallway",
+      "bytes": 1572894,
+      "sha256": "1e3238b1049a67d55b5ad3fa9a183aa843aa8af107cf7e4d5b73d8646f45dbec",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    },
+    {
+      "file": "recess-marked.jpg",
+      "title": "The corrected service elevator in the hallway",
+      "bytes": 197006,
+      "sha256": "549b7e5fc72a4d6556fb91d4e7c82e96a4edac075372313960a03773236b1edb",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    },
+    {
+      "file": "recess-side.png",
+      "title": "Side view · the frame sits inside the plaster",
+      "bytes": 1505765,
+      "sha256": "8b8c9d2f8421def2bcee9d2dde0811704a9622e8a9e5ace941404266409ab307",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    },
+    {
+      "file": "recess-side.jpg",
+      "title": "Side view · the frame sits inside the plaster",
+      "bytes": 193141,
+      "sha256": "e05fb2848f938d00dadccf76d0f03af70bcd9bccd1dafe64ae23415543641e49",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    },
+    {
+      "file": "recess-front.png",
+      "title": "Front view · closed leaves behind nearly flush trim",
+      "bytes": 1269351,
+      "sha256": "c56c5e1732f3140e7dfa0b3ce6675bf92d468ba94d16ba2f5f9f3aaeaa1b1ea2",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    },
+    {
+      "file": "recess-front.jpg",
+      "title": "Front view · closed leaves behind nearly flush trim",
+      "bytes": 168523,
+      "sha256": "95c4dd26048bc63e73c038ee08bfdc8611b8f6d7f14039bc21c9a4684ba1b360",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    },
+    {
+      "file": "recess-counter.png",
+      "title": "Mechanical14 counter above the recessed doorway",
+      "bytes": 895588,
+      "sha256": "f47803dfa99c9e7ac5d5222613864fc741e8ac3b3a0a91aaf280fbdfa5942347",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    },
+    {
+      "file": "recess-counter.jpg",
+      "title": "Mechanical14 counter above the recessed doorway",
+      "bytes": 78526,
+      "sha256": "77c6a8c8651eb41c2f119ad3a227cc39e69c37ea88a0d24e8eae5790e7657d3b",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    },
+    {
+      "file": "recess-night.png",
+      "title": "Recessed service elevator at night",
+      "bytes": 1533794,
+      "sha256": "7b5922f1a10f9dff0d2a7c5204e71247de1fd043d07e6604b604089909f56389",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    },
+    {
+      "file": "recess-night.jpg",
+      "title": "Recessed service elevator at night",
+      "bytes": 187800,
+      "sha256": "e407918ffab42dd901ac08f25e4041915a3c57d5a8900410bd574788dc53286a",
+      "origin": "Actual deployed production app; native NVIDIA RTX5090 WebGPU"
+    }
+  ],
+  "limitation": "Elevator doors, counter and call button are static. No moving car or through shaft. Actual phone and M2 performance remains unmeasured."
+}
