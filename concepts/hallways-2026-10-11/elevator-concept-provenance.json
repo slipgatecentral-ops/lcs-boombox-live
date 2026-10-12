@@ -1,0 +1,31 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "status": "owner authorized concept and 3D execution",
+  "createdLocalDate": "2026-10-11",
+  "sourceBaselineCommit": "0eff9906b174f2b0cfec74136ea4e220adb6c16f",
+  "prompt": "Use case: precise-object-edit, polished game environment concept.\nAsset type: additional LCS hallway concept showing the closed service elevator at the owner's marked wall. ONE landscape image, 3:2, no captions or collage.\n\nInput roles: Image 1 is the PRIMARY ARCHITECTURAL EDIT TARGET, a fresh actual view of the entry hall's Level 14 wall. Image 2 is the owner's screenshot identifying the same wall and sign: location cross-check only, do not copy its fisheye distortion. Image 3 is the approved navy downstairs corridor: finish, worn two-tone paint and caged incandescent fixture authority.\n\nKeep image 1's exact eye-height camera, high 3.8m concrete ceiling, overhead duct routes, floor footprint, the visible side doorways and the existing far doorway into the stair hall. Preserve that far doorway; do not replace it with the elevator. The elevator belongs on the LARGE LONG LEFT wall, precisely in the currently blank span where the small \"LEVEL 14\" sign sits in image 1. It is a separate service elevator facade, with NO open shaft or visible cabin.\n\nAdd a shut heavy INDUSTRIAL SERVICE ELEVATOR: roughly2m outer frame width,2.55m overall facade height, shallow steel surround, two equal broad scratched painted steel sliding leaves meeting at a narrow vertical central seam. All leaves fully CLOSED, with solid opaque metal, subtle stiffening ribs, worn lower kick plates and a modest recessed sill/track. The steel is aged desaturated grey with occasional dark navy old paint, dull zinc details and sparse primer/rust edge wear, not polished modern stainless steel. Good plausible industrial construction, no home door panels, decorative trim, glass doors or expanding door openings. The door frame is centered within the Level14 blank-wall span, slightly to the right of the surviving vertical conduit in this view, leaving that conduit outside the jamb. Keep the existing surface junction box and conduit route to the left of the facade clear rather than running across the leaves.\n\nAbove the center of the elevator frame is a small blackened steel FLOOR COUNTER box, glass-fronted with an old MECHANICAL two-digit drum reading exactly \"14\" in large cream digits. Clear visible central drum seam and physical number drums behind the glass, no LED/LCD, red electronic digits or illuminated modern interface. The numeral14 is the main readable detail. A simple worn round mechanical call button on a small metal plate is beside the frame, wired with conduit; no modern touchscreen. The original loose Level14 plaque is replaced by this counter, not pasted in the middle of the door.\n\nGive the full entry hall the approved LOWER FLOOR finish: visibly old NAVY BLUE paint on the lower half of the walls to about1.9m, aged BEIGE-WHITE on the upper half, raw concrete ceiling and worn grey-brown industrial floor. Localized peeling, exposed earlier plaster, handling scuffs and repair patches. A pale unpainted old cabinet footprint with bolt holes remains farther LEFT of the elevator, outside its frame, where stripped telecom fittings once hung. Faint old \"CABLE RISER\" stencil beside an existing cable route. Almost all old valuable equipment is gone; only conduit, electrical boxes and disconnected cable traces remain.\n\nUse old oval caged incandescent bulkheads, matching image3, including the warm fitting above the far stair-hall doorway. Sparse warm pools balanced with neutral wall colour and cool overcast fill through existing openings. Replace domestic decor/posters and red runner with the bare industrial circulation read. A small battered transport case and carton against a free wall may begin the girls' temporary salvage stash, but keep the entire elevator approach, side doors and passage open. No people or new furniture display.\n\nDetailed realistic environmental concept art consistent with image3. Faithful architectural perspective, solid closed elevator leaves and frame, physical floor counter visible above, readable wall paint and convincing metal weight, soft shadows, no orange wash, no dramatic sunshine. No plants, flowers, wireless, LED/RGB, neon, LCD/flat screens, real brands, new lore, extra rooms, new windows, open elevator cabin, people, captions, UI, arrows, borders or watermark.",
+  "generationWallSeconds": 126.784,
+  "apiUsage": null,
+  "billedCost": null,
+  "location": {
+    "sector": "s_25b296f5",
+    "wall": "w_shell",
+    "segment": 5,
+    "side": 1,
+    "facadeCenter": {
+      "x": 12.72,
+      "z": 9.725
+    },
+    "outerSizeM": [
+      2,
+      0.22,
+      2.75
+    ],
+    "closed": true,
+    "indicator": "mechanical14"
+  },
+  "baseline": "baseline.png",
+  "concept": "concept.png",
+  "layoutAuthority": "Current owner room and owner's marked screenshot; the Level14 position is inside the closed facade span and the surviving conduit remains outside its jamb.",
+  "camera": "@15.8,1.65,7.1>12.4,1.62,9.3"
+}
