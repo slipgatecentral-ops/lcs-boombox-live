@@ -1,6 +1,6 @@
 {
   "at": "2026-10-12T12:34:52.525Z",
-  "status": "Native local preview of the owner room merged with the feature branch; live apartment deployment awaits merge approval.",
+  "status": "The reviewed five-pass implementation is merged and live. The polish images remain the pre-merge review previews; deployment-proof.json and deployed-{lower,upper,elevator}.{png,jpg} record the verified actual production app.",
   "images": [
     {
       "file": "polish-lower-a.png",
@@ -240,5 +240,11 @@
     "nativeLowVisitorEditor": true,
     "nativeHighWebGPUEditor": true
   },
-  "sourceCommit": "ad868fabce7639f5c38d336c8a91bc281f9b2234"
+  "sourceCommit": "ad868fabce7639f5c38d336c8a91bc281f9b2234",
+  "delivery": {
+    "sourceMergeCommit": "871628dd6363f9af091010b3df5c7194c16396d0",
+    "deployedBuildId": "mv5e2q3c",
+    "proof": "deployment-proof.json",
+    "live": "https://lcs-rooms.up.railway.app/?q=high&t=12"
+  }
 }
