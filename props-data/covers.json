@@ -4,8 +4,8 @@
   "width": 2048,
   "height": 4096,
   "vScale": 0.5,
-  "ktx2": "covers-02b7239221d9.ktx2",
-  "png": "covers-36369163d457.png",
+  "ktx2": "covers-38931ec15f45.ktx2",
+  "png": "covers-36d9608c7fea.png",
   "gutterPx": 4,
   "uvUnits": "u and v are in units of the atlas's WIDTH (v runs 0 … height / width): sample at (u, v x vScale). The atlas grew from 2048² to 2048 x 4096 on 8 Oct; every older uv names the same texels",
   "pools": "a tape item's `pool` (tape-jcard-blank / -mix, tape-spine-blank / -mix, tape-label): the room re-draws the tapes' prints per placement from their pool (apps/room/src/catalog/coverPools.ts)",
@@ -5102,6 +5102,20 @@
       "prop": "corkboard",
       "pxPerMm": 0.2922374429223744,
       "source": "PROPS-MAIN-PAPER-CORK_1.png"
+    },
+    "bedroom-cloth-dusty-plum": {
+      "u0": 0.7978515625,
+      "v0": 1.60107421875,
+      "u1": 0.9228515625,
+      "v1": 1.72607421875,
+      "wMm": 100,
+      "hMm": 100,
+      "kind": "label",
+      "text": "",
+      "lines": [],
+      "prop": "pallet-bed",
+      "pxPerMm": 2.56,
+      "source": "PROPS-BEDROOM-DUSTY-PLUM_1.png"
     }
   }
 }
