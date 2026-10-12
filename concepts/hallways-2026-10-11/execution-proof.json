@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-12T04:44:30.820Z",
+  "sourceBranch": "codex/hallways-20261011",
+  "status": "native whole-hall review accepted; source production checks passed; final deployment verification pending",
+  "hardware": "Windows native Chrome, WebGPU · nvidia blackwell / RTX5090",
+  "loop": {
+    "coldReadySeconds": 26.3,
+    "heldCaptureSeconds": [
+      0.1,
+      0.6
+    ]
+  },
+  "paint": {
+    "density": 0.2,
+    "chipSize": 0.032,
+    "darkness": 0.94,
+    "upperLoss": 0.035,
+    "dataTransport": "61 renderGroup vec4 uniforms, coalesced into existing render buffer",
+    "newBindings": 0
+  },
+  "lighting": {
+    "preservedPlacementIds": 16,
+    "roomFixtures": 6,
+    "taskFixtures": 10,
+    "all16SwitchOffAndOn": true
+  },
+  "models": [
+    {
+      "id": "hallway-bulkhead-light",
+      "hash": "a01bd1eab9fb",
+      "triangles": 3806,
+      "bytes": 64540,
+      "gatesPassed": 15,
+      "gates": 15
+    },
+    {
+      "id": "hallway-service-elevator",
+      "hash": "7718c6c5b8be",
+      "triangles": 4004,
+      "bytes": 82840,
+      "gatesPassed": 15,
+      "gates": 15
+    },
+    {
+      "id": "hallway-service-hatch",
+      "hash": "60be001cb024",
+      "triangles": 4916,
+      "bytes": 68356,
+      "gatesPassed": 15,
+      "gates": 15
+    },
+    {
+      "id": "hallway-salvage-case",
+      "hash": "fcec9849029f",
+      "triangles": 4992,
+      "bytes": 58380,
+      "gatesPassed": 15,
+      "gates": 15
+    },
+    {
+      "id": "hallway-cable-pile",
+      "hash": "d67b2363412a",
+      "triangles": 11792,
+      "bytes": 81200,
+      "gatesPassed": 15,
+      "gates": 15
+    },
+    {
+      "id": "hallway-leaning-panel",
+      "hash": "4cc5b5139730",
+      "triangles": 584,
+      "bytes": 9920,
+      "gatesPassed": 15,
+      "gates": 15
+    },
+    {
+      "id": "hallway-caged-sconce",
+      "hash": "166ccb930e4c",
+      "triangles": 3806,
+      "bytes": 64532,
+      "gatesPassed": 15,
+      "gates": 15
+    }
+  ],
+  "wear": {
+    "size": 2048,
+    "oldFinalsPreserved": 236,
+    "oldRegionsPreserved": 42,
+    "publicAllOldRectanglesExact": true,
+    "publicOldPixelsDiffer": 0,
+    "bc4GpuBytes": 2796216,
+    "r8GpuBytes": 5592405
+  },
+  "images": [
+    {
+      "file": "execution-elevator.png",
+      "sha256": "bd2701face5865a8b17648d014548c52e965ae3218d2652831e2d36c77f45940"
+    },
+    {
+      "file": "execution-elevator.jpg",
+      "sha256": "00ba014b39b013e1f968acbe1477a08301f4ee141ffd17a2fb3036d5899b7ae0"
+    },
+    {
+      "file": "execution-lower-a.png",
+      "sha256": "3056782a0c12f68855b45098f8ada0d9d5902d8cf0cbcd090b35359250021529"
+    },
+    {
+      "file": "execution-lower-a.jpg",
+      "sha256": "b5fec5b567dac1b6d0833a6ac898abca71c073fad9f97ed087d11c559bd060a9"
+    },
+    {
+      "file": "execution-lower-b.png",
+      "sha256": "e2b78a4993e1cdd65d8c407a416e8f8ae1536956bdeccae8bd9899daebe694ba"
+    },
+    {
+      "file": "execution-lower-b.jpg",
+      "sha256": "3409be7639b92bb973783a3fb83503869ca6460953d6f647791f20b546de4294"
+    },
+    {
+      "file": "execution-upper-a.png",
+      "sha256": "d2ff6793866e8e1a87b338f0e54644c20c23a951adf542dd606258aa710e5517"
+    },
+    {
+      "file": "execution-upper-a.jpg",
+      "sha256": "912d51b6f6654e4dd643aa6dd729e8135eb7a744e5dd30311b908dc525d0974c"
+    },
+    {
+      "file": "execution-upper-b.png",
+      "sha256": "40cf3b1a50e45f62909b4dd489d980db2ad8c1f87ef4cd6be75be9855dea5b9b"
+    },
+    {
+      "file": "execution-upper-b.jpg",
+      "sha256": "4bbc170d63251979399ebcc790274244aec5154fbd6af3d475b813c5246d22bb"
+    },
+    {
+      "file": "execution-counter.png",
+      "sha256": "725976d1b026cb41b37de148bf14a48f3758d2abb24634b5c046c981b9463aca"
+    },
+    {
+      "file": "execution-counter.jpg",
+      "sha256": "dcdd39b541dc04bb63f6cdef7ee64dd4682bd16111dcda4af5add96de935d3b0"
+    },
+    {
+      "file": "execution-night.png",
+      "sha256": "94ebb70ad878f311cf4f41b4afbd4129216a7d4a677f2fd7523069dd58fa77fc"
+    },
+    {
+      "file": "execution-night.jpg",
+      "sha256": "16b6f474bb9b9afe6e6cd45c5376192d39598c90252213d71d5c1bf594e781c4"
+    }
+  ],
+  "tests": {
+    "foundation": 6,
+    "room": 677,
+    "server": 31,
+    "props": 86
+  },
+  "production": {
+    "frozenOfflineInstall": true,
+    "build": true,
+    "typecheck": true,
+    "shippedModelsVerified": 243
+  },
+  "limits": {
+    "wholeSceneTriangleCapsAlreadyFailOnUnchangedMain": true,
+    "measuredPhoneOrM2": false,
+    "elevator": "static shut facade and mechanical14 counter"
+  }
+}
