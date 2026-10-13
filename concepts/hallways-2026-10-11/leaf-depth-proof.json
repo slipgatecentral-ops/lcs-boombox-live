@@ -1,0 +1,151 @@
+{
+  "at": "2026-10-13T00:34:22.526Z",
+  "sourceMerge": "e6c68aedf3fcfd7b12843d14b6e5b34e6dbafebf",
+  "galleryCompatibilityMerge": "df61beda280eeb9129bcad9b20c5da269dbb910e",
+  "origin": "https://lcs-rooms.up.railway.app/",
+  "model": "c460ee26981c",
+  "paintedLeafSetbackMm": 118,
+  "additionalSetbackMm": 90,
+  "framePlacementUnchanged": true,
+  "geometry": {
+    "sideReturnsMm": 112,
+    "headReturnMm": 120,
+    "triangles": 3924,
+    "bytes": 78592,
+    "slots": 7
+  },
+  "preserved": {
+    "unchangedDocument": true,
+    "unchangedRecords": 809,
+    "unchangedWorldPoses": 809,
+    "roomSha256": "fa44b7feda1c1e2a95c65a56a31584e539baa6bd57f7f55637ecd32165243a6e"
+  },
+  "lighting": {
+    "ready": true,
+    "independentLamps": 49,
+    "exactSceneAcceptance": true,
+    "fullReviewChecks": 68,
+    "reviewErrors": 0
+  },
+  "nativeChecks": [
+    {
+      "name": "high-webgpu",
+      "backend": "WebGPU",
+      "adapter": "nvidia",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "name": "low-webgl-editor",
+      "backend": "WebGL2 (fallback)",
+      "adapter": "Google Inc. (NVIDIA)",
+      "errors": [],
+      "failed": []
+    }
+  ],
+  "images": [
+    {
+      "file": "leaf-depth-before-side.png",
+      "bytes": 1590748,
+      "sha256": "04b9f41a5b30226a6e06ef1e2cf2a1544de383a9ce94d63393d47bdc8b43934e",
+      "caption": "Before · shallow setback, side view",
+      "role": "before"
+    },
+    {
+      "file": "leaf-depth-before-side.jpg",
+      "bytes": 126218,
+      "sha256": "d68c67170c2d5ad9b59f753637ae755bd94be148668ac8ba99f4f1b12cca427f",
+      "caption": "Before · shallow setback, side view",
+      "role": "before"
+    },
+    {
+      "file": "leaf-depth-side.png",
+      "bytes": 1590547,
+      "sha256": "43bc0eb2f665b954cf2ff908bda9e870fa1dbfdf30fc7fa74838aa45ce7f1ca7",
+      "caption": "After · sliding leaves deeper behind the wall",
+      "role": "after"
+    },
+    {
+      "file": "leaf-depth-side.jpg",
+      "bytes": 126093,
+      "sha256": "b42573461db597cd1371a62bbc97c1f8803c1479d854017ba60fed3e239e63b0",
+      "caption": "After · sliding leaves deeper behind the wall",
+      "role": "after"
+    },
+    {
+      "file": "leaf-depth-before-front.png",
+      "bytes": 1389437,
+      "sha256": "f8b033d83e753e23ec3f79e276ba87177ea7367bd97f1c291a5fff646e6bb074",
+      "caption": "Before · shallow setback, front view",
+      "role": "before"
+    },
+    {
+      "file": "leaf-depth-before-front.jpg",
+      "bytes": 85014,
+      "sha256": "c3442184527a9327003134af056d97981ce409c3a9376f9bee038cea56951617",
+      "caption": "Before · shallow setback, front view",
+      "role": "before"
+    },
+    {
+      "file": "leaf-depth-front.png",
+      "bytes": 1391617,
+      "sha256": "96d9c87a4bdf7a528fa20e90d6cb465c9d0019759b96515f012a85a19befb3b4",
+      "caption": "After · closed panels behind the deeper reveals",
+      "role": "after"
+    },
+    {
+      "file": "leaf-depth-front.jpg",
+      "bytes": 86645,
+      "sha256": "26bc513156bb411137add6c50f6fd7a53d802afa7eadd4d3e0b10d4916a01c42",
+      "caption": "After · closed panels behind the deeper reveals",
+      "role": "after"
+    },
+    {
+      "file": "leaf-depth-marked.png",
+      "bytes": 1625834,
+      "sha256": "2add82283ba1ef61a1d8326511ed6d32c7558417f813b26fd04c94ae69fec6f6",
+      "caption": "The recessed elevator in the entry hallway",
+      "role": "after"
+    },
+    {
+      "file": "leaf-depth-marked.jpg",
+      "bytes": 129140,
+      "sha256": "c2895961af36ba4aefe3f693227e7167d46a7d66e30f9896e958993834d15ffc",
+      "caption": "The recessed elevator in the entry hallway",
+      "role": "after"
+    },
+    {
+      "file": "leaf-depth-jamb.png",
+      "bytes": 1295598,
+      "sha256": "f1465d8091118f679418c46a125a8320561561d5c8f8d5ed7b65595eb7e8067d",
+      "caption": "Deeper jamb and head returns around the sliding leaves",
+      "role": "after"
+    },
+    {
+      "file": "leaf-depth-jamb.jpg",
+      "bytes": 54054,
+      "sha256": "21dde1671e038d702e1c0afa601d52ba97e543b649c236389c2200f788866960",
+      "caption": "Deeper jamb and head returns around the sliding leaves",
+      "role": "after"
+    },
+    {
+      "file": "leaf-depth-night.png",
+      "bytes": 1610730,
+      "sha256": "7fa9428a174edd5aac6d51b187494c4e19782ebd12ed917f44ff7ab03337f082",
+      "caption": "The deeper doorway under its caged light at night",
+      "role": "after"
+    },
+    {
+      "file": "leaf-depth-night.jpg",
+      "bytes": 124567,
+      "sha256": "a6f3c0d030cf3668c932927b8224f81b86a7c00fd70eaaca5d88023b3f456449",
+      "caption": "The deeper doorway under its caged light at night",
+      "role": "after"
+    }
+  ],
+  "notes": [
+    "After images are actual deployed apartment views. Before images are matched native views captured before this correction.",
+    "Native desktop GPU and WebGL checks passed; phone width is a layout check, not a real-phone performance measurement.",
+    "Prop catalog now ships from the apartment site; legacy GitHub Pages props-data remains frozen."
+  ]
+}
